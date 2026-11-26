@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Ppt2SwfSampleVB2005">
+</Property><Property Name="Solution File" Value="C:\DATOS\Proyectos\cubensis\forma\docs\research\powerpoint\ppt2flashsdk\ppt2flash\Samples\Ppt2SwfSampleVB2005\Ppt2SwfSampleVB2005.sln">
+</Property><Property Name="Date" Value="jueves, 07 de octubre de 2010">
+</Property><Property Name="Time" Value="10:23">
+</Property></Properties><Event ErrorLevel="0" Project="Ppt2SwfSampleVB2005" Source="Ppt2SwfSampleVB2005.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Ppt2SwfSampleVB2005" Source="Ppt2SwfSampleVB2005.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Ppt2SwfSampleVB2005.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Ppt2SwfSampleVB2005.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Ppt2SwfSampleVB2005" Source="Ppt2SwfSampleVB2005.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

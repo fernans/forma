@@ -1,0 +1,34 @@
+ffmpeg -y -i menu.mp4 -vcodec libtheora -b 9000Kb  -s 600x600 menu.ogg
+
+
+-y	overwrite (no ask)
+-i	<input file>
+
+
+-vcodec	video codec (libtheora)
+-b	bitrate (9000Kb/s)
+-s	size (WxH)
+
+-croptop
+-cropbottom
+-cropleft
+-cropright
+-padtop
+-padbottom
+-padleft
+-padright
+
+<outputfile>
+
+---------------------
+
+ffmpeg -ss 1 -i test.avi -s 320×240 test.jpg
+
+Crear thumbnail
+
+-ss indica el segundo del cual extraer la imagen
+-i video de entrada
+-s tamaño de salida salida de la imagen
+<outputfile>
+
+el resto es opcional

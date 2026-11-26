@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+function baseAI.getParamValueN(cmd,param)
+
+
+local r=this.getParamValue(cmd,param)
+if(r~=nil)then
+local rn=string.toNumber(r)
+return rn
+else
+return nil
+end
+
+
+end

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Administrador</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.2.5;  Revision: 673;  Platform: Win32;  Configuration: Release Max2010</authoring_tool>
+      <source_data>file:///C:/DATOS/Proyectos/cubensis/forma/player/escenarios/ciudad/ciudad%20max/CIUDAD_texturas_rtt_35.max</source_data>
+    </contributor>
+    <created>2012-05-22T12:58:36</created>
+    <modified>2012-05-22T12:58:36</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="_6_-_Default">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0 0 0 1</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float>100</float>
+            </shininess>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="_6_-_Default-material" name="_6_-_Default">
+      <instance_effect url="#_6_-_Default"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-_p1c" name="_p1c">
+      <mesh>
+        <source id="geom-_p1c-positions">
+          <float_array id="geom-_p1c-positions-array" count="72">-1.011563 -0.5635263 0.07014799 1.011563 -0.4933783 0 -1.081711 0.4933783 0.070148 1.011563 0.4933783 0 -1.011563 -0.5635263 0.08530752 1.081711 -0.4933783 0.08530752 -1.081711 0.4933783 0.08530752 1.011563 0.5635263 0.08530752 -1.081711 -0.4933783 0.070148 -1.011563 -0.4933783 0 1.081711 -0.4933783 0.070148 1.011563 -0.5635263 0.070148 -1.011563 0.5635263 0.070148 -1.011563 0.4933783 0 1.011563 0.5635263 0.07014799 1.081711 0.4933783 0.070148 -1.011563 -0.4933783 0.1554555 -1.081711 -0.4933783 0.08530752 1.011563 -0.4933783 0.1554555 1.011563 -0.5635263 0.08530752 -1.011563 0.4933783 0.1554555 -1.011563 0.5635263 0.08530752 1.011563 0.4933783 0.1554555 1.081711 0.4933783 0.08530752</float_array>
+          <technique_common>
+            <accessor source="#geom-_p1c-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-_p1c-normals">
+          <float_array id="geom-_p1c-normals-array" count="360">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.9999999 0 0 -1 0 0 -0.9999999 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0.9999999 0 0 1 0 0 0.9999999 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.5773496 -0.5773506 -0.5773506 -0.5773496 -0.5773506 -0.5773506 -0.5773496 -0.5773506 -0.5773506 0.5773497 -0.5773506 -0.5773506 0.5773497 -0.5773506 -0.5773506 0.5773496 -0.5773506 -0.5773506 -0.5773497 0.5773506 -0.5773506 -0.5773496 0.5773506 -0.5773506 -0.5773497 0.5773506 -0.5773506 0.5773496 0.5773506 -0.5773506 0.5773496 0.5773506 -0.5773506 0.5773496 0.5773506 -0.5773506 -0.5773497 -0.5773506 0.5773506 -0.5773497 -0.5773506 0.5773506 -0.5773497 -0.5773506 0.5773506 0.5773497 -0.5773506 0.5773506 0.5773497 -0.5773506 0.5773506 0.5773497 -0.5773506 0.5773506 -0.5773497 0.5773506 0.5773506 -0.5773497 0.5773506 0.5773506 -0.5773497 0.5773506 0.5773506 0.5773497 0.5773506 0.5773506 0.5773497 0.5773506 0.5773506 0.5773497 0.5773506 0.5773506 -0.7071063 0 -0.7071074 -0.7071062 0 -0.7071073 -0.7071062 0 -0.7071074 -0.7071063 0 -0.7071074 -0.7071062 0 -0.7071073 -0.7071062 0 -0.7071074 -2.60407e-9 0.7071068 -0.7071068 -2.60407e-9 0.7071068 -0.7071067 -2.60407e-9 0.7071068 -0.7071067 0 0.7071068 -0.7071068 0 0.7071068 -0.7071068 0 0.7071068 -0.7071068 0.7071063 0 -0.7071074 0.7071062 0 -0.7071073 0.7071062 0 -0.7071074 0.7071063 0 -0.7071074 0.7071062 0 -0.7071073 0.7071062 0 -0.7071074 2.60407e-9 -0.7071068 -0.7071068 2.60407e-9 -0.7071068 -0.7071067 2.60407e-9 -0.7071068 -0.7071067 0 -0.7071068 -0.7071068 0 -0.7071068 -0.7071068 0 -0.7071068 -0.7071068 0 -0.7071068 0.7071068 0 -0.7071068 0.7071068 0 -0.7071068 0.7071068 0 -0.7071068 0.7071068 0 -0.7071068 0.7071068 0 -0.7071068 0.7071068 0.7071062 0 0.7071074 0.7071062 0 0.7071073 0.7071062 0 0.7071074 0.7071062 0 0.7071074 0.7071062 0 0.7071073 0.7071062 0 0.7071074 0 0.7071068 0.7071068 0 0.7071068 0.7071068 0 0.7071068 0.7071068 0 0.7071068 0.7071068 0 0.7071068 0.7071068 0 0.7071068 0.7071068 -0.7071062 0 0.7071074 -0.7071062 0 0.7071073 -0.7071062 0 0.7071074 -0.7071062 0 0.7071074 -0.7071062 0 0.7071073 -0.7071062 0 0.7071074 0.7071062 -0.7071074 0 0.7071061 -0.7071074 0 0.7071061 -0.7071074 0 0.7071062 -0.7071074 0 0.7071061 -0.7071074 0 0.7071061 -0.7071074 0 -0.7071062 -0.7071074 0 -0.7071061 -0.7071074 0 -0.7071061 -0.7071074 0 -0.7071062 -0.7071074 0 -0.7071062 -0.7071074 0 -0.7071062 -0.7071074 0 0.7071062 0.7071074 0 0.7071062 0.7071074 0 0.7071062 0.7071074 0 0.7071062 0.7071074 0 0.7071061 0.7071074 0 0.7071061 0.7071074 0 -0.7071062 0.7071074 0 -0.7071061 0.7071074 0 -0.7071061 0.7071074 0 -0.7071062 0.7071074 0 -0.7071061 0.7071074 0 -0.7071061 0.7071074 0</float_array>
+          <technique_common>
+            <accessor source="#geom-_p1c-normals-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-_p1c-map1">
+          <float_array id="geom-_p1c-map1-array" count="192">0.9675756 0.06224022 0 0.03242455 0.06224022 0 0.9675756 0.9377595 0 0.03242455 0.9377599 0 0.03242455 0.06224022 0 0.9675752 0.06224022 0 0.03242455 0.9377599 0 0.9675756 0.9377599 0 0.03242455 0.4512416 0 0.9675752 0.4512416 0 0.03242455 0.5487585 0 0.9675756 0.5487585 0 0.06224022 0.4512416 0 0.9377595 0.4512416 0 0.06224022 0.5487585 0 0.9377599 0.5487585 0 0.03242455 0.4512416 0 0.9675752 0.4512416 0 0.03242455 0.5487585 0 0.9675756 0.5487585 0 0.06224022 0.4512416 0 0.9377595 0.4512416 0 0.06224022 0.5487585 0 0.9377599 0.5487585 0 -0.02311129 0.7025204 0 -0.2345871 0.02758106 0 -1.511491 0.5799129 0 -1.511491 0.3225702 0 0.00670441 0.7025204 0 -0.2304746 0.02758107 0 -1.511491 0.6774303 0 -1.511491 0.4200876 0 -0.2345872 0.972419 0 -0.02311129 0.2974797 0 -0.2304747 0.9724189 0 0.006704448 0.2974796 0 -0.2304747 0.9724189 0 0.006704448 0.2974796 0 -0.2345872 0.972419 0 -0.02311129 0.2974797 0 0.9377598 -5.89227e-4 0 0.06224018 -5.89235e-4 0 0.9675754 0.02950868 0 0.03242455 0.02950867 0 0.9377598 -5.89227e-4 0 0.06224018 -5.89235e-4 0 0.9675754 0.02950868 0 0.03242455 0.02950867 0 0.03242457 0.9704913 0 0.9675755 0.9704913 0 0.06224024 1.000589 0 0.9377598 1.000589 0 0.03242457 0.9704913 0 0.9675755 0.9704913 0 0.06224024 1.000589 0 0.9377598 1.000589 0 0.7003919 0.4512416 0 0.7003919 0.5487585 0 0.2996082 0.5487574 0 0.2996078 0.4512406 0 0.6705762 0.4512417 0 0.6705762 0.5487586 0 0.7003919 0.4512416 0 0.7003919 0.5487585 0</float_array>
+          <technique_common>
+            <accessor source="#geom-_p1c-map1-array" count="64" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-_p1c-vertices">
+          <input semantic="POSITION" source="#geom-_p1c-positions"/>
+        </vertices>
+        <triangles material="_6_-_Default_1" count="44">
+          <input semantic="VERTEX" source="#geom-_p1c-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-_p1c-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#geom-_p1c-map1" offset="2" set="1"/>
+          <p>9 0 0 13 1 2 3 2 3 3 2 3 1 3 1 9 0 0 16 4 4 18 5 5 22 6 7 22 6 7 20 7 6 16 4 4 0 8 8 11 9 9 19 10 11 19 10 11 4 11 10 0 8 8 10 12 12 15 13 13 23 14 15 23 14 15 5 15 14 10 12 12 14 16 16 12 17 17 21 18 19 21 18 19 7 19 18 14 16 16 2 20 20 8 21 21 17 22 23 17 22 23 6 23 22 2 20 20 0 24 8 8 25 24 9 26 25 1 27 1 10 28 26 11 29 27 2 30 20 12 31 28 13 32 29 3 33 3 14 34 30 15 35 31 4 36 10 16 37 32 17 38 33 5 39 14 18 40 34 19 41 35 6 42 22 20 43 36 21 44 37 7 45 18 22 46 38 23 47 39 9 48 40 8 49 21 2 50 20 2 51 20 13 52 41 9 53 40 13 54 42 12 55 17 14 56 16 14 57 16 3 58 43 13 59 42 3 60 44 15 61 13 10 62 12 10 63 12 1 64 45 3 65 44 1 66 46 11 67 9 0 68 8 0 69 8 9 70 47 1 71 46 16 72 48 4 73 10 19 74 11 19 75 11 18 76 49 16 77 48 18 78 50 5 79 14 23 80 15 23 81 15 22 82 51 18 83 50 22 84 52 7 85 18 21 86 19 21 87 19 20 88 53 22 89 52 20 90 54 6 91 22 17 92 23 17 93 23 16 94 55 20 95 54 11 96 56 10 97 12 5 98 14 5 99 14 19 100 57 11 101 56 4 102 58 17 103 23 8 104 21 8 105 21 0 106 59 4 107 58 15 108 60 14 109 16 7 110 18 7 111 18 23 112 61 15 113 60 12 114 62 2 115 20 6 116 22 6 117 22 21 118 63 12 119 62</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>1 1 1</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-_centro" name="_centro">
+        <node id="node-_p1" name="_p1">
+          <translate>-5359.916 -8204.985 -126.5588</translate>
+          <rotate>0.09058924 -0.02452087 0.9955864 -30.42005</rotate>
+          <node id="node-_p1c" name="_p1c">
+            <translate>4.88281e-4 -0.921875 1.047424</translate>
+            <rotate>-1 0 0 -90</rotate>
+            <scale>1.244148 1.314819 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="node-_p1r" name="_p1r">
+            <translate>2.174316 1.90625 1.047424</translate>
+            <rotate>-0.7745966 0.4472137 0.4472136 -104.4775</rotate>
+            <scale>1.244148 1.314819 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="node-_p1l" name="_p1l">
+            <translate>-2.167969 1.907227 1.047424</translate>
+            <rotate>-0.7745967 -0.4472136 -0.4472136 -104.4775</rotate>
+            <scale>1.244148 1.314819 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+        <node id="node-_p5" name="_p5">
+          <translate>1279.687 -5692.057 -798.904</translate>
+          <rotate>1 -3.25841e-7 7.463e-6 -4.999998</rotate>
+          <node id="node-_p5c" name="_p5c">
+            <translate>0 -0.9223633 1.047485</translate>
+            <rotate>-1 1.12765e-14 1.40531e-14 -90</rotate>
+            <scale>1.244148 1.314819 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="node-_p5r" name="_p5r">
+            <translate>2.174072 1.90625 1.047485</translate>
+            <rotate>-0.7745966 0.4472137 0.4472136 -104.4775</rotate>
+            <scale>1.244148 1.314819 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="node-_p5l" name="_p5l">
+            <translate>-2.168335 1.90625 1.047485</translate>
+            <rotate>-0.7745967 -0.4472136 -0.4472136 -104.4775</rotate>
+            <scale>1.244148 1.314819 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+        <node id="node-_p4" name="_p4">
+          <translate>6189.461 1306.83 746.8394</translate>
+          <rotate>0.1315799 0.1306292 -0.9826611 -88.6299</rotate>
+          <node id="node-_p4c" name="_p4c">
+            <translate>0 -0.9228516 1.047424</translate>
+            <rotate>-1 1.30507e-10 -5.97382e-10 -90</rotate>
+            <scale>1.244148 1.31482 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="node-_p4r" name="_p4r">
+            <translate>2.174194 1.905273 1.047485</translate>
+            <rotate>-0.7745966 0.4472137 0.4472136 -104.4775</rotate>
+            <scale>1.244148 1.31482 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="node-_p4l" name="_p4l">
+            <translate>-2.168457 1.905762 1.047363</translate>
+            <rotate>-0.7745967 -0.4472136 -0.4472136 -104.4775</rotate>
+            <scale>1.244148 1.31482 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+        <node id="node-_p3" name="_p3">
+          <translate>-6543.48 4505.981 61.8337</translate>
+          <rotate>0.02422691 -0.04519866 0.9986842 -120.603</rotate>
+          <node id="node-_p3c" name="_p3c">
+            <translate>2.44141e-4 -0.9223633 1.047363</translate>
+            <rotate>-1 -2.98381e-9 -4.9855e-9 -90</rotate>
+            <scale>1.244148 1.314819 0.9999999</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="node-_p3r" name="_p3r">
+            <translate>2.17395 1.90625 1.047424</translate>
+            <rotate>-0.7745966 0.4472137 0.4472136 -104.4775</rotate>
+            <scale>1.244148 1.314819 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="node-_p3l" name="_p3l">
+            <translate>-2.16864 1.90625 1.047363</translate>
+            <rotate>-0.7745967 -0.4472136 -0.4472136 -104.4775</rotate>
+            <scale>1.244148 1.314819 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+        <node id="node-_p2" name="_p2">
+          <translate>2357.014 -3828.322 -856.5153</translate>
+          <rotate>-0.05675422 -0.04354917 -0.997438 -75.14204</rotate>
+          <node id="node-_p2c" name="_p2c">
+            <translate>-2.44141e-4 -0.9226074 1.047424</translate>
+            <rotate>-1 -6.32985e-9 -5.85835e-9 -90</rotate>
+            <scale>1.244148 1.31482 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="node-_p2r" name="_p2r">
+            <translate>2.174072 1.905762 1.047485</translate>
+            <rotate>-0.7745966 0.4472137 0.4472136 -104.4775</rotate>
+            <scale>1.244148 1.31482 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="node-_p2l" name="_p2l">
+            <translate>-2.168213 1.905762 1.047485</translate>
+            <rotate>-0.7745967 -0.4472136 -0.4472136 -104.4775</rotate>
+            <scale>1.244148 1.31482 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+        <node id="node-_p6" name="_p6">
+          <translate>6563.409 2733.731 2148.193</translate>
+          <rotate>0.1681091 0.1665158 -0.9716027 -93.8409</rotate>
+          <node id="node-_p6l" name="_p6l">
+            <translate>-2.168213 1.905762 1.047241</translate>
+            <rotate>-0.7745967 -0.4472136 -0.4472136 -104.4775</rotate>
+            <scale>1.244148 1.31482 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="node-_p6r" name="_p6r">
+            <translate>2.174072 1.90625 1.047363</translate>
+            <rotate>-0.7745966 0.4472137 0.4472136 -104.4775</rotate>
+            <scale>1.244148 1.31482 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="node-_p6c" name="_p6c">
+            <translate>0 -0.9223633 1.047363</translate>
+            <rotate>-1 -2.02477e-9 -5.68987e-10 -90</rotate>
+            <scale>1.244148 1.31482 1</scale>
+            <instance_geometry url="#geom-_p1c">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="_6_-_Default_1" target="#_6_-_Default-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+</COLLADA>

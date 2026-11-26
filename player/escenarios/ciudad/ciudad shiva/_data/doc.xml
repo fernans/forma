@@ -1,0 +1,90 @@
+<formacmds>
+	<init>
+		<debug show="true" />
+		<loadscn scene="ciudad_base" />
+		<setScaleFactor value="0.01" />
+		<setcamera cam_tag="_camera" />
+		<preload type="model" id="1" file="data/tarjeta.stk" model="tarjetaSinMarco" />
+		<preload type="texture" id="1" file="data/0_portada.jpg" ext="jpg" />
+		<preload type="texture" id="2" file="data/01_indice.jpg" ext="jpg" />
+		<load />
+	</init>
+	<blocks>
+	   <block>
+              	<init>
+			<cameragoto place="1" />
+			<create id="1" />
+			<set_model id="1" model="1" />
+			<set_texture id="1" texture="1" />
+			<set_position id="1" target="_p1r" mode="set"/>
+			<create id="2" />
+			<set_model id="2" model="1" />
+			<set_texture id="2" texture="2" />
+			<set_position id="2" target="_p1r" mode="set"/>			
+				<set id="retroceder" value="-10" />
+				<print id="retroceder" />
+	      	</init>
+	      	<slides>
+			<slide>
+				<set_position id="1" target="_p1r" />
+				<set_position id="2" target="_p1r" />
+				<move id="2" x="0" y="0" z="$retroceder" />
+			</slide>
+			<slide>
+				<set_position id="1" target="_p1c" />
+				<set_position id="2" target="_p1r" />
+			</slide>
+			<slide>
+				<set_position id="1" target="_p1l" />
+				<set_position id="2" target="_p1c" />
+			</slide>
+			<slide>
+				<move id="1" x="0" y="0" z="$retroceder" />
+				<set_position id="2" target="_p1l" />
+			</slide>
+		</slides>
+		<end>
+			<delete_all />
+		</end>
+	   </block>
+	   <block>
+              	<init>
+			<cameragoto place="2" />
+			<create id="1" />
+			<set_model id="1" model="1" />
+			<set_texture id="1" texture="1" />			
+			<create id="2" />
+			<set_model id="2" model="1" />
+			<set_texture id="2" texture="2" />			
+			<create id="3" />
+			<set_model id="3" model="1" />
+			<set_texture id="3" texture="3" />
+			<set_position id="1" target="_p2c" mode="set" />
+			<set_position id="2" target="_p2r" mode="set" />
+			<set_position id="3" target="_p2l" mode="set" />
+	      	</init>
+		<slides>
+			<slide>
+				<set_position id="1" target="_p2c" />
+				<set_position id="2" target="_p2r" />
+				<set_position id="3" target="_p2l" />
+			</slide>
+			<slide>
+				<set_position id="1" target="_p2l" />
+				<set_position id="2" target="_p2c" />
+				<set_position id="3" target="_p2r" />
+			</slide>
+			<slide>
+				<set_position id="1" target="_p2r" />
+				<set_position id="2" target="_p2l" />
+				<set_position id="3" target="_p2c" />
+			</slide>
+	     	</slides>
+             	<end>
+                	<delete_all />
+             	</end>
+	   </block>		
+	</blocks>
+	<end>
+	</end>
+</formacmds>

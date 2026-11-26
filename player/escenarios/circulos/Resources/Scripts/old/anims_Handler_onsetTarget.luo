@@ -1,0 +1,15 @@
+
+
+
+
+
+
+
+function anims.onsetTarget(t)
+
+
+if(t~=nil)then
+this.target(t)
+end
+
+end

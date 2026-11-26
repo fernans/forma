@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+function baseAI.getParamValue(cmd,param)
+
+
+local atrib=xml.getElementAttributeWithName(cmd,param)
+if(atrib~=nil)then
+local value=xml.getAttributeValue(atrib)
+if(string.getSubString(value,0,1)=="$")then
+local varname=string.getSubString(value,1,string.getLength(value)-1)
+value=hashtable.get(this.variables(),varname)
+end
+return value
+else
+return nil
+end
+
+end

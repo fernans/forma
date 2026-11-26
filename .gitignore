@@ -1,0 +1,39 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+desktop.ini
+*.suo
+*.user
+*.depend
+*.layout
+*.log
+*.tmp
+*.bak
+
+# Reference copies, obsolete backups and excluded documents
+_OLD_/
+hd_vicente/
+docs/juntaAndalucia/
+docs/presupuesto/
+player/Backup_old/
+player/escenarios/Copia de _engine_/
+Copia de */
+Backup_old/
+
+# Build / intermediate output
+**/bin/
+**/obj/
+**/Build/
+**/Cache/
+**/temp/
+**/__tempObjs/
+**/intermediate_files/
+player/preview_ciudad_shiva/ciudad_Airplay.s3dxproj/build_ciudad_vc9/
+
+# Security exclusions (certificate / private key and the ZIP that embedded it)
+editor/xarli/mycert pass 1234.p12
+editor/xarli/Forma.zip
+
+# Large asset published separately in Releases
+player/escenarios/ciudad/ciudad max/camaras_02.mov

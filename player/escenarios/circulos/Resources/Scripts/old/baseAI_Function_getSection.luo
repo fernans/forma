@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+function baseAI.getSection(iblock,isection)
+
+
+
+local _doc=xml.getRootElement(this.doc())
+if(_doc~=nil)then
+
+ local _blocks=xml.getElementFirstChildWithName(_doc,"blocks")
+if(_blocks~=nil or iblock==-1)then
+
+ local _block=xml.getElementChildAt(_blocks,iblock)
+if(_block~=nil or iblock==-1)then
+
+ if(iblock==-1)then _block=_doc end
+
+local _seccion=xml.getElementFirstChildWithName(_block,isection)
+if(_seccion~=nil)then
+
+ local _c=xml.getElementFirstChild(_seccion)
+while(_c~=nil)do
+
+table.add(this.cmds(),xml.toString(_c))
+_c=xml.getElementNextSibling(_c)
+end
+
+ return true
+else log.warning("No section '"..isection.."'")
+end
+ else log.warning("No block "..iblock)
+end
+ else log.warning("No blocks")
+end
+ else log.warning("No doc")
+end
+
+ return false
+
+
+end

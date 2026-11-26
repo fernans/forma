@@ -1,0 +1,60 @@
+
+
+
+
+
+
+
+function baseAI.getSlide(iblock,islide,dir)
+
+if(dir==nil)then dir=1 end
+ local _doc=xml.getRootElement(this.doc())
+if(_doc~=nil)then
+
+ local _blocks=xml.getElementFirstChildWithName(_doc,"blocks")
+if(_blocks~=nil)then
+
+ local _block=xml.getElementChildAt(_blocks,iblock)
+if(_block~=nil)then
+
+ local _slides=xml.getElementFirstChildWithName(_block,"slides")
+if(_slides~=nil)then
+
+ local _slide=xml.getElementChildAt(_slides,islide)
+if(_slide~=nil)then
+ if(dir<0)then
+
+ local _rollback=xml.getElementFirstChildWithName(_slide,"rollback")
+if(_rollback~=nil)then
+_slide=_rollback
+else
+log.warning("No rollback in slide "..islide)
+
+
+
+
+end
+end
+
+local _c=xml.getElementFirstChild(_slide)
+while(_c~=nil)do
+
+table.add(this.cmds(),xml.toString(_c))
+_c=xml.getElementNextSibling(_c)
+end
+
+ return true
+else log.warning("No slide "..islide)
+end
+ else log.warning("No slides")
+end
+ else log.warning("No block "..iblock)
+end
+ else log.warning("No blocks")
+end
+ else log.warning("No doc")
+end
+
+ return false
+
+end

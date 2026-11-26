@@ -1,0 +1,14 @@
+files
+{
+    main.cpp
+}
+subproject
+{
+    shiva
+}
+options
+{
+    s3e-data-dir="data"
+    app-icf="data/app.icf"
+    verbose=1
+}

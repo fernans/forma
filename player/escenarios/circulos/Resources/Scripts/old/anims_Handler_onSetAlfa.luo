@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+function anims.onSetAlfa(alpha,mode)
+
+
+
+
+
+if(mode=="set")then
+this.setAlfa(alpha)
+end
+this.alfa(alpha)
+
+end

@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+function baseAI.loading_onLoop()
+
+
+
+
+
+local v=xml.getReceiveStatus(this.doc())
+log.message(v.."%")
+if(v==1)then
+this.ready()
+elseif(v<0)then
+log.error("ERROR CARGANDO XML")
+end
+
+end

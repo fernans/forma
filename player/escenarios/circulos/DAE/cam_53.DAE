@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-08-24T20:31:43Z</created>
+    <keywords></keywords>
+    <modified>2012-08-24T20:31:43Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.010000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_animations>
+    <animation id="CamDummy-anim" name="CamDummy"></animation>
+    <animation>
+      <source id="CamDummy-translate.X-input">
+        <float_array id="CamDummy-translate.X-input-array" count="24">0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000 0.533333 0.566667 0.600000 0.633333 0.666667 0.700000 0.733333 0.760000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-translate.X-input-array" count="24" stride="1">
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-translate.X-output">
+        <float_array id="CamDummy-translate.X-output-array" count="24">0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-translate.X-output-array" count="24" stride="1">
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-translate.X-interpolation">
+        <Name_array id="CamDummy-translate.X-interpolation-array" count="24">BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#CamDummy-translate.X-interpolation-array" count="24" stride="1">
+            <param type="name"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-translate.X-intan">
+        <float_array id="CamDummy-translate.X-intan-array" count="48">0.000000 0.000000 0.022222 0.000000 0.055556 0.000000 0.088889 0.000000 0.122222 0.000000 0.155556 0.000000 0.188889 0.000000 0.222222 0.000000 0.255556 0.000000 0.288889 0.000000 0.322222 0.000000 0.355556 0.000000 0.388889 0.000000 0.422222 0.000000 0.455556 0.000000 0.488889 0.000000 0.522222 0.000000 0.555556 0.000000 0.588889 0.000000 0.622222 0.000000 0.655556 0.000000 0.688889 0.000000 0.722222 0.000000 0.751111 0.000000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-translate.X-intan-array" count="24" stride="2">
+            <param type="float"></param>
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-translate.X-outtan">
+        <float_array id="CamDummy-translate.X-outtan-array" count="48">0.011111 0.000000 0.044444 0.000000 0.077778 0.000000 0.111111 0.000000 0.144444 0.000000 0.177778 0.000000 0.211111 0.000000 0.244444 0.000000 0.277778 0.000000 0.311111 0.000000 0.344444 0.000000 0.377778 0.000000 0.411111 0.000000 0.444444 0.000000 0.477778 0.000000 0.511111 0.000000 0.544444 0.000000 0.577778 0.000000 0.611111 0.000000 0.644444 0.000000 0.677778 0.000000 0.711111 0.000000 0.742222 0.000000 0.000000 0.000000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-translate.X-outtan-array" count="24" stride="2">
+            <param type="float"></param>
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="CamDummy-translate.X">
+        <input semantic="INPUT" source="#CamDummy-translate.X-input"></input>
+        <input semantic="OUTPUT" source="#CamDummy-translate.X-output"></input>
+        <input semantic="INTERPOLATION" source="#CamDummy-translate.X-interpolation"></input>
+        <input semantic="IN_TANGENT" source="#CamDummy-translate.X-intan"></input>
+        <input semantic="OUT_TANGENT" source="#CamDummy-translate.X-outtan"></input>
+      </sampler>
+      <channel source="#CamDummy-translate.X" target="CamDummy/translate.X"></channel>
+    </animation>
+    <animation>
+      <source id="CamDummy-translate.Y-input">
+        <float_array id="CamDummy-translate.Y-input-array" count="24">0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000 0.533333 0.566667 0.600000 0.633333 0.666667 0.700000 0.733333 0.760000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-translate.Y-input-array" count="24" stride="1">
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-translate.Y-output">
+        <float_array id="CamDummy-translate.Y-output-array" count="24">128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719 128.442719</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-translate.Y-output-array" count="24" stride="1">
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-translate.Y-interpolation">
+        <Name_array id="CamDummy-translate.Y-interpolation-array" count="24">BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#CamDummy-translate.Y-interpolation-array" count="24" stride="1">
+            <param type="name"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-translate.Y-intan">
+        <float_array id="CamDummy-translate.Y-intan-array" count="48">0.000000 0.000000 0.022222 128.442719 0.055556 128.442719 0.088889 128.442719 0.122222 128.442719 0.155556 128.442719 0.188889 128.442719 0.222222 128.442719 0.255556 128.442719 0.288889 128.442719 0.322222 128.442719 0.355556 128.442719 0.388889 128.442719 0.422222 128.442719 0.455556 128.442719 0.488889 128.442719 0.522222 128.442719 0.555556 128.442719 0.588889 128.442719 0.622222 128.442719 0.655556 128.442719 0.688889 128.442719 0.722222 128.442719 0.751111 128.442719</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-translate.Y-intan-array" count="24" stride="2">
+            <param type="float"></param>
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-translate.Y-outtan">
+        <float_array id="CamDummy-translate.Y-outtan-array" count="48">0.011111 128.442719 0.044444 128.442719 0.077778 128.442719 0.111111 128.442719 0.144444 128.442719 0.177778 128.442719 0.211111 128.442719 0.244444 128.442719 0.277778 128.442719 0.311111 128.442719 0.344444 128.442719 0.377778 128.442719 0.411111 128.442719 0.444444 128.442719 0.477778 128.442719 0.511111 128.442719 0.544444 128.442719 0.577778 128.442719 0.611111 128.442719 0.644444 128.442719 0.677778 128.442719 0.711111 128.442719 0.742222 128.442719 0.000000 0.000000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-translate.Y-outtan-array" count="24" stride="2">
+            <param type="float"></param>
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="CamDummy-translate.Y">
+        <input semantic="INPUT" source="#CamDummy-translate.Y-input"></input>
+        <input semantic="OUTPUT" source="#CamDummy-translate.Y-output"></input>
+        <input semantic="INTERPOLATION" source="#CamDummy-translate.Y-interpolation"></input>
+        <input semantic="IN_TANGENT" source="#CamDummy-translate.Y-intan"></input>
+        <input semantic="OUT_TANGENT" source="#CamDummy-translate.Y-outtan"></input>
+      </sampler>
+      <channel source="#CamDummy-translate.Y" target="CamDummy/translate.Y"></channel>
+    </animation>
+    <animation>
+      <source id="CamDummy-translate.Z-input">
+        <float_array id="CamDummy-translate.Z-input-array" count="24">0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000 0.533333 0.566667 0.600000 0.633333 0.666667 0.700000 0.733333 0.760000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-translate.Z-input-array" count="24" stride="1">
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-translate.Z-output">
+        <float_array id="CamDummy-translate.Z-output-array" count="24">-34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402 -34.809402</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-translate.Z-output-array" count="24" stride="1">
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-translate.Z-interpolation">
+        <Name_array id="CamDummy-translate.Z-interpolation-array" count="24">BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#CamDummy-translate.Z-interpolation-array" count="24" stride="1">
+            <param type="name"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-translate.Z-intan">
+        <float_array id="CamDummy-translate.Z-intan-array" count="48">0.000000 0.000000 0.022222 -34.809402 0.055556 -34.809402 0.088889 -34.809402 0.122222 -34.809402 0.155556 -34.809402 0.188889 -34.809402 0.222222 -34.809402 0.255556 -34.809402 0.288889 -34.809402 0.322222 -34.809402 0.355556 -34.809402 0.388889 -34.809402 0.422222 -34.809402 0.455556 -34.809402 0.488889 -34.809402 0.522222 -34.809402 0.555556 -34.809402 0.588889 -34.809402 0.622222 -34.809402 0.655556 -34.809402 0.688889 -34.809402 0.722222 -34.809402 0.751111 -34.809402</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-translate.Z-intan-array" count="24" stride="2">
+            <param type="float"></param>
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-translate.Z-outtan">
+        <float_array id="CamDummy-translate.Z-outtan-array" count="48">0.011111 -34.809402 0.044444 -34.809402 0.077778 -34.809402 0.111111 -34.809402 0.144444 -34.809402 0.177778 -34.809402 0.211111 -34.809402 0.244444 -34.809402 0.277778 -34.809402 0.311111 -34.809402 0.344444 -34.809402 0.377778 -34.809402 0.411111 -34.809402 0.444444 -34.809402 0.477778 -34.809402 0.511111 -34.809402 0.544444 -34.809402 0.577778 -34.809402 0.611111 -34.809402 0.644444 -34.809402 0.677778 -34.809402 0.711111 -34.809402 0.742222 -34.809402 0.000000 0.000000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-translate.Z-outtan-array" count="24" stride="2">
+            <param type="float"></param>
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="CamDummy-translate.Z">
+        <input semantic="INPUT" source="#CamDummy-translate.Z-input"></input>
+        <input semantic="OUTPUT" source="#CamDummy-translate.Z-output"></input>
+        <input semantic="INTERPOLATION" source="#CamDummy-translate.Z-interpolation"></input>
+        <input semantic="IN_TANGENT" source="#CamDummy-translate.Z-intan"></input>
+        <input semantic="OUT_TANGENT" source="#CamDummy-translate.Z-outtan"></input>
+      </sampler>
+      <channel source="#CamDummy-translate.Z" target="CamDummy/translate.Z"></channel>
+    </animation>
+    <animation>
+      <source id="CamDummy-rotateX.ANGLE-input">
+        <float_array id="CamDummy-rotateX.ANGLE-input-array" count="24">0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000 0.533333 0.566667 0.600000 0.633333 0.666667 0.700000 0.733333 0.760000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-rotateX.ANGLE-input-array" count="24" stride="1">
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-rotateX.ANGLE-output">
+        <float_array id="CamDummy-rotateX.ANGLE-output-array" count="24">0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007 0.000007</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-rotateX.ANGLE-output-array" count="24" stride="1">
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-rotateX.ANGLE-interpolation">
+        <Name_array id="CamDummy-rotateX.ANGLE-interpolation-array" count="24">BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#CamDummy-rotateX.ANGLE-interpolation-array" count="24" stride="1">
+            <param type="name"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-rotateX.ANGLE-intan">
+        <float_array id="CamDummy-rotateX.ANGLE-intan-array" count="48">0.000000 0.000000 0.022222 0.000007 0.055556 0.000007 0.088889 0.000007 0.122222 0.000007 0.155556 0.000007 0.188889 0.000007 0.222222 0.000007 0.255556 0.000007 0.288889 0.000007 0.322222 0.000007 0.355556 0.000007 0.388889 0.000007 0.422222 0.000007 0.455556 0.000007 0.488889 0.000007 0.522222 0.000007 0.555556 0.000007 0.588889 0.000007 0.622222 0.000007 0.655556 0.000007 0.688889 0.000007 0.722222 0.000007 0.751111 0.000007</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-rotateX.ANGLE-intan-array" count="24" stride="2">
+            <param type="float"></param>
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-rotateX.ANGLE-outtan">
+        <float_array id="CamDummy-rotateX.ANGLE-outtan-array" count="48">0.011111 0.000007 0.044444 0.000007 0.077778 0.000007 0.111111 0.000007 0.144444 0.000007 0.177778 0.000007 0.211111 0.000007 0.244444 0.000007 0.277778 0.000007 0.311111 0.000007 0.344444 0.000007 0.377778 0.000007 0.411111 0.000007 0.444444 0.000007 0.477778 0.000007 0.511111 0.000007 0.544444 0.000007 0.577778 0.000007 0.611111 0.000007 0.644444 0.000007 0.677778 0.000007 0.711111 0.000007 0.742222 0.000007 0.000000 0.000000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-rotateX.ANGLE-outtan-array" count="24" stride="2">
+            <param type="float"></param>
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="CamDummy-rotateX.ANGLE">
+        <input semantic="INPUT" source="#CamDummy-rotateX.ANGLE-input"></input>
+        <input semantic="OUTPUT" source="#CamDummy-rotateX.ANGLE-output"></input>
+        <input semantic="INTERPOLATION" source="#CamDummy-rotateX.ANGLE-interpolation"></input>
+        <input semantic="IN_TANGENT" source="#CamDummy-rotateX.ANGLE-intan"></input>
+        <input semantic="OUT_TANGENT" source="#CamDummy-rotateX.ANGLE-outtan"></input>
+      </sampler>
+      <channel source="#CamDummy-rotateX.ANGLE" target="CamDummy/rotateX.ANGLE"></channel>
+    </animation>
+    <animation>
+      <source id="CamDummy-rotateY.ANGLE-input">
+        <float_array id="CamDummy-rotateY.ANGLE-input-array" count="24">0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000 0.533333 0.566667 0.600000 0.633333 0.666667 0.700000 0.733333 0.760000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-rotateY.ANGLE-input-array" count="24" stride="1">
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-rotateY.ANGLE-output">
+        <float_array id="CamDummy-rotateY.ANGLE-output-array" count="24">0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005 0.000005</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-rotateY.ANGLE-output-array" count="24" stride="1">
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-rotateY.ANGLE-interpolation">
+        <Name_array id="CamDummy-rotateY.ANGLE-interpolation-array" count="24">BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#CamDummy-rotateY.ANGLE-interpolation-array" count="24" stride="1">
+            <param type="name"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-rotateY.ANGLE-intan">
+        <float_array id="CamDummy-rotateY.ANGLE-intan-array" count="48">0.000000 0.000000 0.022222 0.000005 0.055556 0.000005 0.088889 0.000005 0.122222 0.000005 0.155556 0.000005 0.188889 0.000005 0.222222 0.000005 0.255556 0.000005 0.288889 0.000005 0.322222 0.000005 0.355556 0.000005 0.388889 0.000005 0.422222 0.000005 0.455556 0.000005 0.488889 0.000005 0.522222 0.000005 0.555556 0.000005 0.588889 0.000005 0.622222 0.000005 0.655556 0.000005 0.688889 0.000005 0.722222 0.000005 0.751111 0.000005</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-rotateY.ANGLE-intan-array" count="24" stride="2">
+            <param type="float"></param>
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-rotateY.ANGLE-outtan">
+        <float_array id="CamDummy-rotateY.ANGLE-outtan-array" count="48">0.011111 0.000005 0.044444 0.000005 0.077778 0.000005 0.111111 0.000005 0.144444 0.000005 0.177778 0.000005 0.211111 0.000005 0.244444 0.000005 0.277778 0.000005 0.311111 0.000005 0.344444 0.000005 0.377778 0.000005 0.411111 0.000005 0.444444 0.000005 0.477778 0.000005 0.511111 0.000005 0.544444 0.000005 0.577778 0.000005 0.611111 0.000005 0.644444 0.000005 0.677778 0.000005 0.711111 0.000005 0.742222 0.000005 0.000000 0.000000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-rotateY.ANGLE-outtan-array" count="24" stride="2">
+            <param type="float"></param>
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="CamDummy-rotateY.ANGLE">
+        <input semantic="INPUT" source="#CamDummy-rotateY.ANGLE-input"></input>
+        <input semantic="OUTPUT" source="#CamDummy-rotateY.ANGLE-output"></input>
+        <input semantic="INTERPOLATION" source="#CamDummy-rotateY.ANGLE-interpolation"></input>
+        <input semantic="IN_TANGENT" source="#CamDummy-rotateY.ANGLE-intan"></input>
+        <input semantic="OUT_TANGENT" source="#CamDummy-rotateY.ANGLE-outtan"></input>
+      </sampler>
+      <channel source="#CamDummy-rotateY.ANGLE" target="CamDummy/rotateY.ANGLE"></channel>
+    </animation>
+    <animation>
+      <source id="CamDummy-rotateZ.ANGLE-input">
+        <float_array id="CamDummy-rotateZ.ANGLE-input-array" count="24">0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000 0.533333 0.566667 0.600000 0.633333 0.666667 0.700000 0.733333 0.760000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-rotateZ.ANGLE-input-array" count="24" stride="1">
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-rotateZ.ANGLE-output">
+        <float_array id="CamDummy-rotateZ.ANGLE-output-array" count="24">75.000000 86.830658 98.154594 108.969620 119.273621 129.064423 138.339844 147.097672 155.335709 163.051788 170.243607 176.908966 183.045547 188.651123 193.723389 198.260040 202.258728 205.717133 208.632935 211.003708 212.827103 214.100693 214.822098 215.000000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-rotateZ.ANGLE-output-array" count="24" stride="1">
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-rotateZ.ANGLE-interpolation">
+        <Name_array id="CamDummy-rotateZ.ANGLE-interpolation-array" count="24">BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#CamDummy-rotateZ.ANGLE-interpolation-array" count="24" stride="1">
+            <param type="name"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-rotateZ.ANGLE-intan">
+        <float_array id="CamDummy-rotateZ.ANGLE-intan-array" count="48">0.000000 0.000000 0.022222 82.971441 0.055556 94.464650 0.088889 105.449661 0.122222 115.924368 0.155556 125.886600 0.188889 135.334180 0.222222 144.264899 0.255556 152.676564 0.288889 160.567016 0.322222 167.933953 0.355556 174.775183 0.388889 181.088391 0.422222 186.871355 0.455556 192.121776 0.488889 196.837354 0.522222 201.015746 0.555556 204.654636 0.588889 207.751709 0.622222 210.304547 0.655556 212.310802 0.688889 213.768057 0.722222 214.673935 0.751111 215.000000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-rotateZ.ANGLE-intan-array" count="24" stride="2">
+            <param type="float"></param>
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="CamDummy-rotateZ.ANGLE-outtan">
+        <float_array id="CamDummy-rotateZ.ANGLE-outtan-array" count="48">0.011111 79.027778 0.044444 90.689875 0.077778 101.844539 0.111111 112.489579 0.144444 122.622873 0.177778 132.242245 0.211111 141.345508 0.244444 149.930444 0.277778 157.994853 0.311111 165.536561 0.344444 172.553261 0.377778 179.042749 0.411111 185.002704 0.444444 190.430891 0.477778 195.325002 0.511111 199.682726 0.544444 203.501710 0.577778 206.779629 0.611111 209.514160 0.644444 211.702869 0.677778 213.343403 0.711111 214.433328 0.742222 214.940628 0.000000 0.000000</float_array>
+        <technique_common>
+          <accessor source="#CamDummy-rotateZ.ANGLE-outtan-array" count="24" stride="2">
+            <param type="float"></param>
+            <param type="float"></param>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="CamDummy-rotateZ.ANGLE">
+        <input semantic="INPUT" source="#CamDummy-rotateZ.ANGLE-input"></input>
+        <input semantic="OUTPUT" source="#CamDummy-rotateZ.ANGLE-output"></input>
+        <input semantic="INTERPOLATION" source="#CamDummy-rotateZ.ANGLE-interpolation"></input>
+        <input semantic="IN_TANGENT" source="#CamDummy-rotateZ.ANGLE-intan"></input>
+        <input semantic="OUT_TANGENT" source="#CamDummy-rotateZ.ANGLE-outtan"></input>
+      </sampler>
+      <channel source="#CamDummy-rotateZ.ANGLE" target="CamDummy/rotateZ.ANGLE"></channel>
+    </animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="CamDummy" id="CamDummy" layer="camara" sid="CamDummy">
+        <translate sid="translate">0.000000 128.442719 -34.809402</translate>
+        <rotate sid="jointOrientX">1 0 0 -90.000000</rotate>
+        <rotate sid="rotateZ">0 0 1 74.999998</rotate>
+        <rotate sid="rotateY">0 1 0 0.000005</rotate>
+        <rotate sid="rotateX">1 0 0 0.000007</rotate>
+        <node id="CamDummy-Pivot" name="CamDummy-Pivot">
+          <translate>0.000000 0.000000 0.000000</translate>
+          <rotate>1.000000 -0.000000 0.000000 90.000000</rotate>
+        </node>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>25.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>0.760000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

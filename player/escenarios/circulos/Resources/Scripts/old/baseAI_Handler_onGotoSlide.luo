@@ -1,0 +1,129 @@
+
+
+
+
+
+
+
+function baseAI.onGotoSlide(target,targetblock)
+
+
+
+local islide=this.index()
+local iblock=this.indexblock()
+
+
+
+if(targetblock==nil)then
+log.message(">>>>>>>>>>  "..islide.." -> "..target.." ) >>>>>")
+local alcanzado=true
+
+local step=0
+if(target>islide)then step=1 else step=-1 end
+if(target==-1)then
+
+alcanzado=false
+ step=-1
+ else
+ if(islide==target)then
+ this.getSlide(iblock,islide,1)
+alcanzado=true
+else
+
+islide=islide+step
+ for ib=islide,target,step do
+if this.getSlide(iblock,ib,step)then
+
+this.index(ib)
+else
+alcanzado=false
+ end
+end
+end
+end
+islide=target
+ if(alcanzado)then
+
+this.postEvent(0,"onCmds")
+else
+
+if(step==1)then
+
+log.message(">> next block")
+this.index(0)
+this.sendEvent("onGotoSlide",0,iblock+1)
+else
+
+log.message(">> previous block")
+local ultimo=this.getLast(iblock-1)
+this.index(0)
+this.sendEvent("onGotoSlide",ultimo,iblock-1)
+end
+end
+end
+
+
+
+if(targetblock~=nil)then
+log.message(">>>>>>>>>>  "..islide.." -> "..target.."  ( "..iblock.." -> "..targetblock.." ) >>>>>")
+local origen=iblock
+local alcanzado=false
+local step
+if(iblock==targetblock)then
+ alcanzado=true
+else
+
+if(targetblock>iblock)then step=1 else step=-1 end
+iblock=iblock+step
+ for ib=iblock,targetblock,step do
+if this.existsBlock(ib)then
+
+this.indexblock(ib)
+alcanzado=true
+ else
+
+break
+end
+end
+end
+iblock=this.indexblock()
+if(alcanzado)then
+
+
+
+this.getSection(origen,"end")
+
+this.getSection(iblock,"init")
+
+
+this.sendEvent("onGotoSlide",target)
+else
+
+
+
+if(step==-1)then
+
+
+
+this.postEvent(0,"onCmds")
+else
+
+if this.existsBlock(iblock)then
+
+
+this.getSection(origen,"end")
+this.indexblock(iblock+1)
+this.index(0)
+else
+
+
+this.index(0)
+end
+
+ this.postEvent(0,"onCmds")
+end
+ end
+ end
+
+
+end

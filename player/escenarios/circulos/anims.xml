@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="anims.xsl"?>
+
+<ExportReport name="anims" Compress_Size="2495" UnCompress_Size="4154" FileCount="9" >
+	<Resource Name="Scripts" Compress_Size="1025" UnCompress_Size="1565" FileCount="4" >
+		<File Name="anims_Handler_onsetTarget" UnCompress_Size="197" Compress_Size="140" Extension="lub" />
+		<File Name="anims_Handler_onEnterFrame" UnCompress_Size="654" Compress_Size="400" Extension="lub" />
+		<File Name="anims_Function_setAlfa" UnCompress_Size="484" Compress_Size="330" Extension="lub" />
+		<File Name="anims_Handler_onSetAlfa" UnCompress_Size="230" Compress_Size="155" Extension="lub" />
+	</Resource>
+	<Resource Name="AIModels" Compress_Size="125" UnCompress_Size="204" FileCount="1" >
+		<File Name="anims" UnCompress_Size="204" Compress_Size="125" Extension="aim" />
+	</Resource>
+	<Resource Name="AnimClips" Compress_Size="1131" UnCompress_Size="1864" FileCount="1" >
+		<File Name="anim_1" UnCompress_Size="1864" Compress_Size="1131" Extension="ani" />
+	</Resource>
+	<Resource Name="Models" Compress_Size="186" UnCompress_Size="495" FileCount="2" >
+		<File Name="dummy" UnCompress_Size="149" Compress_Size="66" Extension="mdo" />
+		<File Name="anims" UnCompress_Size="346" Compress_Size="120" Extension="mdo" />
+	</Resource>
+	<Resource Name="AnimBanks" Compress_Size="28" UnCompress_Size="26" FileCount="1" >
+		<File Name="anims" UnCompress_Size="26" Compress_Size="28" Extension="anb" />
+	</Resource>
+</ExportReport>

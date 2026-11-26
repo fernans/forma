@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+function Main.onMouseMove(nPointX,nPointY,nDeltaX,nDeltaY,nRayPntX,nRayPntY,nRayPntZ,nRayDirX,nRayDirY,nRayDirZ)
+
+
+
+
+
+
+if(this.cam()~=nil)then
+object.rotate(this.cam(),0,-nDeltaX*90,0,object.kGlobalSpace)
+object.rotate(this.cam(),nDeltaY*90,0,0,object.kLocalSpace)
+hud.setCursorPosition(application.getCurrentUser(),50,50)
+end
+
+end

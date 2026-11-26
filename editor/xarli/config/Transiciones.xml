@@ -1,0 +1,9 @@
+﻿<?xml version ="1.0" encoding="utf-8" ?>
+<xml>
+	<transicion nombre="Transicion1" id="default" imagen="config/transicion1.jpg" />
+	<transicion nombre="Transicion2" id="trans2" imagen="config/transicion2.jpg" />
+	<transicion nombre="Transicion3" id="trans3" imagen="config/transicion3.jpg" />
+	<transicion nombre="Transicion4" id="trans4" imagen="config/transicion4.jpg" />
+	<transicion nombre="Transicion5" id="trans5" imagen="config/transicion1.jpg" />
+	<transicion nombre="Transicion6" id="trans6" imagen="config/transicion2.jpg" />
+</xml>

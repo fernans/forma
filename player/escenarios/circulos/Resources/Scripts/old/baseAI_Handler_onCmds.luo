@@ -1,0 +1,28 @@
+
+
+
+
+
+
+
+function baseAI.onCmds()
+
+
+
+local t=table.getSize(this.cmds())
+if(t>0)then
+log.message("onLoop: "..t)
+local _cmds=this.cmds()
+local _currcmd=table.getFirst(_cmds)
+if(_currcmd~=nil)then
+xml.createFromString(this.tcmd(),_currcmd)
+local _c=xml.getRootElement(this.tcmd())
+this.exec(_c)
+table.removeFirst(_cmds)
+end
+
+this.postEvent(0,"onCmds")
+end
+
+
+end

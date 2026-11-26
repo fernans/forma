@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="anims.xsl"?>
+
+<ExportReport name="anims" Compress_Size="1242" UnCompress_Size="2207" FileCount="5" >
+	<Resource Name="AnimClips" Compress_Size="1027" UnCompress_Size="1694" FileCount="2" >
+		<File Name="anim_1" UnCompress_Size="1568" Compress_Size="962" Extension="ani" />
+		<File Name="none" UnCompress_Size="126" Compress_Size="65" Extension="ani" />
+	</Resource>
+	<Resource Name="Models" Compress_Size="178" UnCompress_Size="475" FileCount="2" >
+		<File Name="dummy" UnCompress_Size="149" Compress_Size="66" Extension="mdo" />
+		<File Name="anims" UnCompress_Size="326" Compress_Size="112" Extension="mdo" />
+	</Resource>
+	<Resource Name="AnimBanks" Compress_Size="37" UnCompress_Size="38" FileCount="1" >
+		<File Name="anims" UnCompress_Size="38" Compress_Size="37" Extension="anb" />
+	</Resource>
+</ExportReport>

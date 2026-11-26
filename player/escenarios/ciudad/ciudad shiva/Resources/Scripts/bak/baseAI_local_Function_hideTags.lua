@@ -1,0 +1,28 @@
+--------------------------------------------------------------------------------
+--  Function......... : hideTags
+--  Author........... : 
+--  Description...... : 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+function baseAI_local.hideTags ( )
+--------------------------------------------------------------------------------
+	
+    ----------------------- OCULTAR MARCAS de POSICION
+    local s=application.getCurrentUserScene ( ) 
+    log.message ( "hideTags: " )
+    if (s~=nil) then
+        local c=scene.getTaggedObjectCount (s)
+        if (c>0) then
+            log.message ( c.." objetos con TAG" )
+            for i = 1, c do
+                local o=scene.getTaggedObjectAt ( s, i-1 )
+                object.setVisible ( o, false )
+            end
+        else
+            log.warning ( "No hay objetos con etiqueta: revisar importacion scena" )
+        end
+	end
+--------------------------------------------------------------------------------
+end
+--------------------------------------------------------------------------------

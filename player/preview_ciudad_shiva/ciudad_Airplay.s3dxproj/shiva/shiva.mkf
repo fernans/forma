@@ -1,0 +1,15 @@
+# mkf file for module shiva
+display_name "'ShiVa Engine'/shiva"
+library
+{
+    <arm_shared>
+    ".,shiva"
+}
+files
+{
+}
+subproject
+{
+    iwutil
+    iwgx
+}

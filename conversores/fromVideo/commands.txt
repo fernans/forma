@@ -1,0 +1,20 @@
+ffmpeg -y -i menu.mp4 -vcodec libtheora -b 9000Kb  -s 600x600 menu.ogg
+
+
+-y	overwrite (no ask)
+-i	<input file>
+
+-vcodec	video codec (libtheora)
+-b	bitrate (9000Kb/s)
+-s	size (WxH)
+
+-croptop
+-cropbottom
+-cropleft
+-cropright
+-padtop
+-padbottom
+-padleft
+-padright
+
+<outputfile>

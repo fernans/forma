@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+function animatedCam.onSetOffset(x,y,z,rx,ry,rz,mode)
+
+
+this.offsetX(this.offsetX()+x)
+this.offsetY(this.offsetY()+y)
+this.offsetZ(this.offsetZ()+z)
+this.offsetRX(this.offsetRX()+rx)
+this.offsetRY(this.offsetRY()+ry)
+this.offsetRZ(this.offsetRZ()+rz)
+if(mode=="set")then
+this.offset(0.99)
+else
+this.offset(0)
+end
+
+
+end

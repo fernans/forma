@@ -1,0 +1,7 @@
+<?xml version ="1.0" encoding="utf-8" ?>
+<xml>
+	<marco nombre="Marco1" id="marco1" imagen="config/marco1.jpg" />
+	<marco nombre="Marco2" id="marco2" imagen="config/marco2.jpg" />
+	<marco nombre="Marco3" id="marco3" imagen="config/marco3.jpg" />
+	<marco nombre="Marco4" id="marco4" imagen="config/marco1.jpg" />
+</xml>

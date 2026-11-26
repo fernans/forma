@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+function baseAI.getLast(iblock)
+
+
+local _doc=xml.getRootElement(this.doc())
+if(_doc~=nil)then
+
+ local _blocks=xml.getElementFirstChildWithName(_doc,"blocks")
+if(_blocks~=nil)then
+
+ local _block=xml.getElementChildAt(_blocks,iblock)
+if(_block~=nil)then
+
+ local _slides=xml.getElementFirstChildWithName(_block,"slides")
+if(_slides~=nil)then
+
+ local c=xml.getElementChildCount(_slides)
+if(c>0)then
+
+c=c-1
+ end
+ return c
+else log.warning("No slides")
+end
+ end
+ else log.warning("No blocks")
+end
+ else log.warning("No doc")
+end
+
+ return 0
+
+
+end

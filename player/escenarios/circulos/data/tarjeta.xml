@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="tarjeta.xsl"?>
+
+<ExportReport name="tarjeta" Compress_Size="1409" UnCompress_Size="3680" FileCount="5" >
+	<Resource Name="Models" Compress_Size="352" UnCompress_Size="933" FileCount="2" >
+		<File Name="tarjeta" UnCompress_Size="563" Compress_Size="188" Extension="mdo" />
+		<File Name="tarjetaSinMarco" UnCompress_Size="370" Compress_Size="164" Extension="mdo" />
+	</Resource>
+	<Resource Name="Materials" Compress_Size="48" UnCompress_Size="65" FileCount="1" >
+		<File Name="tarjetaMat" UnCompress_Size="65" Compress_Size="48" Extension="mat" />
+	</Resource>
+	<Resource Name="Meshes" Compress_Size="1009" UnCompress_Size="2682" FileCount="2" >
+		<File Name="tarjeta_geom-_frame" UnCompress_Size="1581" Compress_Size="728" Extension="msh" />
+		<File Name="tarjeta_geom-_texture" UnCompress_Size="1101" Compress_Size="281" Extension="msh" />
+	</Resource>
+</ExportReport>

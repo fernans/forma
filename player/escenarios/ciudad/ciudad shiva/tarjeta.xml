@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="tarjeta.xsl"?><ExportReport name="tarjeta" Compress_Size="5269" UnCompress_Size="15071" FileCount="7" >	<Resource Name="Materials" Compress_Size="48" UnCompress_Size="65" FileCount="1" >		<File Name="tarjetaMat" UnCompress_Size="65" Compress_Size="48" Extension="mat" />
+	</Resource>	<Resource Name="Meshes" Compress_Size="4672" UnCompress_Size="13603" FileCount="3" >		<File Name="bordes_redondos_bordes_redondos-lib" UnCompress_Size="10921" Compress_Size="3663" Extension="msh" />		<File Name="tarjeta_geom-_texture" UnCompress_Size="1101" Compress_Size="281" Extension="msh" />		<File Name="tarjeta_geom-_frame" UnCompress_Size="1581" Compress_Size="728" Extension="msh" />
+	</Resource>	<Resource Name="Models" Compress_Size="549" UnCompress_Size="1403" FileCount="3" >		<File Name="tarjetaSinMarco" UnCompress_Size="370" Compress_Size="164" Extension="mdo" />		<File Name="tarjeta" UnCompress_Size="563" Compress_Size="188" Extension="mdo" />		<File Name="tarjetaSinMarcoRedonda" UnCompress_Size="470" Compress_Size="197" Extension="mdo" />
+	</Resource>
+</ExportReport>

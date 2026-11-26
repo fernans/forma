@@ -1,0 +1,164 @@
+<formacmds>
+	<init>
+		<debug show="false" />
+		<loadscn scene="naranja" />
+		<posibles_escenas nombres="blanco, azul, rojo, verde, amarillo, violeta, naranja" />
+		<setScaleFactor value="0.01" />
+		<smooth value="1" />
+		<setcamera cam_tag="_camera" />
+		<preload type="model" id="1" file="data/tarjeta.stk" model="tarjetaSinMarco" />
+		<preload type="texture" id="1" file="data/1.tga" ext="tga" />
+		<preload type="texture" id="2" file="data/2.jpg" ext="jpg" />
+		<preload type="texture" id="3" file="data/3.jpg" ext="jpg" />
+		<preload type="texture" id="4" file="data/4.jpg" ext="jpg" />
+		<preload type="texture" id="5" file="data/5.jpg" ext="jpg" />
+		<preload type="texture" id="6" file="data/6.jpg" ext="jpg" />
+		<preload type="audio" id="1" file="data/audio1.ogg" />
+		<load />
+		<create id="1" />
+			<set_model id="1" model="1" />
+			<set_texture id="1" texture="1" />
+			<alpha id="1" level="0" mode="set"/>
+		<create id="2" />
+			<set_model id="2" model="1" />
+			<set_texture id="2" texture="2" />
+			<alpha id="2" level="0" mode="set"/>
+		<create id="3" />
+			<set_model id="3" model="1" />
+			<set_texture id="3" texture="3" />
+			<alpha id="3" level="0" mode="set"/>
+		<create id="4" />
+			<set_model id="4" model="1" />
+			<set_texture id="4" texture="4" />
+			<alpha id="4" level="0" mode="set"/>
+		<create id="5" />
+			<set_model id="5" model="1" />
+			<set_texture id="5" texture="5" />
+			<alpha id="5" level="0" mode="set"/>
+		<create id="6" />
+			<set_model id="6" model="1" />
+			<set_texture id="6" texture="6" />
+			<alpha id="6" level="0" mode="set"/>
+	</init>
+	<blocks>
+	   <block>
+	      	<slides>
+			<slide>
+				<cameragoto place="1" />
+				<alpha id="1" level="1" />
+				<alpha id="2" level="1" />
+				<alpha id="3" level="1" />
+				<alpha id="4" level="1" />
+				<alpha id="5" level="1" />
+				<alpha id="6" level="1" />
+				<set_position id="1" target="_p1c" mode="set"/>
+				<set_position id="2" target="_p2c" mode="set"/>
+				<set_position id="3" target="_p3c" mode="set"/>
+				<set_position id="4" target="_p4c" mode="set"/>
+				<set_position id="5" target="_p5c" mode="set"/>
+				<set_position id="6" target="_p6c" mode="set"/>
+			</slide>
+			<slide>
+		<camera cmd="device" value="0" />
+		<camera cmd="fps" value="25" />
+		<camera cmd="width" value="1280" />
+		<camera cmd="height" value="720" />
+		<camera cmd="start" />
+			</slide>
+			<slide>
+		<set_texture_video id="1" />
+			</slide>
+			<slide>
+				<-camerafov value="45" />
+				<-fxMotionBlur value="0.9" />
+				<-fxBloom value="1" limit="0" color="1" />
+				<-fxDepthBlur value="1" min="0" max="15" noVaConAntialias />
+				<-fxFog value="1" near="0" r="1" g="0.5" b="0" noVaNiEnelEditor />
+				<-fxColorContrast value="1" />
+				<-fxColorAmbient r="1" g="0.5" b="0.5" />
+				<-fxColorSaturation value="1" r="1" g="0.5" b="0.5" />
+				<-fxMonocromo value="1" r="1" g="1" b="0" />
+				<-audio_play id="1" volume="1" fade="2" />
+				<-audio_stop fade="1" paraPeroSeBloquea />
+
+				<2d_create id="1" />
+				<2d_set_texture id="1" texture="1" />
+				<2d_set_position id="1" x="10" y="10" />
+				<2d_set_origin id="1" origin="7" />
+				<2d_set_size id="1" w="20" h="20" />
+				<2d_set_color id="1" alpha="196" />
+				<--2d_delete id="1" />
+				<--2d_delete_all />
+
+				<pause_texture id="3" />
+				<play_texture id="3" />
+				<stop_texture id="3" />
+
+			</slide>
+			<slide><cameragoto place="2" /></slide>
+			<slide><cameragoto place="3" /></slide>
+			<slide><cameragoto place="4" /></slide>
+			<slide><cameragoto place="5" /></slide>
+			<slide><cameragoto place="6" /></slide>
+			<slide><cameragoto place="1" /></slide>
+			<slide><cameragoto place="3" /></slide>
+			<slide><cameragoto place="5" /></slide>
+			<slide><cameragoto place="1" /></slide>
+			<slide><cameragoto place="4" /></slide>
+			<slide><cameragoto place="6" /></slide>
+			<slide><cameragoto place="2" /></slide>
+			<slide><cameragoto place="4" /></slide>
+			<slide><cameragoto place="5" /></slide>
+			<slide><cameragoto place="2" /></slide>
+			<slide><cameragoto place="3" /></slide>
+			<slide>
+				<cameragoto place="6" />
+				<set_position id="1" target="_p1c" />
+				<set_position id="2" target="_p2c" />
+				<set_position id="3" target="_p3c" />
+				<set_position id="4" target="_p4c" />
+				<set_position id="5" target="_p5c" />
+				<set_position id="6" target="_p6c" />
+			</slide>
+			<slide>
+				<cameragoto place="6" />
+				<set_position id="1" target="_p1c" />
+				<set_position id="2" target="_p2c" />
+				<set_position id="3" target="_p3c" />
+				<set_position id="4" target="_p4c" />
+				<set_position id="5" target="_p5c" />
+				<set_position id="6" target="_p6c" />
+				<rotate id="1" z="180" />
+				<rotate id="2" z="180" />
+				<rotate id="3" z="180" />
+				<rotate id="4" z="180" />
+				<rotate id="5" z="180" />
+				<rotate id="6" z="180" />
+
+			</slide>
+			<slide><cameragoto place="3" /></slide>
+			<slide><cameragoto place="2" /></slide>
+			<slide><cameragoto place="5" /></slide>
+			<slide><cameragoto place="4" /></slide>
+			<slide><cameragoto place="2" /></slide>
+			<slide><cameragoto place="6" /></slide>
+			<slide><cameragoto place="4" /></slide>
+			<slide><cameragoto place="1" /></slide>
+			<slide><cameragoto place="5" /></slide>
+			<slide><cameragoto place="3" /></slide>
+			<slide><cameragoto place="1" /></slide>
+			<slide><cameragoto place="6" /></slide>
+			<slide><cameragoto place="5" /></slide>
+			<slide><cameragoto place="4" /></slide>
+			<slide><cameragoto place="3" /></slide>
+			<slide><cameragoto place="2" /></slide>
+			<slide><cameragoto place="1" /></slide>
+		</slides>
+		<end>
+
+		</end>
+	   </block>	
+	</blocks>
+	<end>
+	</end>
+</formacmds>

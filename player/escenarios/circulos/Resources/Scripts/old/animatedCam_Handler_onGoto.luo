@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+function animatedCam.onGoto(place)
+
+local place=string.toNumber(place)
+local anim=this.goto(this.currentPlace(),place)
+if(anim~=-1)then
+local t=this.target()
+log.message("set anim: "..anim)
+
+animation.changeClip(t,0,anim)
+animation.setPlaybackMode(t,0,animation.kPlaybackModeOnce)
+animation.setPlaybackLevel(t,0,1)
+animation.setPlaybackSpeed(t,0,this.fps())
+this.currentPlace(place)
+end
+
+
+end

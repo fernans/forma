@@ -1,0 +1,191 @@
+<html>
+<head>
+	<title>PPT2SWF :: {$swfFilename}</title>
+	<style type="text/css">
+		body {
+			background-color: white;
+		}
+		td {
+			text-align: left;
+		}
+		#flashPlayer {
+			/* ... */
+		}
+		#mainContainer {
+			height: 100%;
+			width: 100%;
+		}
+		#swfPresentation {
+			/* ... */
+		}
+		#slideCarousel {
+			height: auto;
+		}
+		#slideCarouselHolderWrapper {
+			overflow: hidden;
+			width: auto;
+		}
+		#slideCarouselHolder {
+			height: 90px;
+		}
+		.slideThumbnail {
+			border: solid 2px white;
+			cursor: pointer;
+			float: left;
+			height: px;
+			margin: 0px 4px;
+			width: 120px;
+		}
+		.slideThumbnailHover {
+			border: solid 2px orange;
+		}
+		.carouselButtonHolder {			
+			background-color: #aaccff;
+			cursor: pointer;
+			height: 80px;
+			text-align: center;
+			width: 40px;
+		}
+		.thumbnail {
+			/*border: solid 1px #555555;*/
+			width: 118px;
+		}
+	</style>
+	<script type="text/javascript">
+		var presentationFilename = "{$swfFilename}";
+		var slideFrames = [
+			{$slideFrames}
+		];
+		var slidesCount = slideFrames.length;
+		function getFlashVersion(){
+			try {
+				try {
+					var axo = new ActiveXObject('ShockwaveFlash.ShockwaveFlash.6'); 
+					try {
+						axo.AllowScriptAccess = 'always';
+					}	
+					catch ( e ) {
+						return '6,0,0';
+					}
+				}
+				catch ( e ) {
+				}
+				return new ActiveXObject('ShockwaveFlash.ShockwaveFlash').GetVariable('$version').replace(/\D+/g, ',').match(/^,?(.+),?$/)[1]; 
+			} catch ( e ) {
+				try {
+					if ( navigator.mimeTypes['application/x-shockwave-flash'].enabledPlugin ) { 
+						return (navigator.plugins['Shockwave Flash 2.0'] || navigator.plugins['Shockwave Flash']).description.replace(/\D+/g, ',').match(/^,?(.+),?$/)[1];
+					}
+				} catch ( e ) {
+				}
+			}
+			return '0,0,0';
+		}
+		var embedFlash = function() {
+			var fpHost = document.getElementById('swfPresentation');
+			var version = getFlashVersion().split(',').shift();			
+			if ( version >= 7 ) {
+				fpHost.innerHTML =
+					'<object id="flashPlayer" width="100%" height="100%" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" align="middle">' +
+					'<param name="allowScriptAccess" value="sameDomain" />' +
+					'<param name="movie" value="' + presentationFilename + '" />' +
+					'<param name="quality" value="high" />' +
+					'<param name="bgcolor" value="#ffffff" />' +
+					'<param name="allowFullScreen" value="true" />' +
+					'<embed src="' + presentationFilename + '" quality="high" bgcolor="#ffffff" width="100%" height="100%" name="presentation" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" allowFullScreen="true" />' +
+					'</object>';
+					return true;
+			} else if ( version >= 1 ) {
+				fpHost.innerHTML = 'PPT2SWF SDK does not support Flash Player 6.0 and lower.<br />Please update your FlashPlayer from <a href=\'http://www.adobe.com/support/flashplayer/downloads.html\'>the official Flash Player page</a>.';
+			} else {
+				fpHost.innerHTML = 'FlashPlayer is not installed.';
+			}
+			return false;
+		}
+		var leftButton = null, RightButton = null;
+		var leftButtonSize = 0;
+		var rightButtonSize = 0;
+		var carouselViewWidth = 0;
+		var resizeSlideCarousel = function() {
+			carouselViewWidth = (window.innerWidth - leftButtonSize - rightButtonSize);
+			document.getElementById('slideCarouselHolderWrapper').style.width = carouselViewWidth + 'px';
+		}
+		window.onload = function() {
+			if ( embedFlash() ) {
+				leftButton = document.getElementById('slideCarouselLeft');
+				rightButton = document.getElementById('slideCarouselRight');
+				leftButtonSize = leftButton.clientWidth;
+				rightButtonSize = rightButton.clientWidth;			
+				var flashPlayer = document.getElementById('flashPlayer');
+				var slideCarouselHolder = document.getElementById('slideCarouselHolder');
+				var count = slidesCount;
+				var thumb;
+				for ( var i = 0 ; i < count; i++ ) {
+					thumb = document.createElement('div');
+					thumb.className = 'slideThumbnail';
+					thumb.innerHTML = '<img class="thumbnail" src="' + presentationFilename + '.thumbs\\' + (i + 1) + '.{$format}" />';
+					thumb.onmouseover = function() {
+						thumb.className = 'slideThumbnail slideThumbnailHover';
+					}
+					thumb.onmouseleave = function() {
+						thumb.className = 'slideThumbnail';
+					}
+					thumb.frame = slideFrames[i];
+					thumb.onclick = function() {
+						var isPlaying = document.presentation.IsPlaying();
+						document.presentation.GotoFrame(this.frame);
+						if ( isPlaying ) {
+							document.presentation.Play();
+						}
+					}
+					slideCarouselHolder.appendChild(thumb);
+				}
+				var thumbnailWidth = thumb.clientWidth;
+				var slideStep = thumbnailWidth * 1.5;
+				var carouselTotalWidth = (count * (thumbnailWidth + 16));
+				slideCarouselHolder.style.width = carouselTotalWidth + 'px';
+				resizeSlideCarousel();
+				var slidePosition = 0;
+				leftButton.onclick = function() {
+					if ( slidePosition > 0 ) {
+						slidePosition -= slideStep;
+						if ( slidePosition < 0 ) {
+							slidePosition = 0;
+						}
+						slideCarouselHolder.style.marginLeft = -slidePosition + 'px';
+					}
+				}
+				rightButton.onclick = function() {
+					var maxPosition = carouselTotalWidth - carouselViewWidth;
+					if ( slidePosition < (maxPosition) ) {
+						slidePosition += slideStep;
+						if ( slidePosition > (maxPosition - 16 * slidesCount) ) {
+							slidePosition = maxPosition - 16 * (slidesCount + 1);
+						}
+						slideCarouselHolder.style.marginLeft = -slidePosition + 'px';
+					}
+				}
+			}
+		}
+		window.onresize = function() {
+			resizeSlideCarousel();
+		}
+	</script>
+</head>
+<body>
+	<table id="mainContainer">
+		<tr>
+			<td id="swfPresentation" colspan="3"></td>
+		</tr>
+		<tr id="slideCarousel">
+			<td id="slideCarouselLeft" class="carouselButtonHolder">&#x25C0;</td>
+			<td>
+				<div id="slideCarouselHolderWrapper">
+					<div id="slideCarouselHolder"></div>
+				</div>
+			</td>
+			<td id="slideCarouselRight" class="carouselButtonHolder">&#x25B6;</td>
+		</tr>
+	</table>
+</body>
+</html>

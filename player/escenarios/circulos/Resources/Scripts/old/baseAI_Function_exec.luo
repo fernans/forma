@@ -1,0 +1,369 @@
+
+
+
+
+
+
+
+function baseAI.exec(cmd)
+
+if(cmd~=nil)then
+local name=xml.getElementName(cmd)
+log.message("exec: "..name)
+
+
+local id=this.getParamValue(cmd,"id")
+if(id==nil)then id=1 end
+local type=this.getParamValue(cmd,"type")
+local mode=this.getParamValue(cmd,"mode")
+
+
+
+if(name=="info")then
+log.message("  --info--")
+return true
+elseif(name=="debug")then
+local show=this.getParamValue(cmd,"show")
+if(show~=nil)then
+log.message("debug: "..show)
+local compo=hud.getComponent(application.getCurrentUser(),"_.text")
+if(show=="true")then
+hud.setComponentVisible(compo,true)
+else
+hud.setComponentVisible(compo,false)
+end
+return true
+else return false
+end
+elseif(name=="loadscn")then
+local scn=this.getParamValue(cmd,"scene")
+if(scn~=nil)then
+log.message("loadscn: "..scn)
+if(application.setCurrentUserScene(scn))then
+this.hideTags()
+return true
+end
+else return false
+end
+elseif(name=="setScaleFactor")then
+local sfactor=this.getParamValueN(cmd,"value")
+if(sfactor~=nil and sfactor~=0)then
+this.scaleFactor(sfactor)
+end
+
+elseif(name=="preload")then
+
+
+local file=this.getParamValue(cmd,"file")
+if(type~=nil)then
+if(type=="model")then
+local model_name=this.getParamValue(cmd,"model")
+if(file~=nil and model_name~=nil)then
+log.message("preload: model ("..id..") "..file)
+cache.addFile(id..".stk",file)
+hashtable.add(this.modelos(),id,model_name)
+end
+elseif(type=="texture")then
+local ext=this.getParamValue(cmd,"ext")
+if(file~=nil)then
+log.message("preload: texture ("..id..") "..file)
+cache.addFile(id.."."..ext,file)
+hashtable.add(this.textures(),id,ext)
+end
+end
+end
+
+
+
+elseif(name=="setcamera")then
+local obj=this.getParamValue(cmd,"cam_tag")
+if(obj~=nil)then
+log.message("setcamera: "..obj)
+local s=application.getCurrentUserScene()
+local cam=(application.getCurrentUserActiveCamera())
+if(s~=nil and cam~=nil)then
+local t=scene.getTaggedObject(s,obj)
+if(t~=nil)then
+object.sendEvent(cam,"animatedCam","onsetTarget",t)
+this.camara(cam)
+return true
+end
+end
+end
+elseif(name=="cameragoto")then
+local place=this.getParamValue(cmd,"place")
+if(place~=nil and this.camara()~=nil)then
+log.message("cameragoto: "..place)
+object.sendEvent(this.camara(),"animatedCam","onGoto",place)
+return true
+end
+elseif(name=="cameramove")then
+
+if(this.camara()~=nil)then
+local x=this.getParamValueN(cmd,"x")
+local y=this.getParamValueN(cmd,"y")
+local z=this.getParamValueN(cmd,"z")
+local sf=this.scaleFactor()
+if(x==nil)then x=0 end
+if(y==nil)then y=0 end
+if(z==nil)then z=0 end
+log.message("cameramove: x:"..x.." y:"..y.." z:"..z)
+object.sendEvent(this.camara(),"animatedCam","onSetOffset",x,y,z,0,0,0,mode)
+end
+elseif(name=="camerarotate")then
+
+if(this.camara()~=nil)then
+local x=this.getParamValueN(cmd,"x")
+local y=this.getParamValueN(cmd,"y")
+local z=this.getParamValueN(cmd,"z")
+local sf=this.scaleFactor()
+if(x==nil)then x=0 end
+if(y==nil)then y=0 end
+if(z==nil)then z=0 end
+log.message("camerarotate: x:"..x.." y:"..y.." z:"..z)
+object.sendEvent(this.camara(),"animatedCam","onSetOffset",0,0,0,x,y,z,mode)
+end
+elseif(name=="camerareset")then
+
+if(this.camara()~=nil)then
+log.message("camerareset (offset)")
+object.sendEvent(this.camara(),"animatedCam","onResetOffset",mode)
+end
+
+
+
+
+
+elseif(name=="create")then
+
+if(not hashtable.contains(this.tarjetas(),id))then
+log.message("create: ("..id..") ")
+
+local t=scene.createRuntimeObject(application.getCurrentUserScene(),"anims/anims")
+local target=scene.createRuntimeObject(application.getCurrentUserScene(),"anims/dummy")
+object.sendEvent(t,"anims","onsetTarget",target)
+
+hashtable.add(this.tarjetas(),id,t)
+hashtable.add(this.dummies(),id,target)
+
+
+local cmdstring="<scale id=\""..id.."\" x=\"1\" y=\"1\" z=\"1\" mode=\"set\" />"
+log.message(cmdstring)
+xml.createFromString(this.tcmd(),cmdstring)
+local _c=xml.getRootElement(this.tcmd())
+this.exec(_c)
+end
+
+elseif(name=="set_model")then
+
+local t=hashtable.get(this.tarjetas(),id)
+local model=this.getParamValue(cmd,"model")
+local model_name=hashtable.get(this.modelos(),model)
+if(model~=nil and model_name~=nil and t~=nil)then
+log.message("set_model: ("..id..") "..model_name)
+local tanim=group.getSubObjectAt(t,0)
+
+local numhijos=group.getSubObjectCount(tanim)
+if(numhijos>0)then
+log.message("Eliminando modelo anterior ("..numhijos..")")
+for hijo=0,(numhijos-1)do
+local tanimhijo=group.getSubObjectAt(tanim,hijo)
+if(tanimhijo~=nil)then
+object.setParent(tanimhijo,nil,false)
+scene.destroyRuntimeObject(application.getCurrentUserScene(),tanimhijo)
+end
+end
+end
+
+local t2=scene.createRuntimeObject(application.getCurrentUserScene(),model.."/"..model_name)
+
+object.setParent(t2,tanim,false)
+end
+elseif(name=="set_texture")then
+
+local t=hashtable.get(this.tarjetas(),id)
+local texture=this.getParamValue(cmd,"texture")
+local ext=hashtable.get(this.textures(),texture)
+if(texture~=nil and ext~=nil and t~=nil)then
+log.message("set_texture: ("..id..") "..ext)
+
+local tanim=group.getSubObjectAt(t,0)
+local ttemp=group.getSubObjectAt(tanim,0)
+local tgeom=group.getSubObjectAt(ttemp,0)
+log.message(tgeom)
+if(ext=="ogg")then
+shape.overrideMeshMaterialEffectMap0(tgeom,texture,shape.kMapTypeMovie)
+else
+shape.overrideMeshMaterialEffectMap0(tgeom,texture,shape.kMapTypeTexture)
+end
+end
+
+elseif(name=="set_position")then
+
+
+local t=hashtable.get(this.tarjetas(),id)
+local d=hashtable.get(this.dummies(),id)
+local targetp=this.getParamValue(cmd,"target")
+local target=scene.getTaggedObject(application.getCurrentUserScene(),targetp)
+if(t~=nil and d~=nil and target~=nil)then
+log.message("set_position: ("..id..") "..targetp)
+local x,y,z=object.getTranslation(target,object.kGlobalSpace)
+local rx,ry,rz=object.getRotation(target,object.kGlobalSpace)
+object.setTranslation(d,x,y,z,object.kGlobalSpace)
+object.setRotation(d,rx,ry,rz,object.kGlobalSpace)
+if(mode~=nil and mode=="set")then
+
+object.setTranslation(t,x,y,z,object.kGlobalSpace)
+object.setRotation(t,rx,ry,rz,object.kGlobalSpace)
+end
+end
+
+elseif(name=="move")then
+
+
+local t=hashtable.get(this.tarjetas(),id)
+local d=hashtable.get(this.dummies(),id)
+local x=this.getParamValueN(cmd,"x")
+local y=this.getParamValueN(cmd,"y")
+local z=this.getParamValueN(cmd,"z")
+local sf=this.scaleFactor()
+if(t~=nil and d~=nil)then
+if(x==nil)then x=0 end
+if(y==nil)then y=0 end
+if(z==nil)then z=0 end
+log.message("move: ("..id..") x:"..x.." y:"..y.." z:"..z)
+object.translate(d,-z*sf,y*sf,x*sf,object.kLocalSpace)
+if(mode~=nil and mode=="set")then
+
+object.translate(t,-z*sf,y*sf,x*sf,object.kLocalSpace)
+end
+end
+
+elseif(name=="rotate")then
+
+
+local t=hashtable.get(this.tarjetas(),id)
+local d=hashtable.get(this.dummies(),id)
+local rx=this.getParamValueN(cmd,"x")
+local ry=this.getParamValueN(cmd,"y")
+local rz=this.getParamValueN(cmd,"z")
+if(t~=nil and d~=nil)then
+if(rx==nil)then rx=0 end
+if(ry==nil)then ry=0 end
+if(rz==nil)then rz=0 end
+log.message("rotate: ("..id..") x:"..rx.." y:"..ry.." z:"..rz)
+object.rotate(d,rx,ry,rz,object.kLocalSpace)
+if(mode~=nil and mode=="set")then
+
+object.rotate(t,rx,ry,rz,object.kLocalSpace)
+end
+end
+
+elseif(name=="scale")then
+
+
+local t=hashtable.get(this.tarjetas(),id)
+local d=hashtable.get(this.dummies(),id)
+local sx=this.getParamValueN(cmd,"x")
+local sy=this.getParamValueN(cmd,"y")
+local sz=this.getParamValueN(cmd,"z")
+local sf=this.scaleFactor()
+if(t~=nil and d~=nil)then
+if(sx==nil)then sx=1 end
+if(sy==nil)then sy=1 end
+if(sz==nil)then sz=1 end
+log.message("scale: ("..id..") x:"..sx.." y:"..sy.." z:"..sz)
+object.setScale(d,sx*sf,sy*sf,sz*sf)
+if(mode~=nil and mode=="set")then
+
+object.setScale(t,sx*sf,sy*sf,sz*sf)
+end
+end
+elseif(name=="alpha")then
+
+
+local t=hashtable.get(this.tarjetas(),id)
+local al=this.getParamValueN(cmd,"level")
+if(t~=nil)then
+if(al==nil)then al=0 end
+log.message("alpha: ("..id..") "..al)
+object.sendEvent(t,"anims","onSetAlfa",al,mode)
+end
+elseif(name=="delete")then
+
+local t=hashtable.get(this.tarjetas(),id)
+if(t~=nil)then
+
+scene.destroyRuntimeObject(application.getCurrentUserScene(),t)
+hashtable.remove(this.tarjetas(),id)
+
+local d=hashtable.get(this.dummies(),id)
+if(d~=nil)then
+scene.destroyRuntimeObject(application.getCurrentUserScene(),d)
+hashtable.remove(this.dummies(),id)
+end
+end
+
+elseif(name=="delete_all")then
+log.message("delete_all:")
+while(not hashtable.isEmpty(this.tarjetas()))do
+local id=hashtable.getKeyAt(this.tarjetas(),0)
+local cmdstring="<delete id=\""..id.."\" />"
+log.message(cmdstring)
+xml.createFromString(this.tcmd(),cmdstring)
+local _c=xml.getRootElement(this.tcmd())
+this.exec(_c)
+end
+
+
+
+elseif(name=="set")then
+
+log.message("set variable: "..id)
+local v=this.getParamValue(cmd,"value")
+if(v~=nil)then
+
+ if(hashtable.contains(this.variables(),id))then
+hashtable.set(this.variables(),id,v)
+else
+hashtable.add(this.variables(),id,v)
+end
+else
+ log.message("removed")
+hashtable.remove(this.variables(),id)
+end
+
+
+
+
+elseif(name=="print")then
+
+log.message("print: "..id)
+log.message(hashtable.get(this.variables(),id))
+
+elseif(name=="test")then
+log.message("---------------------- preload")
+local model_id="tarjeta"
+local model_name="tarjeta"
+cache.addFile(model_id..".stk","tarjeta.stk")
+hashtable.add(this.modelos(),model_id,model_name)
+
+log.message("---------------------- create")
+local t=scene.createRuntimeObject(application.getCurrentUserScene(),model_id.."/"..model_name)
+local tarjeta_id="1"
+hashtable.add(this.tarjetas(),tarjeta_id,t)
+log.message("----------------------")
+
+elseif(name=="rollback")then
+
+
+
+
+else
+log.message("  comando no reconocido")
+return true
+end
+return false
+end
+
+end

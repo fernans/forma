@@ -1,0 +1,164 @@
+<formacmds>
+	<init>
+		<debug show="true" />
+		<loadscn scene="ciudad_base" />
+		<setcamera cam_tag="_camera" />
+		<preload type="model" id="1" file="data/tarjeta.stk" model="tarjetaSinMarco" />
+		<preload type="texture" id="1" file="data/0_portada.jpg" ext="jpg" />
+		<preload type="texture" id="2" file="data/01_indice.jpg" ext="jpg" />
+		<preload type="texture" id="11" file="data/1_Concepto_01.jpg" ext="jpg" />
+		<preload type="texture" id="12" file="data/1_Concepto_02.jpg" ext="jpg" />
+		<preload type="texture" id="13" file="data/1_Concepto_03.jpg" ext="jpg" />
+		<preload type="texture" id="14" file="data/1_Concepto_04.jpg" ext="jpg" />
+		<preload type="texture" id="21" file="data/2_Imagen_Grafica_01.jpg" ext="jpg" />
+		<preload type="texture" id="22" file="data/2_Imagen_Grafica_02.jpg" ext="jpg" />
+		<preload type="texture" id="23" file="data/2_Imagen_Grafica_03.jpg" ext="jpg" />
+		<preload type="texture" id="24" file="data/2_Imagen_Grafica_04.jpg" ext="jpg" />
+		<preload type="texture" id="25" file="data/2_Imagen_Grafica_05.jpg" ext="jpg" />
+		<preload type="texture" id="26" file="data/2_Imagen_Grafica_06.jpg" ext="jpg" />
+		<preload type="texture" id="31" file="data/3_Publico_objetivo_01.jpg" ext="jpg" />
+		<preload type="texture" id="32" file="data/3_Publico_objetivo_02.jpg" ext="jpg" />
+		<preload type="texture" id="41" file="data/4_Diseño_espacial_01.jpg" ext="jpg" />
+		<preload type="texture" id="42" file="data/4_Diseño_espacial_02.jpg" ext="jpg" />
+		<preload type="texture" id="43" file="data/4_Diseño_espacial_03.jpg" ext="jpg" />
+		<preload type="texture" id="44" file="data/4_Diseño_espacial_04.jpg" ext="jpg" />
+		<preload type="texture" id="45" file="data/4_Diseño_espacial_05.jpg" ext="jpg" />
+		<preload type="texture" id="51" file="data/5_Planos_01.jpg" ext="jpg" />
+		<preload type="texture" id="52" file="data/5_Planos_02.jpg" ext="jpg" />
+		<preload type="texture" id="53" file="data/5_Planos_03.jpg" ext="jpg" />
+		<preload type="texture" id="54" file="data/5_Planos_04.jpg" ext="jpg" />
+		<preload type="texture" id="55" file="data/5_Planos_05.jpg" ext="jpg" />
+		<preload type="texture" id="56" file="data/5_Planos_06.jpg" ext="jpg" />
+		<preload type="texture" id="601" file="data/6_Desarrollo_tematico_01.jpg" ext="jpg" />
+		<preload type="texture" id="602" file="data/6_Desarrollo_tematico_02.jpg" ext="jpg" />
+		<preload type="texture" id="603" file="data/6_Desarrollo_tematico_03.jpg" ext="jpg" />
+		<preload type="texture" id="604" file="data/6_Desarrollo_tematico_04.jpg" ext="jpg" />
+		<preload type="texture" id="605" file="data/6_Desarrollo_tematico_05.jpg" ext="jpg" />
+		<preload type="texture" id="606" file="data/6_Desarrollo_tematico_06.jpg" ext="jpg" />
+		<preload type="texture" id="607" file="data/6_Desarrollo_tematico_07.jpg" ext="jpg" />
+		<preload type="texture" id="608" file="data/6_Desarrollo_tematico_08.jpg" ext="jpg" />
+		<preload type="texture" id="609" file="data/6_Desarrollo_tematico_09.jpg" ext="jpg" />
+		<preload type="texture" id="610" file="data/6_Desarrollo_tematico_10.jpg" ext="jpg" />
+		<preload type="texture" id="611" file="data/6_Desarrollo_tematico_11.jpg" ext="jpg" />
+		<preload type="texture" id="612" file="data/6_Desarrollo_tematico_12.jpg" ext="jpg" />
+		<preload type="texture" id="613" file="data/6_Desarrollo_tematico_13.jpg" ext="jpg" />
+		<preload type="texture" id="614" file="data/6_Desarrollo_tematico_14.jpg" ext="jpg" />
+		<preload type="texture" id="615" file="data/6_Desarrollo_tematico_15.jpg" ext="jpg" />
+		<preload type="texture" id="616" file="data/6_Desarrollo_tematico_16.jpg" ext="jpg" />
+		<preload type="texture" id="617" file="data/6_Desarrollo_tematico_17.jpg" ext="jpg" />
+		<preload type="texture" id="618" file="data/6_Desarrollo_tematico_18.jpg" ext="jpg" />
+		<preload type="texture" id="619" file="data/6_Desarrollo_tematico_19.jpg" ext="jpg" />
+		<preload type="texture" id="620" file="data/6_Desarrollo_tematico_20.jpg" ext="jpg" />
+		
+		<camera cmd="device" value="0" />
+		<camera cmd="fps" value="25" />
+		<camera cmd="width" value="320" />
+		<camera cmd="height" value="240" />
+		<camera cmd="start" />
+
+					<load />
+	</init>
+	<blocks>
+	   <block>
+              	<init>
+			<cameragoto place="1" />
+			<create id="1" />
+			<set_model id="1" model="1" />
+			<set_texture id="1" texture="1" />
+			<set_position id="1" target="_p1r" mode="set"/>
+			<create id="2" />
+			<set_model id="2" model="1" />
+			<set_texture id="2" texture="2" />
+			<set_position id="2" target="_p1r" mode="set"/>			
+				<set id="retroceder" value="-10" />
+				<print id="retroceder" />
+	      	</init>
+	      	<slides>
+			<slide>
+				<set_position id="1" target="_p1r" />
+				<set_position id="2" target="_p1r" />
+				<move id="2" x="0" y="0" z="$retroceder" />
+			</slide>
+			<slide>
+				<animation id="1" anim="1" layer="0" level="1" speed="0.5" mode="once" scale="0.1" />
+			</slide>
+			<slide>
+				<animation id="1" anim="0" />
+			</slide>
+			<slide><cameramove x="100" /></slide>
+			<slide>
+				<delay value="3" />
+				<camerareset mode="set" />
+			</slide>
+			<slide>
+				<delay value="0.5" />
+				<set_position id="1" target="_p1c" />
+				<set_position id="2" target="_p1r" />
+			</slide>
+<slide><cameraanimation anim="1" speed="0.5" mode="mirror" /></slide>
+			
+<slide><cameraanimation anim="0" /></slide>
+			<slide>
+				<set_position id="1" target="_p1l" />
+				<set_position id="2" target="_p1c" />
+			</slide>
+			<slide>
+				<set_texture_video id="2" />
+			</slide>
+			<slide>
+				<move id="1" x="0" y="0" z="$retroceder" />
+				<set_position id="2" target="_p1l" />
+			</slide>
+			<slide>
+				<set_texture id="2" texture="2" />
+			</slide>
+			<slide>
+				<alpha id="2" value="0" />
+			</slide>
+		</slides>
+		<end>
+			<delete_all />
+		</end>
+	   </block>
+	   <block>
+              	<init>
+			<cameragoto place="2" />
+			<create id="1" />
+			<set_model id="1" model="1" />
+			<set_texture id="1" texture="1" />			
+			<create id="2" />
+			<set_model id="2" model="1" />
+			<set_texture id="2" texture="2" />			
+			<create id="3" />
+			<set_model id="3" model="1" />
+			<set_texture id="3" texture="3" />
+			<set_position id="1" target="_p2c" mode="set" />
+			<set_position id="2" target="_p2r" mode="set" />
+			<set_position id="3" target="_p2l" mode="set" />
+	      	</init>
+		<slides>
+			<slide>
+				<set_position id="1" target="_p2c" />
+				<set_position id="2" target="_p2r" />
+				<set_position id="3" target="_p2l" />
+			</slide>
+			<slide>
+				<set_position id="1" target="_p2l" />
+				<set_position id="2" target="_p2c" />
+				<set_position id="3" target="_p2r" />
+				<goto block="-1" slide="-1" />
+			</slide>
+			<slide>
+				<set_position id="1" target="_p2r" />
+				<set_position id="2" target="_p2l" />
+				<set_position id="3" target="_p2c" />
+			</slide>
+	     	</slides>
+             	<end>
+                	<delete_all />
+             	</end>
+	   </block>		
+	</blocks>
+	<end>
+	</end>
+</formacmds>

@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="MainService.asmx.cs" Class="Ppt2SwfWebService.MainService" %>

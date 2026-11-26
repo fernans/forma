@@ -1,0 +1,167 @@
+Here is the new format you can use with OGMuxer :)
+
+Before starting, here is a "short" description of what you put here.
+You can use two main section types :
+ - input  : describe an input file ;)
+ - output : describe THE output file ^^ (if multiple output sections only the first one is considered)
+ 
+Text values (this includes value of a section - the text you put in it) must be kind of HTML-like.
+(see OGMuxer.txt for details)
+
+Each of these sections can have some subsections or attributes.
+Possible subsections are :
+ - comment    : a comment for the input
+ - chapters   : for importing chapters from a file (SmartRipper or chapterXtractor only)
+ - type       : to specify the type of the input
+ - title      : to specify the "main" title for the output (comment applied to all video streams)
+ - title_part : to specify titles for (possible) parts when cutting/splitting
+
+
+[input section]
+Accepted subsections : comment, chapters, type
+ Attribute Name     Vital    Default    What is it ?
+ --------------     -----    -------    ------------
+ file               YES      none       the name of the file
+ reprocess_audio    no       0 (=no)(*) do you want to reprocess audio ? (only effective on AVI or WAV file) (*)
+ offset             no       0          the offset (integer, in ms) you want to use for the input
+ streams            no       none       rules telling whether or not streams should be kept (**)
+
+(*)reprocess audio (read OGMuxer.txt to know what it is exactly)
+The default value is 0 (=no). However using --reprocess in the commandline before the -s option that open this file
+will set the default value to 1 (=yes).
+For AVI files, reprocessing audio could give you better results (especially if your file contains a VBR MP3/AC3 stream).
+However if your AVI file was cut and remerged, this may be a problem.
+For WAV files using "reprocess audio" or forcing file type (see type subsection) should give you the same results
+, except that "reprocessing audio" requires more memory and time ...
+(**)rules
+By default all streams in an AVI or OGM file are kept and muxed in the final OGM.
+You can specify here what streams to keep / skip. The rule is defined by strings of the type "%action%%type%%nb%"
+where %action% can be :
+ - '+' means the following streams must be kept
+ - '-' means the following streams must be skipped
+and %type% :
+ - 'V' stands for video
+ - 'A' stands for audio
+ - 'T' stands for text
+ - 'U' stands for unknown
+%nb% is optional and stands for the number of the stream for the concerned type (relative number, not serial).
+For example "-A-V+A1" means remove all audio and video streams, except the first audio stream.
+Restriction : the video stream of an AVI file cannot be removed. If you want the audio stream(s), then the way
+to do is to demux them.
+
+
+[comment subsection]
+The value of this section is the value of the comment.
+Reminder :
+ - if your comment is named TITLE and its value is "My title", then the comment in the OGM file will be "TITLE=My title"
+ - if you don't precise a comment name or a comment value, then the comment is equal to the name or the value itself
+ Attribute Name     Vital    Default    What is it ?
+ --------------     -----    -------    ------------
+ name               no       none       the name of the comment (TITLE, LANGUAGE, ...)
+
+
+[chapters subsection]
+ Attribute Name     Vital    Default    What is it ?
+ --------------     -----    -------    ------------
+ file               YES      none       the name of the file from which you want to import the chapters
+
+
+[type subsection]
+The value of this subsection is used to force OGMuxer to open the file as of the type you want.
+When opening a file, OGMuxer tests its type in this order : SRT, AVI, WAV, OGG/OGM, DTS, AC3, MP3.
+The first type that seems to correspond (headers of the file, ...) is the one used to open the file.
+This make sometimes (not too often fortunately) OGMuxer think a file to be of one type while it is not the case.
+That is where this subsection is usefull. Possible values :
+ - AVI : AVI file
+ - WAV : WAV file
+ - OGG : Ogg Vorbis file (*)
+ - OGM : Ogg Media file (*)
+ - DTS : DTS file
+ - AC3 : AC3 file
+ - MP3 : MP3 file
+ - SRT : SRT file
+This section is especially usefull when you have a Waved MP3/AC3 file but don't want OGMuxer to open it as
+a WAV file but as a MP3/AC3 one (for doing so you can use "reprocessing audio" or forcing type).
+If the type you precised is not a good one (i.e. you said OGM but it is an AVI file) then OGMuxer will
+complain about it (error message) and stop before muxing.
+
+(*) In fact Ogg and OGM files are opened the same way (similar structure).
+
+
+[output section]
+ Attribute Name     Vital    Default    What is it ?
+ --------------     -----    -------    ------------
+ file               YES      none       the name of the file where to write
+ clip_to_video      no       0 (=no)    whether or not you want to cut other streams when the video ends
+ split              no       0          size of the parts when splitting the resulting OGM file (*)
+ cut_frames         no       none       to precise the frames (frame number or time) where to cut (see OGMuxer.txt for more details)
+ nb_parts           no       infinite   the maximum number of parts to write per subset (see OGMuxer.txt for details concerning subsets)
+ chapter_behaviour  no       7          what to do with chapters when splitting/cutting (see OGMuxer.txt for details)
+ simulate           no       0 (=no)    simulate ? (1 (=yes) (**) means OGMuxer stop before muxing, but tell you what should be done)
+
+(*) split size is in bytes by default. However you can use 'K' or 'M' suffix for Kilo/Mega-Bytes.
+split="700M" means split at 700MB = 716800KB = 734003200 Bytes
+(**) when using simulate, a short sum-up of what you put in the Setup file will be shown before analyze starts.
+
+[title subsection]
+The value of this subsection is the name of the main title.
+
+
+[part_title subsection]
+The value of this subsection is the name of the title to use for a part.
+First part_title subsection = title for the first part.
+Second part_title subsection = ...
+
+
+Of course the "{{...%n...}}" block is allowed in both type of subsections.
+To know how OGMuxer uses main title and part titles, see OGMuxer.txt.
+
+And now what you are all expecting, a real example :
+
+Here is the video input (AVI file) 
+<input file="C:\My Input 1.avi">
+  <comment name="TITLE">My title{{ - part %n}}</comment>
+  <comment name="DESCRIPTION">
+Video clip made by Me &lt;me@my.com&gt;
+Copyright 2002 (C) Me
+  </comment>
+  Note that both definitions are allowed :
+  <chapters file="C:\Tmp\My chapters 1.txt" />
+  (chapters in this second file will be put after the previous ones, and reindexed consequently)
+  <chapters file="C:\Tmp\My chapters 2.txt"></chapters>
+</input>
+
+Here is an Ogg file. Use a delay of 100ms (the audio will play 100ms later).
+<input file="C:\My Input 2.ogg" offset="100">
+  <comment name="LANGUAGE">English</comment>
+  <comment>Made by Me</comment>
+</input>
+
+Here is a waved AC3 file. Use a delay of -100ms (the audio will play earlier) and reprocess the audio.
+<input file="C:\My Input 3 (Waved AC3).wav" offset="-100" reprocess="1">
+  <comment name="LANGUAGE">French</comment>
+</input>
+
+Here is a waved MP3 file. Use a delay of -100ms, don't use reprocessing but force open this file as a MP3 one.
+<input file="C:\My Input 4 (Waved MP3).wav" offset="-100">
+  <comment name="LANGUAGE">Spanish</comment>
+  <format>MP3</format>
+</input>
+
+Finally the subtitles. Delay the subtitles by 1s.
+<input file="C:\My Input 5.srt" offset="1000">
+  <comment name="LANGUAGE">French</comment>
+</input>
+
+And the output (cut, split, maximize number and size of parts, change the default chapter behaviour and don't simulate muxing).
+<output file="C:\My output.ogm" split="700M" cut_frames="0 100000 100000" nb_parts="3" chapter_behaviour="3" simulate="0">
+  Well as we defined the title subsection here, the TITLE comment we put for the video stream before will be replaced by this one
+  <title>Main title{{ - Part %n}}</title>
+  <part_title>Title of the first part</part_title>
+  <part_title>Title of the part{{ %n}}</part_title>
+</output>
+
+
+All done :)
+And you know what ? Even with all my comments this file is still effective. Indeed the comments belong to sections of the file
+OGMuxer don't care ;)

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="inicial.xsl"?>
+
+<ExportReport name="inicial" Compress_Size="4998443" UnCompress_Size="37223943" FileCount="142" >
+	<Resource Name="AnimClips" Compress_Size="13107" UnCompress_Size="30490" FileCount="21" >
+		<File Name="cam_12" UnCompress_Size="824" Compress_Size="487" Extension="ani" />
+		<File Name="cam_24" UnCompress_Size="1120" Compress_Size="432" Extension="ani" />
+		<File Name="cam_31" UnCompress_Size="1120" Compress_Size="436" Extension="ani" />
+		<File Name="circulo_07_AnimClip" UnCompress_Size="10134" Compress_Size="4279" Extension="ani" />
+		<File Name="cam_54" UnCompress_Size="1120" Compress_Size="565" Extension="ani" />
+		<File Name="cam_41" UnCompress_Size="1120" Compress_Size="446" Extension="ani" />
+		<File Name="cam_25" UnCompress_Size="1120" Compress_Size="390" Extension="ani" />
+		<File Name="cam_13" UnCompress_Size="544" Compress_Size="329" Extension="ani" />
+		<File Name="cam_32" UnCompress_Size="1120" Compress_Size="432" Extension="ani" />
+		<File Name="cam_42" UnCompress_Size="1120" Compress_Size="439" Extension="ani" />
+		<File Name="cam_43" UnCompress_Size="1120" Compress_Size="404" Extension="ani" />
+		<File Name="cam_14" UnCompress_Size="544" Compress_Size="321" Extension="ani" />
+		<File Name="cam_52" UnCompress_Size="1120" Compress_Size="506" Extension="ani" />
+		<File Name="cam_53" UnCompress_Size="1120" Compress_Size="577" Extension="ani" />
+		<File Name="cam_15" UnCompress_Size="524" Compress_Size="307" Extension="ani" />
+		<File Name="cam_23" UnCompress_Size="1120" Compress_Size="445" Extension="ani" />
+		<File Name="cam_21" UnCompress_Size="1120" Compress_Size="435" Extension="ani" />
+		<File Name="cam_34" UnCompress_Size="1120" Compress_Size="445" Extension="ani" />
+		<File Name="cam_51" UnCompress_Size="1120" Compress_Size="562" Extension="ani" />
+		<File Name="cam_45" UnCompress_Size="1120" Compress_Size="438" Extension="ani" />
+		<File Name="cam_35" UnCompress_Size="1120" Compress_Size="432" Extension="ani" />
+	</Resource>
+	<Resource Name="Scripts" Compress_Size="14938" UnCompress_Size="27588" FileCount="30" >
+		<File Name="animatedCam_Handler_onSetOffset" UnCompress_Size="322" Compress_Size="220" Extension="lub" />
+		<File Name="baseAI_State_ready_onLoop" UnCompress_Size="388" Compress_Size="281" Extension="lub" />
+		<File Name="anims_Handler_onsetTarget" UnCompress_Size="197" Compress_Size="140" Extension="lub" />
+		<File Name="baseAI_Handler_onGotoSlide" UnCompress_Size="1310" Compress_Size="721" Extension="lub" />
+		<File Name="baseAI_State_loading_onEnter" UnCompress_Size="214" Compress_Size="135" Extension="lub" />
+		<File Name="anims_Handler_onEnterFrame" UnCompress_Size="654" Compress_Size="400" Extension="lub" />
+		<File Name="anims_Handler_onSetAnim" UnCompress_Size="1500" Compress_Size="758" Extension="lub" />
+		<File Name="baseAI_State_ready_onLeave" UnCompress_Size="153" Compress_Size="103" Extension="lub" />
+		<File Name="baseAI_Function_existsBlock" UnCompress_Size="462" Compress_Size="318" Extension="lub" />
+		<File Name="baseAI_Function_getSection" UnCompress_Size="820" Compress_Size="516" Extension="lub" />
+		<File Name="animatedCam_Function_getGoto" UnCompress_Size="873" Compress_Size="410" Extension="lub" />
+		<File Name="animatedCam_Handler_onsetTarget" UnCompress_Size="752" Compress_Size="449" Extension="lub" />
+		<File Name="baseAI_Handler_onInit" UnCompress_Size="1172" Compress_Size="689" Extension="lub" />
+		<File Name="baseAI_State_loading_onLoop" UnCompress_Size="620" Compress_Size="418" Extension="lub" />
+		<File Name="baseAI_State_loading_onLeave" UnCompress_Size="214" Compress_Size="135" Extension="lub" />
+		<File Name="baseAI_Function_getLast" UnCompress_Size="601" Compress_Size="382" Extension="lub" />
+		<File Name="baseAI_Handler_onKeyboardKeyUp" UnCompress_Size="1014" Compress_Size="567" Extension="lub" />
+		<File Name="anims_Function_setAlfa" UnCompress_Size="492" Compress_Size="336" Extension="lub" />
+		<File Name="anims_Handler_onResetAnim" UnCompress_Size="504" Compress_Size="337" Extension="lub" />
+		<File Name="baseAI_Function_exec" UnCompress_Size="10015" Compress_Size="4247" Extension="lub" />
+		<File Name="baseAI_State_ready_onEnter" UnCompress_Size="674" Compress_Size="412" Extension="lub" />
+		<File Name="anims_Handler_onSetAlfa" UnCompress_Size="230" Compress_Size="155" Extension="lub" />
+		<File Name="animatedCam_Function_init" UnCompress_Size="463" Compress_Size="281" Extension="lub" />
+		<File Name="baseAI_Function_getParamValueN" UnCompress_Size="270" Compress_Size="190" Extension="lub" />
+		<File Name="baseAI_Handler_onCmds" UnCompress_Size="561" Compress_Size="361" Extension="lub" />
+		<File Name="baseAI_Function_getParamValue" UnCompress_Size="502" Compress_Size="334" Extension="lub" />
+		<File Name="animatedCam_Handler_onGoto" UnCompress_Size="635" Compress_Size="395" Extension="lub" />
+		<File Name="animatedCam_Handler_onResetOffset" UnCompress_Size="406" Compress_Size="237" Extension="lub" />
+		<File Name="baseAI_Function_getSlide" UnCompress_Size="972" Compress_Size="604" Extension="lub" />
+		<File Name="baseAI_Function_hideTags" UnCompress_Size="598" Compress_Size="407" Extension="lub" />
+	</Resource>
+	<Resource Name="Textures" Compress_Size="4699008" UnCompress_Size="36552048" FileCount="22" >
+		<File Name="prueba10_sala_verde" UnCompress_Size="5592560" Compress_Size="597942" Extension="dds" />
+		<File Name="hdr_rtt" UnCompress_Size="349672" Compress_Size="223319" Extension="dds" />
+		<File Name="lineaglow_05" UnCompress_Size="699280" Compress_Size="56939" Extension="dds" />
+		<File Name="letras_escenario_02" UnCompress_Size="88208" Compress_Size="33245" Extension="dds" />
+		<File Name="prueba10_pastilla20blanca04CompleteMap" UnCompress_Size="1398256" Compress_Size="75943" Extension="dds" />
+		<File Name="prueba10_pastilla20blanca01CompleteMap" UnCompress_Size="1398256" Compress_Size="75896" Extension="dds" />
+		<File Name="prueba10_pastilla20gris03CompleteMap" UnCompress_Size="1398256" Compress_Size="123159" Extension="dds" />
+		<File Name="luz_cenital" UnCompress_Size="1398256" Compress_Size="330504" Extension="dds" />
+		<File Name="prueba10_pastilla20blanca02CompleteMap" UnCompress_Size="1398256" Compress_Size="75042" Extension="dds" />
+		<File Name="glow" UnCompress_Size="22000" Compress_Size="9933" Extension="dds" />
+		<File Name="prueba10_pastilla20grisCompleteMap" UnCompress_Size="1398256" Compress_Size="123086" Extension="dds" />
+		<File Name="letra_escenario" UnCompress_Size="88208" Compress_Size="34354" Extension="dds" />
+		<File Name="prueba10_pastilla20gris01_Blanca" UnCompress_Size="1398256" Compress_Size="125258" Extension="dds" />
+		<File Name="prueba10_pastilla20blancaCompleteMap" UnCompress_Size="1398256" Compress_Size="76182" Extension="dds" />
+		<File Name="prueba10_pastilla20gris04CompleteMap" UnCompress_Size="1398256" Compress_Size="123876" Extension="dds" />
+		<File Name="prueba10_sala_negro" UnCompress_Size="5592560" Compress_Size="1179323" Extension="dds" />
+		<File Name="prueba10_sala" UnCompress_Size="5592560" Compress_Size="823903" Extension="dds" />
+		<File Name="prueba10_pastilla20gris01CompleteMap" UnCompress_Size="1398256" Compress_Size="120033" Extension="dds" />
+		<File Name="prueba10_pastilla20blanca03CompleteMap" UnCompress_Size="1398256" Compress_Size="76582" Extension="dds" />
+		<File Name="reflejo" UnCompress_Size="349672" Compress_Size="222573" Extension="dds" />
+		<File Name="DefaultFont" UnCompress_Size="1398256" Compress_Size="69994" Extension="dds" />
+		<File Name="prueba10_pastilla20gris02CompleteMap" UnCompress_Size="1398256" Compress_Size="121922" Extension="dds" />
+	</Resource>
+	<Resource Name="Meshes" Compress_Size="257302" UnCompress_Size="551507" FileCount="23" >
+		<File Name="letras_geom-Cylinder13" UnCompress_Size="2453" Compress_Size="1239" Extension="msh" />
+		<File Name="prueba10_geom-pastilla_gris01" UnCompress_Size="12397" Compress_Size="6075" Extension="msh" />
+		<File Name="prueba10_geom-pastilla_blanca02" UnCompress_Size="78509" Compress_Size="35786" Extension="msh" />
+		<File Name="circulo_07_geom-Donut05" UnCompress_Size="6493" Compress_Size="1771" Extension="msh" />
+		<File Name="glow_02" UnCompress_Size="293" Compress_Size="110" Extension="msh" />
+		<File Name="prueba10_geom-pastilla_gris" UnCompress_Size="12397" Compress_Size="6081" Extension="msh" />
+		<File Name="letras_geom-Cylinder12" UnCompress_Size="2453" Compress_Size="1295" Extension="msh" />
+		<File Name="letras_geom-Cylinder07" UnCompress_Size="2453" Compress_Size="1239" Extension="msh" />
+		<File Name="luz_cenital" UnCompress_Size="293" Compress_Size="107" Extension="msh" />
+		<File Name="prueba10_geom-pastilla_gris02" UnCompress_Size="12397" Compress_Size="6002" Extension="msh" />
+		<File Name="prueba10_geom-pastilla_blanca01" UnCompress_Size="78509" Compress_Size="35909" Extension="msh" />
+		<File Name="circulo_07_geom-Donut06" UnCompress_Size="6493" Compress_Size="1730" Extension="msh" />
+		<File Name="circulo_07_geom-Donut07" UnCompress_Size="6493" Compress_Size="1701" Extension="msh" />
+		<File Name="prueba10_geom-pastilla_gris03" UnCompress_Size="12397" Compress_Size="6056" Extension="msh" />
+		<File Name="test_geom-_camera" UnCompress_Size="349" Compress_Size="176" Extension="msh" />
+		<File Name="letras_geom-Cylinder09" UnCompress_Size="2453" Compress_Size="1248" Extension="msh" />
+		<File Name="prueba10_geom-pastilla_blanca04" UnCompress_Size="78509" Compress_Size="35850" Extension="msh" />
+		<File Name="cilindro_lineas_verde_geom-Cylinder01" UnCompress_Size="4733" Compress_Size="2167" Extension="msh" />
+		<File Name="letras_geom-Cylinder08" UnCompress_Size="2453" Compress_Size="1283" Extension="msh" />
+		<File Name="prueba10_geom-sala" UnCompress_Size="59565" Compress_Size="33776" Extension="msh" />
+		<File Name="prueba10_geom-pastilla_gris04" UnCompress_Size="12397" Compress_Size="5988" Extension="msh" />
+		<File Name="prueba10_geom-pastilla_blanca" UnCompress_Size="78509" Compress_Size="35345" Extension="msh" />
+		<File Name="prueba10_geom-Box09" UnCompress_Size="78509" Compress_Size="36368" Extension="msh" />
+	</Resource>
+	<Resource Name="Materials" Compress_Size="3063" UnCompress_Size="4605" FileCount="34" >
+		<File Name="letras_04" UnCompress_Size="190" Compress_Size="108" Extension="mat" />
+		<File Name="prueba10_baked_01_-_Default-material" UnCompress_Size="105" Compress_Size="91" Extension="mat" />
+		<File Name="circulos_3" UnCompress_Size="65" Compress_Size="54" Extension="mat" />
+		<File Name="sala_verde" UnCompress_Size="88" Compress_Size="71" Extension="mat" />
+		<File Name="lineas_glow_n_02" UnCompress_Size="183" Compress_Size="100" Extension="mat" />
+		<File Name="prueba10_baked_01_-_Default_3-material" UnCompress_Size="105" Compress_Size="91" Extension="mat" />
+		<File Name="prueba10_pastilla_blanca-material" UnCompress_Size="218" Compress_Size="135" Extension="mat" />
+		<File Name="letras_05" UnCompress_Size="186" Compress_Size="104" Extension="mat" />
+		<File Name="pastilla_BLANCA" UnCompress_Size="101" Compress_Size="85" Extension="mat" />
+		<File Name="letras" UnCompress_Size="186" Compress_Size="104" Extension="mat" />
+		<File Name="prueba10_baked_Material__26-material" UnCompress_Size="220" Compress_Size="137" Extension="mat" />
+		<File Name="pastillas_base" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="lineas_glow_n_01" UnCompress_Size="183" Compress_Size="102" Extension="mat" />
+		<File Name="prueba10_baked_baked_salaa_b-material" UnCompress_Size="82" Compress_Size="68" Extension="mat" />
+		<File Name="prueba10_pastilla_gris-material" UnCompress_Size="103" Compress_Size="89" Extension="mat" />
+		<File Name="prueba10_baked_Material__26_3-material" UnCompress_Size="220" Compress_Size="137" Extension="mat" />
+		<File Name="glow_3" UnCompress_Size="73" Compress_Size="56" Extension="mat" />
+		<File Name="letras_02" UnCompress_Size="190" Compress_Size="110" Extension="mat" />
+		<File Name="pastillas_plastico_2" UnCompress_Size="220" Compress_Size="130" Extension="mat" />
+		<File Name="luz_cenital_naranja" UnCompress_Size="80" Compress_Size="68" Extension="mat" />
+		<File Name="circulo" UnCompress_Size="65" Compress_Size="47" Extension="mat" />
+		<File Name="prueba10_baked_Material__26_1-material" UnCompress_Size="220" Compress_Size="137" Extension="mat" />
+		<File Name="lineas_glow_03" UnCompress_Size="183" Compress_Size="107" Extension="mat" />
+		<File Name="glow_02" UnCompress_Size="73" Compress_Size="56" Extension="mat" />
+		<File Name="letras_03" UnCompress_Size="186" Compress_Size="104" Extension="mat" />
+		<File Name="prueba10_baked_01_-_Default_2-material" UnCompress_Size="105" Compress_Size="91" Extension="mat" />
+		<File Name="prueba10_baked_01_-_Default_1-material" UnCompress_Size="105" Compress_Size="91" Extension="mat" />
+		<File Name="test_ColorEffectR138G8B110-material" UnCompress_Size="65" Compress_Size="47" Extension="mat" />
+		<File Name="glow" UnCompress_Size="73" Compress_Size="56" Extension="mat" />
+		<File Name="plastico_negro" UnCompress_Size="178" Compress_Size="83" Extension="mat" />
+		<File Name="circulo_02" UnCompress_Size="65" Compress_Size="49" Extension="mat" />
+		<File Name="escenario_oscuro" UnCompress_Size="88" Compress_Size="69" Extension="mat" />
+		<File Name="prueba10_baked_Material__26_2-material" UnCompress_Size="220" Compress_Size="135" Extension="mat" />
+		<File Name="luz_cenital" UnCompress_Size="80" Compress_Size="67" Extension="mat" />
+	</Resource>
+	<Resource Name="AIModels" Compress_Size="646" UnCompress_Size="1291" FileCount="3" >
+		<File Name="anims" UnCompress_Size="278" Compress_Size="147" Extension="aim" />
+		<File Name="baseAI" UnCompress_Size="723" Compress_Size="341" Extension="aim" />
+		<File Name="animatedCam" UnCompress_Size="290" Compress_Size="158" Extension="aim" />
+	</Resource>
+	<Resource Name="Scenes" Compress_Size="9749" UnCompress_Size="55360" FileCount="3" >
+		<File Name="negro" UnCompress_Size="18246" Compress_Size="3222" Extension="scn" />
+		<File Name="blanco" UnCompress_Size="18841" Compress_Size="3287" Extension="scn" />
+		<File Name="verde" UnCompress_Size="18273" Compress_Size="3240" Extension="scn" />
+	</Resource>
+	<Resource Name="Games" Compress_Size="157" UnCompress_Size="262" FileCount="1" >
+		<File Name="inicial" UnCompress_Size="262" Compress_Size="157" Extension="gam" />
+	</Resource>
+	<Resource Name="HUD" Compress_Size="96" UnCompress_Size="158" FileCount="1" >
+		<File Name="debug" UnCompress_Size="158" Compress_Size="96" Extension="hud" />
+	</Resource>
+	<Resource Name="Fonts" Compress_Size="224" UnCompress_Size="287" FileCount="1" >
+		<File Name="DefaultFont" UnCompress_Size="287" Compress_Size="224" Extension="fnt" />
+	</Resource>
+	<Resource Name="AnimBanks" Compress_Size="132" UnCompress_Size="331" FileCount="2" >
+		<File Name="circulo_07_AnimBank" UnCompress_Size="39" Compress_Size="41" Extension="anb" />
+		<File Name="cam_anims" UnCompress_Size="292" Compress_Size="91" Extension="anb" />
+	</Resource>
+	<Resource Name="PixelMaps" Compress_Size="21" UnCompress_Size="16" FileCount="1" >
+		<File Name="CameraPixelMap" UnCompress_Size="16" Compress_Size="21" Extension="pmp" />
+	</Resource>
+</ExportReport>

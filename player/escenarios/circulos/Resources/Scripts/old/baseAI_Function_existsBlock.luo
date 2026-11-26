@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+function baseAI.existsBlock(iblock)
+
+
+local _doc=xml.getRootElement(this.doc())
+if(_doc~=nil)then
+
+ local _blocks=xml.getElementFirstChildWithName(_doc,"blocks")
+if(_blocks~=nil)then
+
+ local _block=xml.getElementChildAt(_blocks,iblock)
+if(_block~=nil)then
+ return true
+end
+ else log.warning("No blocks")
+end
+ else log.warning("No doc")
+end
+
+ return false
+
+
+end

@@ -1,0 +1,74 @@
+<formacmds>
+	<init>
+		<debug show="true" />
+		<loadscn scene="empty" />
+		<setcamera cam_tag="_camera" />
+		<preload type="model" id="1" file="data/tarjeta.stk" model="tarjetaSinMarco" />
+		<preload type="texture" id="1" file="data/1.jpg" ext="jpg" />
+		<preload type="texture" id="2" file="data/2.jpg" ext="jpg" />
+		<preload type="texture" id="3" file="data/video1.ogg" ext="ogg" />
+		<preload type="texture" id="4" file="data/4.jpg" ext="jpg" />
+		<preload type="texture" id="5" file="data/5.jpg" ext="jpg" />
+		<preload type="texture" id="6" file="data/6.jpg" ext="jpg" />
+		<load />
+		<create id="1" />
+			<set_model id="1" model="1" />
+			<set_texture id="1" texture="1" />
+	</init>
+	<blocks>
+	   <block>
+	      	<slides>
+			<slide>
+			</slide>
+			<slide>
+				<camera cmd="device" value="0" />
+				<camera cmd="width" value="640" v="1280" />
+				<camera cmd="height" value="480" V="720" />
+				<camera cmd="fps" value="25" />
+				<camera cmd="start" />
+				<set_texture_video id="1" />
+			</slide>
+			<slide>
+				<2d_create id="1" />
+				<2d_set_texture id="1" texture="1" />
+			</slide>
+			<slide>
+				<2d_set_texture id="1" texture="3" />
+			</slide>
+			<slide>
+				<2d_pause_texture id="1" />
+			</slide>
+			<slide>
+				<2d_play_texture id="1" />
+			</slide>
+			<slide>
+				<2d_stop_texture id="1" />
+			</slide>
+			<slide>
+				<2d_play_texture id="1" />
+			</slide>
+			<slide>
+				<2d_set_texture id="1" texture="2" />
+			</slide>
+			<slide>
+				<2d_set_texture_video id="1" />
+			</slide>
+			<slide>
+				<2d_set_texture id="1" texture="1" />
+			</slide>
+			<slide>
+				<camera cmd="capture" id="2" />
+			</slide>
+			<slide>
+				<2d_set_texture id="1" texture="2" />
+			</slide>
+
+		</slides>
+		<end>
+
+		</end>
+	   </block>	
+	</blocks>
+	<end>
+	</end>
+</formacmds>

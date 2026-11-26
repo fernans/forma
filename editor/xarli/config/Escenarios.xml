@@ -1,0 +1,67 @@
+<?xml version ="1.0" encoding="utf-8" ?>
+<xml>
+	<escenario nombre="Escenario 1" ruta="xxxxxx">
+		<camaras>
+			<camara nombre="1" id="1" />
+		</camaras>	
+		<lugares>
+			<lugar nombre="Lugar1" id="posicion1" />
+			<lugar nombre="Lugar2" id="posicion2" />
+			<lugar nombre="Lugar3" id="posicion3" />
+			<lugar nombre="Lugar4" id="posicion4" />
+		</lugares>
+		<escenas>
+			<escena nombre="Escena 1 Verde" id="escena1verde" imagen="config/escena1verde.jpg" />
+			<escena nombre="Escena 1 Roja" id="escena1roja" imagen="config/escena1roja.jpg" />
+			<escena nombre="Escena 1 Azul" id="escena1azul" imagen="config/escena1azul.jpg" />
+		</escenas>
+	</escenario>
+	<escenario nombre="Escenario 2" ruta="xxxxxx" idcamara="">
+		<camaras>
+			<camara nombre="1" id="1" />
+		</camaras>	
+		<lugares>
+			<lugar nombre="Lugar1" id="posicion1" />
+			<lugar nombre="Lugar2" id="posicion2" />
+			<lugar nombre="Lugar3" id="posicion3" />
+			<lugar nombre="Lugar4" id="posicion4" />
+		</lugares>
+		<escenas>
+			<escena nombre="Escena 2 Verde" id="escena2verde" imagen="config/escena2verde.jpg" />
+			<escena nombre="Escena 2 Azul" id="escena2azul" imagen="config/escena2azul.jpg" />
+			<escena nombre="Escena 2 Negra" id="escena2negra" imagen="config/escena2negra.jpg" />
+		</escenas>
+	</escenario>
+	<escenario nombre="Escenario 1" ruta="xxxxxx">
+		<camaras>
+			<camara nombre="1" id="1" />
+		</camaras>	
+		<lugares>
+			<lugar nombre="Lugar1" id="posicion1" />
+			<lugar nombre="Lugar2" id="posicion2" />
+			<lugar nombre="Lugar3" id="posicion3" />
+			<lugar nombre="Lugar4" id="posicion4" />
+		</lugares>
+		<escenas>
+			<escena nombre="Escena 1 Verde" id="escena1verde" imagen="config/escena1verde.jpg" />
+			<escena nombre="Escena 1 Roja" id="escena1roja" imagen="config/escena1roja.jpg" />
+			<escena nombre="Escena 1 Azul" id="escena1azul" imagen="config/escena1azul.jpg" />
+		</escenas>
+	</escenario>
+	<escenario nombre="Escenario 2" ruta="xxxxxx" idcamara="">
+		<camaras>
+			<camara nombre="1" id="1" />
+		</camaras>	
+		<lugares>
+			<lugar nombre="Lugar1" id="posicion1" />
+			<lugar nombre="Lugar2" id="posicion2" />
+			<lugar nombre="Lugar3" id="posicion3" />
+			<lugar nombre="Lugar4" id="posicion4" />
+		</lugares>
+		<escenas>
+			<escena nombre="Escena 2 Verde" id="escena2verde" imagen="config/escena2verde.jpg" />
+			<escena nombre="Escena 2 Azul" id="escena2azul" imagen="config/escena2azul.jpg" />
+			<escena nombre="Escena 2 Negra" id="escena2negra" imagen="config/escena2negra.jpg" />
+		</escenas>
+	</escenario>
+</xml>

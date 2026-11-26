@@ -1,0 +1,787 @@
+[05/30 12:20:28] ... Processor 0 :
+[05/30 12:20:28] ... Processor Type : Intel(R) Core(TM)2 Duo CPU     P7550  @ 2.26GHz
+[05/30 12:20:28] ... Processor Speed : 2255 MHz
+[05/30 12:20:28] ... Processor 1 :
+[05/30 12:20:28] ... Processor Type : Intel(R) Core(TM)2 Duo CPU     P7550  @ 2.26GHz
+[05/30 12:20:28] ... Processor Speed : 2255 MHz
+[05/30 12:20:28] ... Display Settings : 1280 x 800, 32 bits 60htz
+[05/30 12:20:28] ... OSVersion : Microsoft Windows XP Service Pack 3
+[05/30 12:20:28] ... Plugin Version release : 2.1.5.7
+[05/30 12:20:28] !!! No Wiimote device found.
+[05/30 12:20:28] !!! No Wiimote device found.
+[05/30 12:20:28] !!! No Wiimote device found.
+[05/30 12:20:28] ... Loading file://C:\Documents and Settings\Administrador\Datos de programa/StoneTrip/Player/S3DStartup.stk
+[05/30 12:20:28] ... Primary Display Adapter : NVIDIA GeForce 9400M        
+[05/30 12:20:28] ... Current Display Mode : 1280 x 800
+[05/30 12:20:28] ... --------------------------------------------
+[05/30 12:20:28] ... Valid Display Modes :
+[05/30 12:20:28] ... 00) 640 x 480
+[05/30 12:20:28] ... 01) 720 x 480
+[05/30 12:20:28] ... 02) 720 x 576
+[05/30 12:20:28] ... 03) 800 x 600
+[05/30 12:20:28] ... 04) 960 x 600
+[05/30 12:20:28] ... 05) 1024 x 768
+[05/30 12:20:28] ... 06) 1088 x 612
+[05/30 12:20:28] ... 07) 1280 x 720
+[05/30 12:20:28] ... 08) 1280 x 768
+[05/30 12:20:28] ... 09) 1280 x 800
+[05/30 12:20:29] ... Using 4x MultiSampling
+[05/30 12:20:29] ... --------------------------------------------
+[05/30 12:20:29] ... Created window render target : 1200x600
+[05/30 12:20:29] ... --------------------------------------------
+[05/30 12:20:29] ... Using OpenGL device driver
+[05/30 12:20:29] ... --------------------------------------------
+[05/30 12:20:29] ... --------------------------------------------
+[05/30 12:20:29] ... GL Vendor : NVIDIA Corporation
+[05/30 12:20:29] ... GL Device : GeForce 9400M/PCI/SSE2
+[05/30 12:20:29] ... GL Driver : 3.0.0
+[05/30 12:20:29] ... --------------------------------------------
+[05/30 12:20:29] ... GL Extensions :
+[05/30 12:20:29] ... --------------------------------------------
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_multitexture
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_texture_env_combine
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_texture_env_add
+[05/30 12:20:29] ... WGL Extension Found : WGL_ARB_pixel_format
+[05/30 12:20:29] ... GL Extension Found : GL_EXT_draw_range_elements
+[05/30 12:20:29] ... GL Extension Found : GL_EXT_texture_edge_clamp
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_texture_border_clamp
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_texture_mirrored_repeat
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_texture_compression
+[05/30 12:20:29] ... GL Extension Found : GL_EXT_texture_compression_s3tc
+[05/30 12:20:29] ... GL Extension Found : GL_EXT_bgra
+[05/30 12:20:29] !!! GL Extension Not Found : GL_APPLE_packed_pixels
+[05/30 12:20:29] ... GL Extension Found : GL_EXT_packed_pixels
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_texture_cube_map
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_texture_rectangle
+[05/30 12:20:29] ... GL Extension Found : GL_EXT_texture_lod_bias
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_pixel_buffer_object
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_vertex_buffer_object
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_vertex_program
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_fragment_program
+[05/30 12:20:29] ... GL Extension Found : GL_EXT_gpu_program_parameters
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_depth_texture
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_shadow
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_fragment_program_shadow
+[05/30 12:20:29] ... GL Extension Found : GL_SGIS_generate_mipmap
+[05/30 12:20:29] ... GL Extension Found : GL_EXT_framebuffer_object
+[05/30 12:20:29] ... GL Extension Found : GL_EXT_framebuffer_blit
+[05/30 12:20:29] ... GL Extension Found : GL_EXT_texture_filter_anisotropic
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_occlusion_query
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_draw_buffers
+[05/30 12:20:29] ... WGL Extension Found : WGL_EXT_swap_control
+[05/30 12:20:29] ... WGL Extension Found : WGL_ARB_pixel_format
+[05/30 12:20:29] ... WGL Extension Found : WGL_ARB_multisample
+[05/30 12:20:29] ... WGL Extension Found : WGL_ARB_pbuffer
+[05/30 12:20:29] ... WGL Extension Found : WGL_ARB_render_texture
+[05/30 12:20:29] ... WGL Extension Found : WGL_NV_render_texture_rectangle
+[05/30 12:20:29] ... WGL Extension Found : WGL_NV_render_depth_texture
+[05/30 12:20:29] ... GL Extension Found : GL_ARB_texture_float
+[05/30 12:20:29] !!! GL Extension Not Found : GL_ARB_texture_env_crossbar
+[05/30 12:20:29] !!! GL Extension Not Found : GL_ATI_envmap_bumpmap
+[05/30 12:20:29] !!! GL Extension Not Found : GL_ATI_meminfo
+[05/30 12:20:29] !!! GL Extension Not Found : GL_AMD_performance_monitor
+[05/30 12:20:29] ... --------------------------------------------
+[05/30 12:20:29] ... GPU Max Capabilities :
+[05/30 12:20:29] ... --------------------------------------------
+[05/30 12:20:29] ... GPU Max Texture Units : 4 ( 4 recommended ).
+[05/30 12:20:29] ... GPU Max Hardware Lights : 8
+[05/30 12:20:29] ... GPU Max Draw Buffers : 8
+[05/30 12:20:29] ... --------------------------------------------
+[05/30 12:20:29] ... GPU Max Texture Size : 8192 ( 8192 rectangles, 8192 cubemaps )
+[05/30 12:20:29] ... GPU Max Texture Anisotropy : 16
+[05/30 12:20:29] ... GPU Max Point Size : 63
+[05/30 12:20:29] ... GPU Min Line Width : 0.50
+[05/30 12:20:29] ... GPU Max Line Width : 10.00
+[05/30 12:20:29] ... GPU Max Elements Vertices : 1048576
+[05/30 12:20:29] ... GPU Max Elements Indices : 1048576
+[05/30 12:20:29] ... --------------------------------------------
+[05/30 12:20:29] ... GPU Max Vertex Program Instructions : 16384
+[05/30 12:20:29] ... GPU Max Vertex Program Temporaries : 4096
+[05/30 12:20:29] ... GPU Max Vertex Program Parameters : 1024 ( 1024 local, 256 env )
+[05/30 12:20:29] ... GPU Max Vertex Program Attributes : 16
+[05/30 12:20:29] ... GPU Max Vertex Program Address Registers : 2
+[05/30 12:20:29] ... --------------------------------------------
+[05/30 12:20:29] ... GPU Max Fragment Program Instructions : 16384
+[05/30 12:20:29] ... GPU Max Fragment Program TEX Instructions : 16384
+[05/30 12:20:29] ... GPU Max Fragment Program TEX Indirections : 16384
+[05/30 12:20:29] ... GPU Max Fragment Program ALU Instructions : 16384
+[05/30 12:20:29] ... GPU Max Fragment Program Temporaries : 4096
+[05/30 12:20:29] ... GPU Max Fragment Program Parameters : 1024 ( 512 local, 256 env )
+[05/30 12:20:29] ... GPU Max Fragment Program Attributes : 16
+[05/30 12:20:29] ... GPU Max Fragment Program Texture Coords : 8
+[05/30 12:20:29] ... GPU Max Fragment Program Image Units : 8
+[05/30 12:20:29] ... --------------------------------------------
+[05/30 12:20:29] ... Created Bloom Textures : 600x300, 300x150, 75x37
+[05/30 12:20:29] ... Graphic device initialized !
+[05/30 12:20:29] !!! No Wiimote device found.
+[05/30 12:20:29] ... --------------------------------------------
+[05/30 12:20:29] ... SND Driver Vendor : Creative Labs Inc.
+[05/30 12:20:29] ... SND Driver : Software
+[05/30 12:20:29] ... SND Driver Version : 1.1
+[05/30 12:20:29] ... SND Output default specifier : Generic Software
+[05/30 12:20:29] ... SND Capture default specifier : Cirrus Logic HD Audio
+[05/30 12:20:29] ... --------------------------------------------
+[05/30 12:20:29] ... Found entry for : S3DStartup
+[05/30 12:20:29] ... file://C:\Documents and Settings\Administrador\Datos de programa/StoneTrip/Player/S3DStartup.stk loaded
+[05/30 12:20:29] ... Unregistered All AIModels
+[05/30 12:20:29] ... Loaded game 'S3DStartup'
+[05/30 12:20:29] ... Created player 0
+[05/30 12:20:29] ... <S3DStartUp><VE i="0" n="Startup"><V t="2" n="S3DStartUpOptions.PackURI">file://C:\DATOS\Proyectos\cubensis\forma\hd_vicente\cubensis\forma\ciudad\ciudad shiva\exportados\ciudad.stk</V><V t="2" n="S3DStartUpOptions.ConfigURI">file://C:\DATOS\Proyectos\cubensis\forma\hd_vicente\cubensis\forma\ciudad\ciudad shiva\exportados\ciudad.xml</V></VE></S3DStartUp>
+[05/30 12:20:29] ... Registered AIModel 'Main'
+[05/30 12:20:29] !!! http://player.stonetrip.com/stats/index.php cannot be processed.
+[05/30 12:20:31] ... Destroyed player 0
+[05/30 12:20:31] ... Average FPS : 154.830831
+[05/30 12:20:31] ... Unregistered AIModel 'Main'
+[05/30 12:20:31] ... Unregistered All AIModels
+[05/30 12:20:31] ... Loading file://C:\DATOS\Proyectos\cubensis\forma\hd_vicente\cubensis\forma\ciudad\ciudad shiva\exportados\ciudad.stk
+[05/30 12:20:31] !!! No Wiimote device found.
+[05/30 12:20:31] ... Found entry for : ciudad
+[05/30 12:20:31] ... file://C:\DATOS\Proyectos\cubensis\forma\hd_vicente\cubensis\forma\ciudad\ciudad shiva\exportados\ciudad.stk loaded
+[05/30 12:20:31] ... Unregistered All AIModels
+[05/30 12:20:31] ... Loaded game 'ciudad'
+[05/30 12:20:31] ... Created player 0
+[05/30 12:20:31] ... Reinitializing scene 'ciudad_base'
+[05/30 12:20:31] ... Scene 'ciudad_base' reinitialized
+[05/30 12:20:31] ... Network Environement
+[05/30 12:20:31] ... <?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="ciudad.xsl"?>
+
+<ExportReport name="ciudad" Compress_Size="24019175" UnCompress_Size="209064806" FileCount="595" >
+	<Resource Name="Meshes" Compress_Size="2505901" UnCompress_Size="7009078" FileCount="210" >
+		<File Name="ciudad_base_geom-Object69" UnCompress_Size="17729" Compress_Size="6347" Extension="msh" />
+		<File Name="ciudad_base_geom-Object56" UnCompress_Size="41873" Compress_Size="15099" Extension="msh" />
+		<File Name="ciudad_base_geom-Object43" UnCompress_Size="50829" Compress_Size="16599" Extension="msh" />
+		<File Name="ciudad_base_geom-Object88" UnCompress_Size="3213" Compress_Size="1203" Extension="msh" />
+		<File Name="ciudad_base_geom-Line76" UnCompress_Size="1861" Compress_Size="836" Extension="msh" />
+		<File Name="ciudad_base_geom-edif_05" UnCompress_Size="14699" Compress_Size="5357" Extension="msh" />
+		<File Name="ciudad_base_geom-Object81" UnCompress_Size="26215" Compress_Size="9089" Extension="msh" />
+		<File Name="ciudad_base_geom-Object60" UnCompress_Size="70681" Compress_Size="23040" Extension="msh" />
+		<File Name="ciudad_base_geom-Object75" UnCompress_Size="18681" Compress_Size="6672" Extension="msh" />
+		<File Name="ciudad_base_geom-Box72" UnCompress_Size="84829" Compress_Size="23681" Extension="msh" />
+		<File Name="ciudad_base_geom-Object10" UnCompress_Size="249" Compress_Size="158" Extension="msh" />
+		<File Name="ciudad_base_geom-grua05" UnCompress_Size="45141" Compress_Size="20859" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_24" UnCompress_Size="2909" Compress_Size="1178" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_31" UnCompress_Size="3735" Compress_Size="1369" Extension="msh" />
+		<File Name="ciudad_base_geom-Object05" UnCompress_Size="1799" Compress_Size="842" Extension="msh" />
+		<File Name="ciudad_base_geom-Object125" UnCompress_Size="49641" Compress_Size="19483" Extension="msh" />
+		<File Name="ciudad_base_geom-azotea_camara06" UnCompress_Size="1241" Compress_Size="543" Extension="msh" />
+		<File Name="ciudad_base_geom-Object130" UnCompress_Size="45659" Compress_Size="18258" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_12" UnCompress_Size="2209" Compress_Size="812" Extension="msh" />
+		<File Name="ciudad_base_geom-Object26" UnCompress_Size="83151" Compress_Size="29203" Extension="msh" />
+		<File Name="ciudad_base_geom-Object33" UnCompress_Size="56923" Compress_Size="20589" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_07" UnCompress_Size="3391" Compress_Size="1209" Extension="msh" />
+		<File Name="ciudad_base_geom-Object19" UnCompress_Size="8773" Compress_Size="3242" Extension="msh" />
+		<File Name="ciudad_base_geom-Object113" UnCompress_Size="52787" Compress_Size="19346" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_38" UnCompress_Size="2209" Compress_Size="823" Extension="msh" />
+		<File Name="ciudad_base_geom-Object106" UnCompress_Size="4129" Compress_Size="1396" Extension="msh" />
+		<File Name="ciudad_base_geom-Object18" UnCompress_Size="44937" Compress_Size="15123" Extension="msh" />
+		<File Name="ciudad_base_geom-Object112" UnCompress_Size="102007" Compress_Size="38737" Extension="msh" />
+		<File Name="ciudad_base_geom-Object107" UnCompress_Size="13975" Compress_Size="4536" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_39" UnCompress_Size="3861" Compress_Size="1367" Extension="msh" />
+		<File Name="ciudad_base_geom-Rectangle09" UnCompress_Size="13645" Compress_Size="6103" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_13" UnCompress_Size="2909" Compress_Size="1227" Extension="msh" />
+		<File Name="ciudad_base_geom-Object27" UnCompress_Size="15653" Compress_Size="5745" Extension="msh" />
+		<File Name="ciudad_base_geom-Object32" UnCompress_Size="47977" Compress_Size="17413" Extension="msh" />
+		<File Name="ciudad_base_geom-Object124" UnCompress_Size="85377" Compress_Size="32577" Extension="msh" />
+		<File Name="ciudad_base_geom-Object131" UnCompress_Size="54371" Compress_Size="18705" Extension="msh" />
+		<File Name="ciudad_base_geom-grua04" UnCompress_Size="45141" Compress_Size="20696" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_25" UnCompress_Size="3735" Compress_Size="1348" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_30" UnCompress_Size="2565" Compress_Size="1064" Extension="msh" />
+		<File Name="ciudad_base_geom-Object04" UnCompress_Size="14699" Compress_Size="5233" Extension="msh" />
+		<File Name="ciudad_base_geom-Object61" UnCompress_Size="26909" Compress_Size="9805" Extension="msh" />
+		<File Name="ciudad_base_geom-Object74" UnCompress_Size="2639" Compress_Size="1072" Extension="msh" />
+		<File Name="ciudad_base_geom-edif_04" UnCompress_Size="9817" Compress_Size="3560" Extension="msh" />
+		<File Name="ciudad_base_geom-Object80" UnCompress_Size="7843" Compress_Size="2814" Extension="msh" />
+		<File Name="ciudad_base_geom-Object57" UnCompress_Size="44951" Compress_Size="15083" Extension="msh" />
+		<File Name="ciudad_base_geom-Object42" UnCompress_Size="61151" Compress_Size="21894" Extension="msh" />
+		<File Name="ciudad_base_geom-Object89" UnCompress_Size="11343" Compress_Size="3996" Extension="msh" />
+		<File Name="ciudad_base_geom-Object68" UnCompress_Size="21251" Compress_Size="7631" Extension="msh" />
+		<File Name="ciudad_base_geom-Object40" UnCompress_Size="109549" Compress_Size="39014" Extension="msh" />
+		<File Name="ciudad_base_geom-Box22" UnCompress_Size="3557" Compress_Size="1261" Extension="msh" />
+		<File Name="ciudad_base_geom-Object55" UnCompress_Size="82215" Compress_Size="26335" Extension="msh" />
+		<File Name="ciudad_base_geom-Object76" UnCompress_Size="3913" Compress_Size="1475" Extension="msh" />
+		<File Name="ciudad_base_geom-Box156" UnCompress_Size="160653" Compress_Size="48138" Extension="msh" />
+		<File Name="cielo_max_geom-cielo_max" UnCompress_Size="23757" Compress_Size="11609" Extension="msh" />
+		<File Name="ciudad_base_geom-Object63" UnCompress_Size="73793" Compress_Size="25734" Extension="msh" />
+		<File Name="ciudad_base_geom-Object82" UnCompress_Size="22411" Compress_Size="7952" Extension="msh" />
+		<File Name="ciudad_base_geom-Object49" UnCompress_Size="75635" Compress_Size="24380" Extension="msh" />
+		<File Name="ciudad_base_geom-Object97" UnCompress_Size="66675" Compress_Size="23371" Extension="msh" />
+		<File Name="ciudad_base_geom-edif_06" UnCompress_Size="65419" Compress_Size="23182" Extension="msh" />
+		<File Name="ciudad_base_geom-Object133" UnCompress_Size="72103" Compress_Size="27613" Extension="msh" />
+		<File Name="ciudad_base_geom-Object39" UnCompress_Size="59167" Compress_Size="21421" Extension="msh" />
+		<File Name="ciudad_base_geom-azotea_camara05" UnCompress_Size="1113" Compress_Size="495" Extension="msh" />
+		<File Name="ciudad_base_geom-Object126" UnCompress_Size="38999" Compress_Size="15616" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_18" UnCompress_Size="2565" Compress_Size="1051" Extension="msh" />
+		<File Name="ciudad_base_geom-PivotDoor01" UnCompress_Size="8245" Compress_Size="3445" Extension="msh" />
+		<File Name="ciudad_base_geom-Rectangle02" UnCompress_Size="13645" Compress_Size="4087" Extension="msh" />
+		<File Name="ciudad_base_geom-Object06" UnCompress_Size="6265" Compress_Size="2350" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_32" UnCompress_Size="3861" Compress_Size="1397" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_27" UnCompress_Size="2909" Compress_Size="1066" Extension="msh" />
+		<File Name="ciudad_base_geom-Object119" UnCompress_Size="77089" Compress_Size="23470" Extension="msh" />
+		<File Name="ciudad_base_geom-Object13" UnCompress_Size="76603" Compress_Size="24832" Extension="msh" />
+		<File Name="ciudad_base_geom-grua06" UnCompress_Size="45141" Compress_Size="20859" Extension="msh" />
+		<File Name="ciudad_base_geom-Box126" UnCompress_Size="89853" Compress_Size="28454" Extension="msh" />
+		<File Name="ciudad_base_geom-Object105" UnCompress_Size="4739" Compress_Size="1428" Extension="msh" />
+		<File Name="ciudad_base_geom-Object110" UnCompress_Size="48855" Compress_Size="17782" Extension="msh" />
+		<File Name="ciudad_base_geom-Box78" UnCompress_Size="19189" Compress_Size="8806" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_04" UnCompress_Size="3391" Compress_Size="1371" Extension="msh" />
+		<File Name="ciudad_base_geom-Object30" UnCompress_Size="62803" Compress_Size="20358" Extension="msh" />
+		<File Name="ciudad_base_geom-Object25" UnCompress_Size="72987" Compress_Size="25251" Extension="msh" />
+		<File Name="ciudad_base_geom-Object" UnCompress_Size="73221" Compress_Size="24195" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_11" UnCompress_Size="2909" Compress_Size="1150" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_05" UnCompress_Size="3265" Compress_Size="1307" Extension="msh" />
+		<File Name="ciudad_base_geom-Object31" UnCompress_Size="82713" Compress_Size="29259" Extension="msh" />
+		<File Name="ciudad_base_geom-Object24" UnCompress_Size="66853" Compress_Size="22299" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_10" UnCompress_Size="2909" Compress_Size="1128" Extension="msh" />
+		<File Name="ciudad_base_geom-Box111" UnCompress_Size="20413" Compress_Size="7872" Extension="msh" />
+		<File Name="ciudad_base_geom-Object104" UnCompress_Size="13999" Compress_Size="4639" Extension="msh" />
+		<File Name="ciudad_base_geom-Object111" UnCompress_Size="25527" Compress_Size="9277" Extension="msh" />
+		<File Name="ciudad_base_geom-Object07" UnCompress_Size="1903" Compress_Size="944" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_33" UnCompress_Size="2909" Compress_Size="1215" Extension="msh" />
+		<File Name="ciudad_base_geom-Object118" UnCompress_Size="83083" Compress_Size="29359" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_26" UnCompress_Size="3391" Compress_Size="1342" Extension="msh" />
+		<File Name="ciudad_base_geom-grua07" UnCompress_Size="45141" Compress_Size="21364" Extension="msh" />
+		<File Name="ciudad_base_geom-Object132" UnCompress_Size="78195" Compress_Size="29992" Extension="msh" />
+		<File Name="ciudad_base_geom-Box91" UnCompress_Size="37789" Compress_Size="16040" Extension="msh" />
+		<File Name="ciudad_base_geom-Object38" UnCompress_Size="55189" Compress_Size="20073" Extension="msh" />
+		<File Name="ciudad_base_geom-Object127" UnCompress_Size="65467" Compress_Size="22342" Extension="msh" />
+		<File Name="ciudad_base_geom-Object83" UnCompress_Size="13059" Compress_Size="4698" Extension="msh" />
+		<File Name="ciudad_base_geom-Object48" UnCompress_Size="47915" Compress_Size="15901" Extension="msh" />
+		<File Name="ciudad_base_geom-edif_07" UnCompress_Size="50703" Compress_Size="18353" Extension="msh" />
+		<File Name="ciudad_base_geom-Object77" UnCompress_Size="21115" Compress_Size="7434" Extension="msh" />
+		<File Name="ciudad_base_geom-azotea_rtt" UnCompress_Size="1113" Compress_Size="544" Extension="msh" />
+		<File Name="ciudad_base_geom-Object62" UnCompress_Size="80371" Compress_Size="25678" Extension="msh" />
+		<File Name="ciudad_base_geom-mercancia" UnCompress_Size="11029" Compress_Size="3043" Extension="msh" />
+		<File Name="ciudad_base_geom-Box23" UnCompress_Size="6469" Compress_Size="2416" Extension="msh" />
+		<File Name="ciudad_base_geom-Object41" UnCompress_Size="34443" Compress_Size="12262" Extension="msh" />
+		<File Name="ciudad_base_geom-Object54" UnCompress_Size="64567" Compress_Size="22873" Extension="msh" />
+		<File Name="ciudad_base_geom-Object73" UnCompress_Size="18555" Compress_Size="6655" Extension="msh" />
+		<File Name="ciudad_base_geom-Line53" UnCompress_Size="40285" Compress_Size="19918" Extension="msh" />
+		<File Name="ciudad_base_geom-Object66" UnCompress_Size="83187" Compress_Size="26611" Extension="msh" />
+		<File Name="ciudad_base_geom-Object87" UnCompress_Size="20059" Compress_Size="6954" Extension="msh" />
+		<File Name="ciudad_base_geom-edif_03" UnCompress_Size="8021" Compress_Size="2917" Extension="msh" />
+		<File Name="ciudad_base_geom-Object59" UnCompress_Size="70093" Compress_Size="24407" Extension="msh" />
+		<File Name="ciudad_base_geom-Object92" UnCompress_Size="16215" Compress_Size="5909" Extension="msh" />
+		<File Name="ciudad_base_geom-Object45" UnCompress_Size="45741" Compress_Size="15133" Extension="msh" />
+		<File Name="ciudad_base_geom-Object50" UnCompress_Size="85819" Compress_Size="24554" Extension="msh" />
+		<File Name="ciudad_base_geom-Object100" UnCompress_Size="17603" Compress_Size="6170" Extension="msh" />
+		<File Name="ciudad_base_geom-Object115" UnCompress_Size="80735" Compress_Size="28162" Extension="msh" />
+		<File Name="ciudad_base_geom-Object35" UnCompress_Size="61065" Compress_Size="20240" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_01" UnCompress_Size="2921" Compress_Size="1186" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_14" UnCompress_Size="1865" Compress_Size="780" Extension="msh" />
+		<File Name="ciudad_base_geom-Object20" UnCompress_Size="77827" Compress_Size="25197" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_08" UnCompress_Size="2565" Compress_Size="963" Extension="msh" />
+		<File Name="ciudad_base_geom-Object123" UnCompress_Size="53677" Compress_Size="18787" Extension="msh" />
+		<File Name="ciudad_base_geom-Object29" UnCompress_Size="45993" Compress_Size="16751" Extension="msh" />
+		<File Name="ciudad_base_geom-Object109" UnCompress_Size="27075" Compress_Size="10530" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_37" UnCompress_Size="3861" Compress_Size="1436" Extension="msh" />
+		<File Name="ciudad_base_geom-Object03" UnCompress_Size="64307" Compress_Size="22885" Extension="msh" />
+		<File Name="ciudad_base_geom-grua03" UnCompress_Size="45141" Compress_Size="20804" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_22" UnCompress_Size="3391" Compress_Size="1361" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_36" UnCompress_Size="2909" Compress_Size="1110" Extension="msh" />
+		<File Name="ciudad_base_geom-Object108" UnCompress_Size="74211" Compress_Size="27994" Extension="msh" />
+		<File Name="ciudad_base_geom-Object02" UnCompress_Size="13403" Compress_Size="4274" Extension="msh" />
+		<File Name="ciudad_base_geom-Cylinder05" UnCompress_Size="6421" Compress_Size="3535" Extension="msh" />
+		<File Name="ciudad_base_geom-grua02" UnCompress_Size="45141" Compress_Size="20804" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_23" UnCompress_Size="1509" Compress_Size="577" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_09" UnCompress_Size="3391" Compress_Size="1339" Extension="msh" />
+		<File Name="ciudad_base_geom-Object122" UnCompress_Size="96075" Compress_Size="37081" Extension="msh" />
+		<File Name="ciudad_base_geom-Object28" UnCompress_Size="91699" Compress_Size="32423" Extension="msh" />
+		<File Name="ciudad_base_geom-Object34" UnCompress_Size="56033" Compress_Size="18439" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_15" UnCompress_Size="2335" Compress_Size="937" Extension="msh" />
+		<File Name="ciudad_base_geom-Object21" UnCompress_Size="71267" Compress_Size="25043" Extension="msh" />
+		<File Name="ciudad_base_geom-grua" UnCompress_Size="45141" Compress_Size="20804" Extension="msh" />
+		<File Name="ciudad_base_geom-Object101" UnCompress_Size="9817" Compress_Size="3576" Extension="msh" />
+		<File Name="ciudad_base_geom-Object114" UnCompress_Size="70527" Compress_Size="26489" Extension="msh" />
+		<File Name="ciudad_base_geom-Object44" UnCompress_Size="25619" Compress_Size="8331" Extension="msh" />
+		<File Name="ciudad_base_geom-azotea_camara3" UnCompress_Size="1113" Compress_Size="442" Extension="msh" />
+		<File Name="ciudad_base_geom-Object51" UnCompress_Size="38361" Compress_Size="13887" Extension="msh" />
+		<File Name="ciudad_base_geom-Object86" UnCompress_Size="11355" Compress_Size="4149" Extension="msh" />
+		<File Name="ciudad_base_geom-Object58" UnCompress_Size="75959" Compress_Size="24626" Extension="msh" />
+		<File Name="ciudad_base_geom-Object93" UnCompress_Size="3213" Compress_Size="1272" Extension="msh" />
+		<File Name="ciudad_base_geom-edif_02" UnCompress_Size="66453" Compress_Size="23388" Extension="msh" />
+		<File Name="ciudad_base_geom-Box147" UnCompress_Size="84829" Compress_Size="24312" Extension="msh" />
+		<File Name="ciudad_base_geom-Box10" UnCompress_Size="34785" Compress_Size="14218" Extension="msh" />
+		<File Name="ciudad_base_geom-Object72" UnCompress_Size="8795" Compress_Size="3276" Extension="msh" />
+		<File Name="ciudad_base_geom-Object67" UnCompress_Size="44547" Compress_Size="16066" Extension="msh" />
+		<File Name="ciudad_base_geom-Object91" UnCompress_Size="10655" Compress_Size="3885" Extension="msh" />
+		<File Name="ciudad_base_geom-Object84" UnCompress_Size="1813" Compress_Size="797" Extension="msh" />
+		<File Name="ciudad_base_geom-Object65" UnCompress_Size="36939" Compress_Size="13316" Extension="msh" />
+		<File Name="ciudad_base_geom-Object70" UnCompress_Size="14803" Compress_Size="5265" Extension="msh" />
+		<File Name="ciudad_base_geom-Object79" UnCompress_Size="12743" Compress_Size="4463" Extension="msh" />
+		<File Name="ciudad_base_geom-Object98" UnCompress_Size="11199" Compress_Size="4116" Extension="msh" />
+		<File Name="ciudad_base_geom-Object53" UnCompress_Size="9725" Compress_Size="3601" Extension="msh" />
+		<File Name="ciudad_base_geom-Box24" UnCompress_Size="23629" Compress_Size="7441" Extension="msh" />
+		<File Name="ciudad_base_geom-Object46" UnCompress_Size="72175" Compress_Size="23191" Extension="msh" />
+		<File Name="ciudad_base_geom-Object23" UnCompress_Size="6329" Compress_Size="2356" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_17" UnCompress_Size="2335" Compress_Size="980" Extension="msh" />
+		<File Name="ciudad_base_geom-Object129" UnCompress_Size="82313" Compress_Size="31735" Extension="msh" />
+		<File Name="ciudad_base_geom-edif01" UnCompress_Size="54385" Compress_Size="18473" Extension="msh" />
+		<File Name="ciudad_base_geom-Box116" UnCompress_Size="64205" Compress_Size="26240" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_02" UnCompress_Size="2209" Compress_Size="894" Extension="msh" />
+		<File Name="ciudad_base_geom-Object36" UnCompress_Size="101195" Compress_Size="35900" Extension="msh" />
+		<File Name="ciudad_base_geom-Object116" UnCompress_Size="49255" Compress_Size="17951" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_28" UnCompress_Size="3265" Compress_Size="1284" Extension="msh" />
+		<File Name="ciudad_base_geom-Object09" UnCompress_Size="249" Compress_Size="148" Extension="msh" />
+		<File Name="ciudad_base_geom-Object103" UnCompress_Size="14803" Compress_Size="4734" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_21" UnCompress_Size="2209" Compress_Size="893" Extension="msh" />
+		<File Name="ciudad_base_geom-Object15" UnCompress_Size="1519" Compress_Size="751" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_34" UnCompress_Size="3391" Compress_Size="1415" Extension="msh" />
+		<File Name="ciudad_base_geom-Object120" UnCompress_Size="69521" Compress_Size="25905" Extension="msh" />
+		<File Name="ciudad_base_geom-Object135" UnCompress_Size="2405" Compress_Size="1192" Extension="msh" />
+		<File Name="ciudad_base_geom-Object121" UnCompress_Size="19519" Compress_Size="7878" Extension="msh" />
+		<File Name="ciudad_base_geom-PivotDoor06" UnCompress_Size="4661" Compress_Size="1301" Extension="msh" />
+		<File Name="ciudad_base_geom-suelo_camara02" UnCompress_Size="325" Compress_Size="201" Extension="msh" />
+		<File Name="ciudad_base_geom-Object134" UnCompress_Size="2171" Compress_Size="1019" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_20" UnCompress_Size="3391" Compress_Size="1275" Extension="msh" />
+		<File Name="ciudad_base_geom-Object14" UnCompress_Size="74883" Compress_Size="26616" Extension="msh" />
+		<File Name="ciudad_base_geom-grua01" UnCompress_Size="45141" Compress_Size="20804" Extension="msh" />
+		<File Name="ciudad_base_geom-Cylinder13" UnCompress_Size="1365" Compress_Size="694" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_35" UnCompress_Size="3391" Compress_Size="1429" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_29" UnCompress_Size="3265" Compress_Size="1172" Extension="msh" />
+		<File Name="ciudad_base_geom-Object117" UnCompress_Size="43681" Compress_Size="16016" Extension="msh" />
+		<File Name="ciudad_base_geom-grua08" UnCompress_Size="45141" Compress_Size="21364" Extension="msh" />
+		<File Name="ciudad_base_geom-Object08" UnCompress_Size="62307" Compress_Size="21956" Extension="msh" />
+		<File Name="ciudad_base_geom-Object102" UnCompress_Size="13569" Compress_Size="4377" Extension="msh" />
+		<File Name="ciudad_base_geom-Object22" UnCompress_Size="29239" Compress_Size="9531" Extension="msh" />
+		<File Name="ciudad_base_geom-Object128" UnCompress_Size="16467" Compress_Size="6534" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_03" UnCompress_Size="2921" Compress_Size="1199" Extension="msh" />
+		<File Name="ciudad_base_geom-Object37" UnCompress_Size="26899" Compress_Size="9781" Extension="msh" />
+		<File Name="ciudad_base_geom-Object99" UnCompress_Size="14229" Compress_Size="5175" Extension="msh" />
+		<File Name="ciudad_base_geom-Object52" UnCompress_Size="30203" Compress_Size="11013" Extension="msh" />
+		<File Name="ciudad_base_geom-Object47" UnCompress_Size="48259" Compress_Size="15845" Extension="msh" />
+		<File Name="ciudad_base_geom-Box25" UnCompress_Size="116725" Compress_Size="38672" Extension="msh" />
+		<File Name="ciudad_base_geom-edificios_camara06" UnCompress_Size="7649" Compress_Size="2894" Extension="msh" />
+		<File Name="ciudad_base_geom-Object78" UnCompress_Size="21241" Compress_Size="7554" Extension="msh" />
+		<File Name="ciudad_base_geom-_finca_17_1" UnCompress_Size="3265" Compress_Size="1298" Extension="msh" />
+		<File Name="ciudad_base_geom-Object64" UnCompress_Size="82521" Compress_Size="25619" Extension="msh" />
+		<File Name="ciudad_base_geom-Object71" UnCompress_Size="16799" Compress_Size="6028" Extension="msh" />
+		<File Name="ciudad_base_geom-Object90" UnCompress_Size="20529" Compress_Size="7357" Extension="msh" />
+		<File Name="ciudad_base_geom-Object85" UnCompress_Size="11073" Compress_Size="4107" Extension="msh" />
+	</Resource>
+	<Resource Name="Scripts" Compress_Size="1536" UnCompress_Size="2651" FileCount="5" >
+		<File Name="Main_Handler_onInit" UnCompress_Size="373" Compress_Size="259" Extension="lub" />
+		<File Name="Main_Handler_onKeyboardKeyDown" UnCompress_Size="742" Compress_Size="360" Extension="lub" />
+		<File Name="Main_Handler_onKeyboardKeyUp" UnCompress_Size="600" Compress_Size="280" Extension="lub" />
+		<File Name="Main_Handler_onEnterFrame" UnCompress_Size="468" Compress_Size="320" Extension="lub" />
+		<File Name="Main_Handler_onMouseMove" UnCompress_Size="468" Compress_Size="317" Extension="lub" />
+	</Resource>
+	<Resource Name="Materials" Compress_Size="17252" UnCompress_Size="20740" FileCount="207" >
+		<File Name="ciudad_base_baked_ah-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base__finca_36-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_aqh-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_wddd-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_wzx-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_wa-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_ka-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_ni-material" UnCompress_Size="107" Compress_Size="90" Extension="mat" />
+		<File Name="ciudad_base_kv-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_wdf-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_ke-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_au-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_wr-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_finca_03-material" UnCompress_Size="99" Compress_Size="85" Extension="mat" />
+		<File Name="ciudad_base_kr-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base__finca_06-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_baked_al-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_mi-material" UnCompress_Size="98" Compress_Size="81" Extension="mat" />
+		<File Name="ciudad_base_wbn-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base__finca_32-material" UnCompress_Size="101" Compress_Size="87" Extension="mat" />
+		<File Name="ciudad_base_ll-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base__finca_27-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_ccc-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_wfc-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_nr-material" UnCompress_Size="97" Compress_Size="80" Extension="mat" />
+		<File Name="ciudad_base_kz-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_wnm-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_ne-material" UnCompress_Size="106" Compress_Size="89" Extension="mat" />
+		<File Name="ciudad_base_baked_ad-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_wjh-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base__finca_13-material" UnCompress_Size="101" Compress_Size="87" Extension="mat" />
+		<File Name="ciudad_base_aqd-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="reflejo_agua" UnCompress_Size="183" Compress_Size="93" Extension="mat" />
+		<File Name="ciudad_base_edif05-material" UnCompress_Size="99" Compress_Size="82" Extension="mat" />
+		<File Name="ciudad_base_aqs-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_ma-material" UnCompress_Size="98" Compress_Size="81" Extension="mat" />
+		<File Name="ciudad_base_jad-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base__finca_17-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_z-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_mr-material" UnCompress_Size="98" Compress_Size="81" Extension="mat" />
+		<File Name="ciudad_base_me-material" UnCompress_Size="98" Compress_Size="81" Extension="mat" />
+		<File Name="ciudad_base_aqw-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_edif01-material" UnCompress_Size="99" Compress_Size="82" Extension="mat" />
+		<File Name="ciudad_base_wfg-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base__finca_23-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_ki-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_na-material" UnCompress_Size="97" Compress_Size="80" Extension="mat" />
+		<File Name="ciudad_base_wi-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_ay-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base__finca_09-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_nu-material" UnCompress_Size="98" Compress_Size="81" Extension="mat" />
+		<File Name="ciudad_base_kj-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base__finca_20-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_mq-material" UnCompress_Size="97" Compress_Size="80" Extension="mat" />
+		<File Name="ciudad_base_aqqw-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_aqc-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_edif02-material" UnCompress_Size="99" Compress_Size="82" Extension="mat" />
+		<File Name="ciudad_base_baked_ac-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_n-material" UnCompress_Size="65" Compress_Size="47" Extension="mat" />
+		<File Name="ciudad_base__finca_14-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base__finca_39-material" UnCompress_Size="98" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_aqg-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_edif06-material" UnCompress_Size="99" Compress_Size="82" Extension="mat" />
+		<File Name="ciudad_base_wjk-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_baked_ag-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base__finca_10-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_nq-material" UnCompress_Size="106" Compress_Size="89" Extension="mat" />
+		<File Name="ciudad_base_ky-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_wy-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_waa-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_nf-material" UnCompress_Size="98" Compress_Size="81" Extension="mat" />
+		<File Name="ciudad_base__finca_24-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_lx-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_whj-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_aqx-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_mj-material" UnCompress_Size="103" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base__finca_31-material" UnCompress_Size="101" Compress_Size="87" Extension="mat" />
+		<File Name="ciudad_base__finca_18-material" UnCompress_Size="100" Compress_Size="87" Extension="mat" />
+		<File Name="ciudad_base_baked_ax-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_b-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_kf-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_wf-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_aa-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_wq-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_ny-material" UnCompress_Size="97" Compress_Size="80" Extension="mat" />
+		<File Name="ciudad_base__finca_05-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_kq-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_lttt-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_ar-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_wkj-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_nj-material" UnCompress_Size="107" Compress_Size="90" Extension="mat" />
+		<File Name="ciudad_base__finca_01-material" UnCompress_Size="99" Compress_Size="85" Extension="mat" />
+		<File Name="ciudad_base_ku-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_wu-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_ae-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base__finca_28-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_wlk-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_my-material" UnCompress_Size="98" Compress_Size="81" Extension="mat" />
+		<File Name="ciudad_base_aqk-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base__finca_35-material" UnCompress_Size="101" Compress_Size="87" Extension="mat" />
+		<File Name="ciudad_base_q-material" UnCompress_Size="98" Compress_Size="81" Extension="mat" />
+		<File Name="ciudad_base_baked_ak-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_woo-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_aqz-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_mh-material" UnCompress_Size="97" Compress_Size="80" Extension="mat" />
+		<File Name="ciudad_base__finca_33-material" UnCompress_Size="101" Compress_Size="87" Extension="mat" />
+		<File Name="ciudad_base_wsoo-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_w-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_baked_az-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_ass-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_at-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_nl-material" UnCompress_Size="103" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_wkl-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_kd-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_wxc-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_finca_02-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_ks-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_ws-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="cielo_max_Standard_1-material" UnCompress_Size="84" Compress_Size="63" Extension="mat" />
+		<File Name="ciudad_base_wdc-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_wlm-material" UnCompress_Size="110" Compress_Size="93" Extension="mat" />
+		<File Name="ciudad_base_nh-material" UnCompress_Size="98" Compress_Size="81" Extension="mat" />
+		<File Name="ciudad_base_ap-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_ww-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_kw-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_aqpp-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_aqio-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_ml-material" UnCompress_Size="103" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_wgc-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base__finca_37-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_aqi-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_lwddd-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_nw-material" UnCompress_Size="85" Compress_Size="67" Extension="mat" />
+		<File Name="ciudad_base_ao-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_wh-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_kh-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base__finca_22-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_ms-material" UnCompress_Size="98" Compress_Size="81" Extension="mat" />
+		<File Name="ciudad_base_aqa-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_md-material" UnCompress_Size="102" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_aqv-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_lefd-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_aqe-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_aqqq-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_mw-material" UnCompress_Size="96" Compress_Size="79" Extension="mat" />
+		<File Name="ciudad_base_aqr-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_edif04-material" UnCompress_Size="99" Compress_Size="82" Extension="mat" />
+		<File Name="ciudad_base_va-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_lrfd-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base__finca_12-material" UnCompress_Size="101" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_ns-material" UnCompress_Size="97" Compress_Size="80" Extension="mat" />
+		<File Name="ciudad_base_nd-material" UnCompress_Size="98" Compress_Size="81" Extension="mat" />
+		<File Name="ciudad_base_kl-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base__finca_26-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_lz-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base__finca_25-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_kx-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_ng-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_ko-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_wo-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_baked_af-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base__finca_11-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base__finca_38-material" UnCompress_Size="101" Compress_Size="87" Extension="mat" />
+		<File Name="ciudad_base_aqf-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_mt-material" UnCompress_Size="98" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_aqqr-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_whc-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_aqqe-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_mc-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_wsss-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_wsf-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base__finca_15-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_x-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_mp-material" UnCompress_Size="98" Compress_Size="81" Extension="mat" />
+		<File Name="ciudad_base_wgh-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_edif-material" UnCompress_Size="98" Compress_Size="81" Extension="mat" />
+		<File Name="ciudad_base_edif03-material" UnCompress_Size="99" Compress_Size="82" Extension="mat" />
+		<File Name="ciudad_base_mg-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_aqu-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_whg-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base__finca_21-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base__finca_08-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_nt-material" UnCompress_Size="98" Compress_Size="81" Extension="mat" />
+		<File Name="ciudad_base_was-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_kk-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_nc-material" UnCompress_Size="97" Compress_Size="80" Extension="mat" />
+		<File Name="ciudad_base_fgggg-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_baked_aj-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_mo-material" UnCompress_Size="98" Compress_Size="81" Extension="mat" />
+		<File Name="ciudad_base__finca_34-material" UnCompress_Size="101" Compress_Size="87" Extension="mat" />
+		<File Name="ciudad_base__finca_29-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_kc-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_nk-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_wt-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_kt-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_wcv-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_wg-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_aw-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_kg-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_nx-material" UnCompress_Size="97" Compress_Size="80" Extension="mat" />
+		<File Name="ciudad_base__finca_04-material" UnCompress_Size="100" Compress_Size="86" Extension="mat" />
+		<File Name="ciudad_base_kp-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_wp-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_wvb-material" UnCompress_Size="101" Compress_Size="84" Extension="mat" />
+		<File Name="ciudad_base_c-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base_aqy-material" UnCompress_Size="100" Compress_Size="83" Extension="mat" />
+		<File Name="ciudad_base__finca_30-material" UnCompress_Size="101" Compress_Size="87" Extension="mat" />
+	</Resource>
+	<Resource Name="Textures" Compress_Size="21487334" UnCompress_Size="201964184" FileCount="169" >
+		<File Name="ciudad_base_Object99CompleteMap" UnCompress_Size="1398256" Compress_Size="162030" Extension="dds" />
+		<File Name="ciudad_base_grua07CompleteMap" UnCompress_Size="1398256" Compress_Size="158299" Extension="dds" />
+		<File Name="ciudad_base_Object86CompleteMap" UnCompress_Size="1398256" Compress_Size="133643" Extension="dds" />
+		<File Name="ciudad_base_Object37CompleteMap" UnCompress_Size="1398256" Compress_Size="140255" Extension="dds" />
+		<File Name="ciudad_base_Object25CompleteMap" UnCompress_Size="1398256" Compress_Size="143333" Extension="dds" />
+		<File Name="ciudad_base_Object13CompleteMap" UnCompress_Size="699192" Compress_Size="183546" Extension="dds" />
+		<File Name="ciudad_base_Object49CompleteMap" UnCompress_Size="1398256" Compress_Size="145628" Extension="dds" />
+		<File Name="ciudad_base_Object131CompleteMap" UnCompress_Size="1398256" Compress_Size="145364" Extension="dds" />
+		<File Name="ciudad_base_Object123CompleteMap" UnCompress_Size="1398256" Compress_Size="143016" Extension="dds" />
+		<File Name="ciudad_base_Object107CompleteMap" UnCompress_Size="1398256" Compress_Size="142768" Extension="dds" />
+		<File Name="ciudad_base_Object115CompleteMap" UnCompress_Size="1398256" Compress_Size="154290" Extension="dds" />
+		<File Name="ciudad_base_ObjectCompleteMap" UnCompress_Size="699192" Compress_Size="189647" Extension="dds" />
+		<File Name="ciudad_base_Object28CompleteMap" UnCompress_Size="1398256" Compress_Size="149472" Extension="dds" />
+		<File Name="ciudad_base_Object72CompleteMap" UnCompress_Size="1398256" Compress_Size="103073" Extension="dds" />
+		<File Name="ciudad_base_Object118CompleteMap" UnCompress_Size="1398256" Compress_Size="153146" Extension="dds" />
+		<File Name="ciudad_base_Object60CompleteMap" UnCompress_Size="1398256" Compress_Size="150579" Extension="dds" />
+		<File Name="ciudad_base_Object44CompleteMap" UnCompress_Size="1398256" Compress_Size="139432" Extension="dds" />
+		<File Name="ciudad_base_Object56CompleteMap" UnCompress_Size="1398256" Compress_Size="139061" Extension="dds" />
+		<File Name="ciudad_base_Box24CompleteMap" UnCompress_Size="1398256" Compress_Size="167826" Extension="dds" />
+		<File Name="ciudad_base_mercanciaCompleteMap" UnCompress_Size="349680" Compress_Size="52948" Extension="dds" />
+		<File Name="ciudad_base_Object85CompleteMap" UnCompress_Size="1398256" Compress_Size="115181" Extension="dds" />
+		<File Name="ciudad_base_Object97CompleteMap" UnCompress_Size="1398256" Compress_Size="155778" Extension="dds" />
+		<File Name="ciudad_base_Object88CompleteMap" UnCompress_Size="699192" Compress_Size="124098" Extension="dds" />
+		<File Name="ciudad_base_edif_02CompleteMap" UnCompress_Size="1398256" Compress_Size="146805" Extension="dds" />
+		<File Name="ciudad_base_grua04CompleteMap" UnCompress_Size="1398256" Compress_Size="157333" Extension="dds" />
+		<File Name="ciudad_base_Object39CompleteMap" UnCompress_Size="1398256" Compress_Size="148047" Extension="dds" />
+		<File Name="ciudad_base_Object47CompleteMap" UnCompress_Size="1398256" Compress_Size="131018" Extension="dds" />
+		<File Name="ciudad_base_Object55CompleteMap" UnCompress_Size="1398256" Compress_Size="149278" Extension="dds" />
+		<File Name="ciudad_base_Object71CompleteMap" UnCompress_Size="1398256" Compress_Size="119424" Extension="dds" />
+		<File Name="ciudad_base_Object109CompleteMap" UnCompress_Size="1398256" Compress_Size="120259" Extension="dds" />
+		<File Name="ciudad_base_Object63CompleteMap" UnCompress_Size="1398256" Compress_Size="145194" Extension="dds" />
+		<File Name="ciudad_base_Object02CompleteMap" UnCompress_Size="1398256" Compress_Size="161220" Extension="dds" />
+		<File Name="ciudad_base_Object10CompleteMap" UnCompress_Size="349680" Compress_Size="62271" Extension="dds" />
+		<File Name="ciudad_base_Object34CompleteMap" UnCompress_Size="1398256" Compress_Size="140677" Extension="dds" />
+		<File Name="ciudad_base_Object26CompleteMap" UnCompress_Size="1398256" Compress_Size="151399" Extension="dds" />
+		<File Name="ciudad_base_Object104CompleteMap" UnCompress_Size="1398256" Compress_Size="139145" Extension="dds" />
+		<File Name="ciudad_base_Object116CompleteMap" UnCompress_Size="1398256" Compress_Size="134216" Extension="dds" />
+		<File Name="ciudad_base_Object132CompleteMap" UnCompress_Size="1398256" Compress_Size="140863" Extension="dds" />
+		<File Name="ciudad_base_Object120CompleteMap" UnCompress_Size="1398256" Compress_Size="146503" Extension="dds" />
+		<File Name="ciudad_base_Object58CompleteMap" UnCompress_Size="1398256" Compress_Size="149604" Extension="dds" />
+		<File Name="ciudad_base_gruaCompleteMap" UnCompress_Size="1398256" Compress_Size="98686" Extension="dds" />
+		<File Name="ciudad_base_Box111CompleteMap" UnCompress_Size="349680" Compress_Size="40071" Extension="dds" />
+		<File Name="ciudad_base_Object125CompleteMap" UnCompress_Size="1398256" Compress_Size="146020" Extension="dds" />
+		<File Name="ciudad_base_Object101CompleteMap" UnCompress_Size="1398256" Compress_Size="197615" Extension="dds" />
+		<File Name="ciudad_base_Object79CompleteMap" UnCompress_Size="1398256" Compress_Size="131640" Extension="dds" />
+		<File Name="ciudad_base_Object113CompleteMap" UnCompress_Size="1398256" Compress_Size="140396" Extension="dds" />
+		<File Name="ciudad_base_Object31CompleteMap" UnCompress_Size="1398256" Compress_Size="155179" Extension="dds" />
+		<File Name="ciudad_base_Object23CompleteMap" UnCompress_Size="699192" Compress_Size="126684" Extension="dds" />
+		<File Name="ciudad_base_Object15CompleteMap" UnCompress_Size="1398256" Compress_Size="78894" Extension="dds" />
+		<File Name="ciudad_base_Box22CompleteMap" UnCompress_Size="349680" Compress_Size="50183" Extension="dds" />
+		<File Name="ciudad_base_Box78CompleteMap" UnCompress_Size="87536" Compress_Size="20366" Extension="dds" />
+		<File Name="ciudad_base_Object74CompleteMap" UnCompress_Size="1398256" Compress_Size="120993" Extension="dds" />
+		<File Name="ciudad_base_Object66CompleteMap" UnCompress_Size="1398256" Compress_Size="153606" Extension="dds" />
+		<File Name="ciudad_base_Object42CompleteMap" UnCompress_Size="1398256" Compress_Size="144336" Extension="dds" />
+		<File Name="ciudad_base_Object50CompleteMap" UnCompress_Size="1398256" Compress_Size="145706" Extension="dds" />
+		<File Name="ciudad_base_Object128CompleteMap" UnCompress_Size="1398256" Compress_Size="110604" Extension="dds" />
+		<File Name="ciudad_base_Object18CompleteMap" UnCompress_Size="699192" Compress_Size="188526" Extension="dds" />
+		<File Name="ciudad_base_edif_07CompleteMap" UnCompress_Size="1398256" Compress_Size="143961" Extension="dds" />
+		<File Name="ciudad_base_grua01CompleteMap" UnCompress_Size="1398256" Compress_Size="102775" Extension="dds" />
+		<File Name="ciudad_base_Object80CompleteMap" UnCompress_Size="1398256" Compress_Size="116798" Extension="dds" />
+		<File Name="ciudad_base_Object92CompleteMap" UnCompress_Size="699192" Compress_Size="166768" Extension="dds" />
+		<File Name="ciudad_base_Object41CompleteMap" UnCompress_Size="1398256" Compress_Size="138907" Extension="dds" />
+		<File Name="ciudad_base_Object53CompleteMap" UnCompress_Size="1398256" Compress_Size="132665" Extension="dds" />
+		<File Name="ciudad_base_Object77CompleteMap" UnCompress_Size="1398256" Compress_Size="118081" Extension="dds" />
+		<File Name="ciudad_base_Object65CompleteMap" UnCompress_Size="1398256" Compress_Size="137149" Extension="dds" />
+		<File Name="ciudad_base_Object09CompleteMap" UnCompress_Size="349680" Compress_Size="73304" Extension="dds" />
+		<File Name="ciudad_base_Object102CompleteMap" UnCompress_Size="1398256" Compress_Size="119270" Extension="dds" />
+		<File Name="ciudad_base_Object68CompleteMap" UnCompress_Size="1398256" Compress_Size="135702" Extension="dds" />
+		<File Name="ciudad_base_Object110CompleteMap" UnCompress_Size="1398256" Compress_Size="141463" Extension="dds" />
+		<File Name="ciudad_base_Object134CompleteMap" UnCompress_Size="1398256" Compress_Size="58365" Extension="dds" />
+		<File Name="ciudad_base_Object126CompleteMap" UnCompress_Size="1398256" Compress_Size="151252" Extension="dds" />
+		<File Name="ciudad_base_Object04CompleteMap" UnCompress_Size="1398256" Compress_Size="173812" Extension="dds" />
+		<File Name="ciudad_base_Object32CompleteMap" UnCompress_Size="1398256" Compress_Size="140504" Extension="dds" />
+		<File Name="ciudad_base_Object20CompleteMap" UnCompress_Size="699192" Compress_Size="186289" Extension="dds" />
+		<File Name="ciudad_base_Object83CompleteMap" UnCompress_Size="1398256" Compress_Size="145706" Extension="dds" />
+		<File Name="ciudad_base_Object91CompleteMap" UnCompress_Size="699192" Compress_Size="147462" Extension="dds" />
+		<File Name="ciudad_base_aire" UnCompress_Size="174904" Compress_Size="86038" Extension="dds" />
+		<File Name="ciudad_base_edif_04CompleteMap" UnCompress_Size="1398256" Compress_Size="103615" Extension="dds" />
+		<File Name="ciudad_base_grua02CompleteMap" UnCompress_Size="1398256" Compress_Size="105891" Extension="dds" />
+		<File Name="ciudad_base_grua05CompleteMap" UnCompress_Size="1398256" Compress_Size="154241" Extension="dds" />
+		<File Name="ciudad_base_Object89CompleteMap" UnCompress_Size="699192" Compress_Size="91448" Extension="dds" />
+		<File Name="ciudad_base_edif_03CompleteMap" UnCompress_Size="1398256" Compress_Size="158575" Extension="dds" />
+		<File Name="ciudad_base_grua08CompleteMap" UnCompress_Size="1398256" Compress_Size="154807" Extension="dds" />
+		<File Name="ciudad_base_Line53CompleteMap" UnCompress_Size="349680" Compress_Size="46091" Extension="dds" />
+		<File Name="ciudad_base_Object84CompleteMap" UnCompress_Size="1398256" Compress_Size="119086" Extension="dds" />
+		<File Name="ciudad_base_Box126CompleteMap" UnCompress_Size="349680" Compress_Size="48850" Extension="dds" />
+		<File Name="ciudad_base_Object35CompleteMap" UnCompress_Size="1398256" Compress_Size="149689" Extension="dds" />
+		<File Name="ciudad_base_Object27CompleteMap" UnCompress_Size="1398256" Compress_Size="147830" Extension="dds" />
+		<File Name="ciudad_base_Object03CompleteMap" UnCompress_Size="1398256" Compress_Size="148683" Extension="dds" />
+		<File Name="ciudad_base_Object133CompleteMap" UnCompress_Size="1398256" Compress_Size="147943" Extension="dds" />
+		<File Name="ciudad_base_Object121CompleteMap" UnCompress_Size="1398256" Compress_Size="134938" Extension="dds" />
+		<File Name="ciudad_base_Object59CompleteMap" UnCompress_Size="1398256" Compress_Size="144331" Extension="dds" />
+		<File Name="ciudad_base_Object105CompleteMap" UnCompress_Size="1398256" Compress_Size="90049" Extension="dds" />
+		<File Name="ciudad_base_Object117CompleteMap" UnCompress_Size="1398256" Compress_Size="144457" Extension="dds" />
+		<File Name="ciudad_base_azotea_camara06CompleteMap" UnCompress_Size="349680" Compress_Size="28628" Extension="dds" />
+		<File Name="ciudad_base_Box147CompleteMap" UnCompress_Size="1398256" Compress_Size="157028" Extension="dds" />
+		<File Name="ciudad_base_suelo_camara02CompleteMap" UnCompress_Size="1398256" Compress_Size="33289" Extension="dds" />
+		<File Name="ciudad_base_Box10CompleteMap" UnCompress_Size="349680" Compress_Size="54917" Extension="dds" />
+		<File Name="ciudad_base_Object38CompleteMap" UnCompress_Size="1398256" Compress_Size="143223" Extension="dds" />
+		<File Name="ciudad_base_Object70CompleteMap" UnCompress_Size="1398256" Compress_Size="110628" Extension="dds" />
+		<File Name="ciudad_base_Object108CompleteMap" UnCompress_Size="1398256" Compress_Size="140804" Extension="dds" />
+		<File Name="ciudad_base_Object62CompleteMap" UnCompress_Size="1398256" Compress_Size="144497" Extension="dds" />
+		<File Name="ciudad_base_Object46CompleteMap" UnCompress_Size="1398256" Compress_Size="146548" Extension="dds" />
+		<File Name="ciudad_base_Object54CompleteMap" UnCompress_Size="1398256" Compress_Size="143312" Extension="dds" />
+		<File Name="ciudad_base_Rectangle02CompleteMap" UnCompress_Size="349680" Compress_Size="21277" Extension="dds" />
+		<File Name="ciudad_base_Object87CompleteMap" UnCompress_Size="699192" Compress_Size="98558" Extension="dds" />
+		<File Name="ciudad_base_grua06CompleteMap" UnCompress_Size="1398256" Compress_Size="154886" Extension="dds" />
+		<File Name="ciudad_base_Object98CompleteMap" UnCompress_Size="1398256" Compress_Size="155451" Extension="dds" />
+		<File Name="ciudad_base_Box156CompleteMap" UnCompress_Size="1398256" Compress_Size="142994" Extension="dds" />
+		<File Name="ciudad_base_azotea_camara05CompleteMap" UnCompress_Size="1398256" Compress_Size="92388" Extension="dds" />
+		<File Name="ciudad_base_azotea_camara3CompleteMap" UnCompress_Size="1398256" Compress_Size="88819" Extension="dds" />
+		<File Name="ciudad_base_Object29CompleteMap" UnCompress_Size="1398256" Compress_Size="134749" Extension="dds" />
+		<File Name="ciudad_base_Object45CompleteMap" UnCompress_Size="1398256" Compress_Size="141668" Extension="dds" />
+		<File Name="ciudad_base_Object57CompleteMap" UnCompress_Size="1398256" Compress_Size="140686" Extension="dds" />
+		<File Name="ciudad_base_Object73CompleteMap" UnCompress_Size="1398256" Compress_Size="128484" Extension="dds" />
+		<File Name="ciudad_base_Object119CompleteMap" UnCompress_Size="1398256" Compress_Size="143216" Extension="dds" />
+		<File Name="ciudad_base_Object61CompleteMap" UnCompress_Size="1398256" Compress_Size="134200" Extension="dds" />
+		<File Name="ciudad_base_Box25CompleteMap" UnCompress_Size="349680" Compress_Size="55249" Extension="dds" />
+		<File Name="ciudad_base_Box72CompleteMap" UnCompress_Size="1398256" Compress_Size="145209" Extension="dds" />
+		<File Name="ciudad_base_Object36CompleteMap" UnCompress_Size="1398256" Compress_Size="150222" Extension="dds" />
+		<File Name="ciudad_base_Object24CompleteMap" UnCompress_Size="1398256" Compress_Size="143282" Extension="dds" />
+		<File Name="ciudad_base_Object106CompleteMap" UnCompress_Size="1398256" Compress_Size="135426" Extension="dds" />
+		<File Name="ciudad_base_Object114CompleteMap" UnCompress_Size="1398256" Compress_Size="136877" Extension="dds" />
+		<File Name="ciudad_base_Object48CompleteMap" UnCompress_Size="1398256" Compress_Size="144097" Extension="dds" />
+		<File Name="ciudad_base_Object130CompleteMap" UnCompress_Size="1398256" Compress_Size="145508" Extension="dds" />
+		<File Name="ciudad_base_Object122CompleteMap" UnCompress_Size="1398256" Compress_Size="154177" Extension="dds" />
+		<File Name="ciudad_base_Box116CompleteMap" UnCompress_Size="349680" Compress_Size="55861" Extension="dds" />
+		<File Name="ciudad_base_edif01CompleteMap" UnCompress_Size="1398256" Compress_Size="141564" Extension="dds" />
+		<File Name="ciudad_base_Object135CompleteMap" UnCompress_Size="87536" Compress_Size="15918" Extension="dds" />
+		<File Name="ciudad_base_Object127CompleteMap" UnCompress_Size="1398256" Compress_Size="144028" Extension="dds" />
+		<File Name="ciudad_base_Object103CompleteMap" UnCompress_Size="1398256" Compress_Size="125538" Extension="dds" />
+		<File Name="ciudad_base_Object69CompleteMap" UnCompress_Size="1398256" Compress_Size="112890" Extension="dds" />
+		<File Name="ciudad_base_Object111CompleteMap" UnCompress_Size="1398256" Compress_Size="141251" Extension="dds" />
+		<File Name="ciudad_base_Object33CompleteMap" UnCompress_Size="1398256" Compress_Size="148444" Extension="dds" />
+		<File Name="ciudad_base_Object21CompleteMap" UnCompress_Size="699192" Compress_Size="199512" Extension="dds" />
+		<File Name="ciudad_base_Object05CompleteMap" UnCompress_Size="1398256" Compress_Size="35054" Extension="dds" />
+		<File Name="ciudad_base_edificios_camara06CompleteMap" UnCompress_Size="1398256" Compress_Size="168609" Extension="dds" />
+		<File Name="ciudad_base_Object76CompleteMap" UnCompress_Size="1398256" Compress_Size="112002" Extension="dds" />
+		<File Name="ciudad_base_Object64CompleteMap" UnCompress_Size="1398256" Compress_Size="154304" Extension="dds" />
+		<File Name="ciudad_base_Object40CompleteMap" UnCompress_Size="1398256" Compress_Size="156213" Extension="dds" />
+		<File Name="ciudad_base_Object52CompleteMap" UnCompress_Size="1398256" Compress_Size="138002" Extension="dds" />
+		<File Name="ciudad_base_Object08CompleteMap" UnCompress_Size="1398256" Compress_Size="136340" Extension="dds" />
+		<File Name="ciudad_base_grua03CompleteMap" UnCompress_Size="1398256" Compress_Size="105667" Extension="dds" />
+		<File Name="ciudad_base_edif_05CompleteMap" UnCompress_Size="1398256" Compress_Size="132548" Extension="dds" />
+		<File Name="ciudad_base_Box91CompleteMap" UnCompress_Size="349680" Compress_Size="57204" Extension="dds" />
+		<File Name="ciudad_base_azotea_rttCompleteMap" UnCompress_Size="349680" Compress_Size="46908" Extension="dds" />
+		<File Name="ciudad_base_Object82CompleteMap" UnCompress_Size="1398256" Compress_Size="145553" Extension="dds" />
+		<File Name="ciudad_base_Object90CompleteMap" UnCompress_Size="699192" Compress_Size="145049" Extension="dds" />
+		<File Name="ciudad_base_Box23CompleteMap" UnCompress_Size="87536" Compress_Size="14560" Extension="dds" />
+		<File Name="ciudad_base_Object43CompleteMap" UnCompress_Size="1398256" Compress_Size="141863" Extension="dds" />
+		<File Name="ciudad_base_Object51CompleteMap" UnCompress_Size="1398256" Compress_Size="138179" Extension="dds" />
+		<File Name="ciudad_base_Object129CompleteMap" UnCompress_Size="1398256" Compress_Size="148765" Extension="dds" />
+		<File Name="ciudad_base_Object75CompleteMap" UnCompress_Size="1398256" Compress_Size="129604" Extension="dds" />
+		<File Name="ciudad_base_Object67CompleteMap" UnCompress_Size="1398256" Compress_Size="146669" Extension="dds" />
+		<File Name="ciudad_base_Object19CompleteMap" UnCompress_Size="699192" Compress_Size="180816" Extension="dds" />
+		<File Name="cielo_max_cielo" UnCompress_Size="699216" Compress_Size="121221" Extension="dds" />
+		<File Name="ciudad_base_Object100CompleteMap" UnCompress_Size="1398256" Compress_Size="136750" Extension="dds" />
+		<File Name="ciudad_base_Object78CompleteMap" UnCompress_Size="1398256" Compress_Size="151637" Extension="dds" />
+		<File Name="ciudad_base_Object112CompleteMap" UnCompress_Size="1398256" Compress_Size="146658" Extension="dds" />
+		<File Name="ciudad_base_Object124CompleteMap" UnCompress_Size="1398256" Compress_Size="150813" Extension="dds" />
+		<File Name="ciudad_base_Object06CompleteMap" UnCompress_Size="1398256" Compress_Size="134164" Extension="dds" />
+		<File Name="ciudad_base_Object14CompleteMap" UnCompress_Size="699192" Compress_Size="196264" Extension="dds" />
+		<File Name="ciudad_base_Object30CompleteMap" UnCompress_Size="1398256" Compress_Size="137679" Extension="dds" />
+		<File Name="ciudad_base_Object22CompleteMap" UnCompress_Size="699192" Compress_Size="95121" Extension="dds" />
+		<File Name="ciudad_base_PivotDoor01CompleteMap" UnCompress_Size="87536" Compress_Size="10178" Extension="dds" />
+		<File Name="ciudad_base_Object81CompleteMap" UnCompress_Size="1398256" Compress_Size="146829" Extension="dds" />
+		<File Name="ciudad_base_Object93CompleteMap" UnCompress_Size="699192" Compress_Size="96512" Extension="dds" />
+		<File Name="ciudad_base_Rectangle09CompleteMap" UnCompress_Size="87536" Compress_Size="15742" Extension="dds" />
+		<File Name="ciudad_base_edif_06CompleteMap" UnCompress_Size="1398256" Compress_Size="146585" Extension="dds" />
+	</Resource>
+	<Resource Name="Games" Compress_Size="66" UnCompress_Size="133" FileCount="1" >
+		<File Name="ciudad" UnCompress_Size="133" Compress_Size="66" Extension="gam" />
+	</Resource>
+	<Resource Name="Scenes" Compress_Size="6870" UnCompress_Size="67619" FileCount="1" >
+		<File Name="ciudad_base" UnCompress_Size="67619" Compress_Size="6870" Extension="scn" />
+	</Resource>
+	<Resource Name="AIModels" Compress_Size="195" UnCompress_Size="385" FileCount="1" >
+		<File Name="Main" UnCompress_Size="385" Compress_Size="195" Extension="aim" />
+	</Resource>
+	<Resource Name="RenderMaps" Compress_Size="21" UnCompress_Size="16" FileCount="1" >
+		<File Name="reflejo_agua" UnCompress_Size="16" Compress_Size="21" Extension="rmp" />
+	</Resource>
+</ExportReport>
+[05/30 12:20:31] ... Registered AIModel 'Main'
+[05/30 12:20:31] ... Changing current user scene to : 'ciudad_base'
+[05/30 12:20:38] !!! Cannot load object model 'cielo_max'
+[05/30 12:20:38] !!! Cannot load object model 'reflector_agua'
+[05/30 12:20:38] ... Sectorizing scene 'ciudad_base'
+[05/30 12:20:38] ... Scene 'ciudad_base' successfully sectorized (2047 sectors)
+[05/30 12:20:38] ... Reinitializing scene 'ciudad_base'
+[05/30 12:20:38] ... Scene 'ciudad_base' reinitialized
+[05/30 12:20:38] ... Scene 'ciudad_base' loaded ( 212 objects )
+[05/30 12:20:38] ... Switching to CSM shadows
+[05/30 12:20:38] ... Created Depth Shadow Texture : 1024x1024
+[05/30 12:20:38] ... Created Depth Shadow Texture : 1024x1024
+[05/30 12:20:38] ... Created Depth Shadow Texture : 1024x1024
+[05/30 12:20:38] ... Created Depth Shadow Texture : 1024x1024
+[05/30 12:20:38] ... Created generic fragment program : 0x00000101 (ALUIns:5, TEXIns:1, TEXInd:2, Par:2, Att:2, Tmp:3)
+[05/30 12:20:38] ... Created generic vertex program 2 : 00000000 (Ins:13, Par:6, Tmp:2, Mat:0)
+[05/30 12:20:38] ... Created generic vertex program 3 : 0x00000e00 (Ins:30, Par:19, Tmp:5, Mat:0)
+[05/30 12:20:38] ... Created generic fragment program : 0x00000100 (ALUIns:6, TEXIns:0, TEXInd:1, Par:2, Att:2, Tmp:2)
+[05/30 12:20:38] ... Resized RenderMap : 512x512 (desired : 512x512)
+[05/30 12:26:46] ... Destroyed player 0
+[05/30 12:26:46] ... Closed PAK 'C:\Documents and Settings\Administrador\Datos de programa/StoneTrip/Player/S3DStartup.stk'
+[05/30 12:26:46] ... Closed PAK 'C:\DATOS\Proyectos\cubensis\forma\hd_vicente\cubensis\forma\ciudad\ciudad shiva\exportados\ciudad.stk'
+[05/30 12:26:46] ... Average FPS : 64.094416
+[05/30 12:26:46] ... Closed Scene 'ciudad_base'
+[05/30 12:26:46] ... Unregistered AIModel 'Main'
+[05/30 12:26:46] ... Unregistered All AIModels

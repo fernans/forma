@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Administrador</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.2.5;  Revision: 673;  Platform: Win32;  Configuration: Release Max2010</authoring_tool>
+      <source_data>file:///C:/DATOS/Proyectos/cubensis/forma/hd_vicente/cubensis/forma/circulos/prueba%20escenario%201/14_refpoints.max</source_data>
+    </contributor>
+    <created>2010-07-15T20:33:34</created>
+    <modified>2010-07-15T20:33:34</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="ColorEffectR184G155B229">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <ambient>
+              <color>0.7215686 0.6078431 0.8980392 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.7215686 0.6078431 0.8980392 1</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent>
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="ColorEffectR184G155B229-material" name="ColorEffectR184G155B229-material">
+      <instance_effect url="#ColorEffectR184G155B229"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-Donut01" name="Donut01">
+      <spline closed="1">
+        <source id="geom-Donut01-positions">
+          <float_array id="geom-Donut01-positions-array" count="12">145.6022 0 0 -6.36447e-6 145.6022 0 -145.6022 -1.27289e-5 0 1.90934e-5 -145.6022 0</float_array>
+          <technique_common>
+            <accessor source="#geom-Donut01-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Donut01-intangents">
+          <float_array id="geom-Donut01-intangents-array" count="12">145.6022 -80.34129 0 80.34128 145.6022 0 -145.6022 80.34127 0 -80.34126 -145.6022 0</float_array>
+          <technique_common>
+            <accessor source="#geom-Donut01-intangents-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Donut01-outtangents">
+          <float_array id="geom-Donut01-outtangents-array" count="12">145.6022 80.34129 0 -80.34129 145.6022 0 -145.6022 -80.3413 0 80.34131 -145.6022 0</float_array>
+          <technique_common>
+            <accessor source="#geom-Donut01-outtangents-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Donut01-interpolations">
+          <Name_array id="geom-Donut01-interpolations-array" count="4">BEZIER BEZIER BEZIER BEZIER</Name_array>
+          <technique_common>
+            <accessor source="#geom-Donut01-interpolations-array" count="4" stride="1">
+              <param name="INTERPOLATION" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <control_vertices>
+          <input semantic="POSITION" source="#geom-Donut01-positions"/>
+          <input semantic="IN_TANGENT" source="#geom-Donut01-intangents"/>
+          <input semantic="OUT_TANGENT" source="#geom-Donut01-outtangents"/>
+          <input semantic="INTERPOLATION" source="#geom-Donut01-interpolations"/>
+        </control_vertices>
+      </spline>
+    </geometry>
+    <geometry id="geom-CamDummy" name="CamDummy">
+      <mesh>
+        <source id="geom-CamDummy-positions">
+          <float_array id="geom-CamDummy-positions-array" count="18">0 0 20 -8.74228e-7 20 -8.74228e-7 -20 -1.74846e-6 -8.74228e-7 2.38498e-7 -20 -8.74228e-7 20 3.49691e-6 -8.74228e-7 0 0 -20</float_array>
+          <technique_common>
+            <accessor source="#geom-CamDummy-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-CamDummy-normals">
+          <float_array id="geom-CamDummy-normals-array" count="18">2.46463e-8 -2.46463e-8 1 0 1 -2.46463e-8 -1 -2.46463e-8 0 4.92927e-8 -1 2.46463e-8 1 1.23232e-7 0 4.92927e-8 2.46463e-8 -1</float_array>
+          <technique_common>
+            <accessor source="#geom-CamDummy-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-CamDummy-vertices">
+          <input semantic="POSITION" source="#geom-CamDummy-positions"/>
+        </vertices>
+        <triangles material="ColorMaterial" count="8">
+          <input semantic="VERTEX" source="#geom-CamDummy-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-CamDummy-normals" offset="1"/>
+          <p>0 0 1 1 2 2 0 0 2 2 3 3 0 0 3 3 4 4 0 0 4 4 1 1 5 5 2 2 1 1 5 5 3 3 2 2 5 5 4 4 3 3 5 5 1 1 4 4</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-CamDummy" name="CamDummy">
+        <matrix sid="matrix">0.2588191 0.9659258 0 0 -0.9659258 0.2588191 0 34.8094 0 0 1 128.4427 0 0 0 1</matrix>
+        <node>
+          <matrix>1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1</matrix>
+          <instance_geometry url="#geom-CamDummy">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ColorMaterial" target="#ColorEffectR184G155B229-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <library_animations>
+    <animation>
+      <source id="node-CamDummy_matrix-input">
+        <float_array id="node-CamDummy_matrix-input-array" count="20">4.8 4.84 4.88 4.92 4.96 5 5.04 5.08 5.12 5.16 5.2 5.24 5.28 5.32 5.36 5.4 5.44 5.48 5.52 5.56</float_array>
+        <technique_common>
+          <accessor source="#node-CamDummy_matrix-input-array" count="20" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="node-CamDummy_matrix-output">
+        <float_array id="node-CamDummy_matrix-output-array" count="320">0.2588191 0.9659258 0 0 -0.9659258 0.2588191 0 34.8094 0 0 1 128.4427 0 0 0 1 0.2398449 0.9708112 0 0 -0.9708112 0.2398449 0 34.8094 0 0 1 128.4427 0 0 0 1 0.1852008 0.9827007 0 0 -0.9827007 0.1852008 0 34.8094 0 0 1 128.4427 0 0 0 1 0.09812635 0.9951739 0 0 -0.9951739 0.09812635 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.01749306 0.999847 0 0 -0.999847 -0.01749306 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.1561429 0.9877345 0 0 -0.9877345 -0.1561429 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.3101131 0.9506997 0 0 -0.9506997 -0.3101131 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.4695682 0.8828962 0 0 -0.8828962 -0.4695682 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.6233179 0.7819685 0 0 -0.7819685 -0.6233179 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.7601655 0.6497296 0 0 -0.6497296 -0.7601655 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.8705379 0.4921013 0 0 -0.4921013 -0.8705379 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.9479973 0.3182783 0 0 -0.3182783 -0.9479973 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.9902528 0.1392815 0 0 -0.1392815 -0.9902528 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.9994304 -0.03374755 0 0 0.03374755 -0.9994304 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.9815708 -0.1910986 0 0 0.1910986 -0.9815708 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.9455318 -0.3255297 0 0 0.3255297 -0.9455318 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.9015964 -0.4325782 0 0 0.4325782 -0.9015964 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.8600942 -0.5101353 0 0 0.5101353 -0.8600942 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.8302323 -0.5574175 0 0 0.5574175 -0.8302323 0 34.8094 0 0 1 128.4427 0 0 0 1 -0.8191521 -0.5735764 0 0 0.5735764 -0.8191521 0 34.8094 0 0 1 128.4427 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#node-CamDummy_matrix-output-array" count="20" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="node-CamDummy_matrix-interpolation">
+        <Name_array id="node-CamDummy_matrix-interpolation-array" count="20">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#node-CamDummy_matrix-interpolation-array" count="20" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="node-CamDummy_matrix-sampler">
+        <input semantic="INPUT" source="#node-CamDummy_matrix-input"/>
+        <input semantic="OUTPUT" source="#node-CamDummy_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#node-CamDummy_matrix-interpolation"/>
+      </sampler>
+      <channel source="#node-CamDummy_matrix-sampler" target="node-CamDummy/matrix"/>
+    </animation>
+  </library_animations>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+</COLLADA>

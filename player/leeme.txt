@@ -1,0 +1,59 @@
+desarrollo del player
+
+
+
+la carpeta base solo tiene estructura base de shiva
+(sin nada)
+
+_shared
+aqui estan los elementos a ser importados en proyectos nuevos
+
+
+oldBackup
+la carpeta test es antigua
+(no tiene aun todos los comandos)
+
+-----------------------------------
+
+LO BUENO ESTA EN "ESCENARIOS"
+circulos es el primero que es está completo
+ciudad tambien está ya completo
+
+-----------------------------------
+
+EL MOTOR ESTA EN  _ENGINE_
+
+poner a los nuevos escenarios "loadParser.ste" (AI) como User Main AIs
+[esto carga externamente el "BaseAI" desde parser.stk]
+[así se puede modificar el parser/interprete... sin tener que generar de nuevo el escenario stk]
+
+
+Script Main es el parser del doc (ahora importado en runtime desde parser.stk)
+
+Script animatedCam es el usado por la camara, para perseguir a target (y lanzar sus aniaciones)
+
+Script anim es el usado por las tarjetas (dummy con target, animacion, y modelo.. con sus subobjetos)
+
+
+exportar de aqui el "anims.stk" (dummy controlador de tarjeta)
+exportar de aqui el "tarjeta.stk" (incluye 2 modelos de tarjetas)
+
+exportar de aqui el Game ("circulos") que incluye [[el parser completo]], y 3 escenarios
+
+
+------------------------------------------
+
+Ya tiene
+crear tarjetas, cambiar modelos y texturas, y alpha
+(faltan detener animaciones en camaras)
+
+preloads texturas (tga,jpg,ogg) y modelos
+
+camara, set_target, set_position(lanza animacion), mover y rotar
+
+variables... utilzar set id="X" value="X"... usar como bla="$variable"
+
+
+-----------
+NOTA: para todos los elementos dinamicos (tarjetas, camaras, animaciones)
+Eje Z apuntando hacia atrás (X derecha, Y arriba)

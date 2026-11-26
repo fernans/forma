@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+function Main.onInit()
+
+
+
+
+
+
+application.setCurrentUserScene("ciudad_base")
+this.cam(application.getCurrentUserActiveCamera())
+hud.setCursorVisible(application.getCurrentUser(),false)
+
+end

@@ -1,0 +1,6 @@
+[S3E]
+MemSize = 32000000
+MemSize7 = 32768
+FixScreenOrientation = 1
+OverideDeviceRotation = 1
+AndroidIgnoreResizeWhilePaused = 1

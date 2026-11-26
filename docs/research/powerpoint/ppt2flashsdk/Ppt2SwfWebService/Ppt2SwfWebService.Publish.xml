@@ -1,0 +1,16 @@
+<publishData>
+  <publishTarget publishUrl="c:\deploy\webservice\">
+    <file relUrl="MainService.asmx" publishTime="03/03/2010 11:40:58" />
+    <file relUrl="bin/Ppt2SwfWebService.pdb" publishTime="04/08/2010 13:41:54" />
+    <file relUrl="bin/Ppt2SwfWebService.dll" publishTime="04/08/2010 13:41:54" />
+    <file relUrl="bin/Ppt2SwfWebServiceEventLog.reg" publishTime="03/04/2010 12:37:26" />
+    <file relUrl="Web.config" publishTime="04/06/2010 14:36:54" />
+  </publishTarget>
+  <publishTarget publishUrl="c:\deploy\webservice-copy\">
+    <file relUrl="MainService.asmx" publishTime="03/02/2010 13:36:47" />
+    <file relUrl="bin/Ppt2SwfWebService.pdb" publishTime="03/04/2010 11:15:44" />
+    <file relUrl="bin/Ppt2SwfWebService.dll" publishTime="03/04/2010 11:15:44" />
+    <file relUrl="bin/Ppt2SwfWebServiceEventLog.reg" publishTime="03/03/2010 18:33:09" />
+    <file relUrl="Web.config" publishTime="03/03/2010 14:02:49" />
+  </publishTarget>
+</publishData>

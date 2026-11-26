@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+function Main.onInit()
+
+
+
+
+
+
+application.setCurrentUserScene("prueba11")
+this.cam(application.getCurrentUserActiveCamera())
+hud.setCursorVisible(application.getCurrentUser(),false)
+
+end

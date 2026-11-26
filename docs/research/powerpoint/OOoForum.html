@@ -1,0 +1,1467 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="ltr"><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="SHORTCUT ICON" href="http://www.oooforum.org/favicon.ico">
+
+<link rel="top" href="http://www.oooforum.org/forum/index.phtml?sid=9eb365c857e504e7fc6a328f4411a0b8" title="OOoForum.org Forum Index">
+<link rel="search" href="http://www.oooforum.org/forum/search.phtml?sid=9eb365c857e504e7fc6a328f4411a0b8" title="Search">
+<link rel="help" href="http://www.oooforum.org/forum/faq.phtml?sid=9eb365c857e504e7fc6a328f4411a0b8" title="FAQ">
+<link rel="author" href="http://www.oooforum.org/forum/memberlist.phtml?sid=9eb365c857e504e7fc6a328f4411a0b8" title="Memberlist">
+<link rel="prev" href="http://www.oooforum.org/forum/viewtopic.phtml?t=8715&amp;view=previous&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" title="View previous topic">
+<link rel="next" href="http://www.oooforum.org/forum/viewtopic.phtml?t=8715&amp;view=next&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" title="View next topic">
+<link rel="up" href="http://www.oooforum.org/forum/viewforum.phtml?f=9&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" title="OpenOffice.org Macros and API">
+<link rel="chapter forum" href="http://www.oooforum.org/forum/viewforum.phtml?f=1&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" title="Setup and Troubleshooting">
+<link rel="chapter forum" href="http://www.oooforum.org/forum/viewforum.phtml?f=2&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" title="OpenOffice.org Writer">
+<link rel="chapter forum" href="http://www.oooforum.org/forum/viewforum.phtml?f=3&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" title="OpenOffice.org Calc">
+<link rel="chapter forum" href="http://www.oooforum.org/forum/viewforum.phtml?f=4&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" title="OpenOffice.org Impress">
+<link rel="chapter forum" href="http://www.oooforum.org/forum/viewforum.phtml?f=5&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" title="OpenOffice.org Draw">
+<link rel="chapter forum" href="http://www.oooforum.org/forum/viewforum.phtml?f=6&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" title="OpenOffice.org Math">
+<link rel="chapter forum" href="http://www.oooforum.org/forum/viewforum.phtml?f=10&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" title="OpenOffice.org Base">
+<link rel="chapter forum" href="http://www.oooforum.org/forum/viewforum.phtml?f=9&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" title="OpenOffice.org Macros and API">
+<link rel="chapter forum" href="http://www.oooforum.org/forum/viewforum.phtml?f=11&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" title="OpenOffice.org Code Snippets">
+<link rel="chapter forum" href="http://www.oooforum.org/forum/viewforum.phtml?f=7&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" title="General Discussion">
+<link rel="chapter forum" href="http://www.oooforum.org/forum/viewforum.phtml?f=8&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" title="Site Feedback">
+
+<title>OpenOffice.org Forum :: How convert Powerpoint slides to jpeg using openoffice api?</title>
+<meta name="description" content="The OpenOffice.org Forum at OOoForum.org is an OpenOffice.org help and discussion forum for exchanging information and tips with other users of OpenOffice.org, the open source office suite.">
+<meta name="keywords" content="OpenOffice Forum, OpenOffice Help, OpenOffice Support, Setup, Troubleshooting, Documentation, Open Source, Office, Office Suite, Bulletin Board, Discussion Forum, Forum, Help, OpenOffice, OpenOffice.org, FAQ, Howto, productivity software, StarOffice, Writer, Calc, Impress, Draw, Math">
+<!-- The OpenOffice.org Forum at OOoForum.org is an OpenOffice.org help and discussion forum for exchanging information and tips with other users of OpenOffice.org, the open source office suite.-->
+<link rel="stylesheet" href="OOoForum_files/subSilver.css" type="text/css">
+</head><body leftmargin="0" topmargin="0" bgcolor="#808f9e" link="#002b84" marginheight="0" marginwidth="0" text="#000000" vlink="#35424d">
+
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr bgcolor="#000000">
+    <td colspan="2"><img src="OOoForum_files/10x17_black.gif" height="17" width="10"></td>
+  </tr>
+  <tr bgcolor="#ffffff">
+    <td><a href="http://www.oooforum.org/"><img src="OOoForum_files/sitename.gif" alt="OpenOffice.org Forum at OOoForum.org" border="0" height="45" width="185"></a><img src="OOoForum_files/tagline.gif" alt="The OpenOffice.org Forum" height="45" width="185"></td>
+    <td>
+      <div align="right"><img src="OOoForum_files/gulls_right.gif" height="45" width="180"></div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" background="OOoForum_files/horizon-tiny.gif">&nbsp;</td>
+  </tr>
+</tbody></table>
+<table align="center" border="0" cellpadding="10" cellspacing="0" width="100%">
+	<tbody><tr>
+		<td class="bodyline"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td align="center" valign="middle" width="100%">
+				<table border="0" cellpadding="2" cellspacing="0">
+					<tbody><tr>
+						<td align="center" nowrap="nowrap" valign="top"><span class="mainmenu">&nbsp;[<a href="http://www.oooforum.org/" class="mainmenu">Home</a>]&nbsp; &nbsp;[<a href="http://www.oooforum.org/forum/faq.phtml?sid=9eb365c857e504e7fc6a328f4411a0b8" class="mainmenu">FAQ</a>]&nbsp; &nbsp;[<a href="http://www.oooforum.org/forum/search.phtml?sid=9eb365c857e504e7fc6a328f4411a0b8" class="mainmenu">Search</a>]&nbsp; &nbsp;[<a href="http://www.oooforum.org/forum/memberlist.phtml?sid=9eb365c857e504e7fc6a328f4411a0b8" class="mainmenu">Memberlist</a>]&nbsp; &nbsp;[<a href="http://www.oooforum.org/forum/groupcp.phtml?sid=9eb365c857e504e7fc6a328f4411a0b8" class="mainmenu">Usergroups</a>]&nbsp;
+						&nbsp;[<a href="http://www.oooforum.org/forum/profile.phtml?mode=register&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" class="mainmenu">Register</a>]&nbsp;
+						</span></td>
+					</tr>
+					<tr>
+						<td align="center" height="25" nowrap="nowrap" valign="top"><span class="mainmenu">&nbsp;[<a href="http://www.oooforum.org/forum/profile.phtml?mode=editprofile&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" class="mainmenu">Profile</a>]&nbsp; &nbsp;[<a href="http://www.oooforum.org/forum/privmsg.phtml?folder=inbox&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" class="mainmenu">Log in to check your private messages</a>]&nbsp; &nbsp;[<a href="http://www.oooforum.org/forum/login.phtml?sid=9eb365c857e504e7fc6a328f4411a0b8" class="mainmenu">Log in</a>]&nbsp;</span></td>
+					</tr>
+				</tbody></table></td>
+			</tr>
+		</tbody></table>
+		<br>
+
+
+<table border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody><tr>
+	<td colspan="2" align="left" valign="bottom"><a class="maintitle" href="http://www.oooforum.org/forum/viewtopic.phtml?t=8715&amp;start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=&amp;sid=9eb365c857e504e7fc6a328f4411a0b8">How convert Powerpoint slides to jpeg using openoffice api?</a><br>
+	  <span class="gensmall"><b>Goto page <b>1</b>, <a href="http://www.oooforum.org/forum/viewtopic.phtml?t=8715&amp;postdays=0&amp;postorder=asc&amp;start=15&amp;sid=9eb365c857e504e7fc6a328f4411a0b8">2</a>&nbsp;&nbsp;<a href="http://www.oooforum.org/forum/viewtopic.phtml?t=8715&amp;postdays=0&amp;postorder=asc&amp;start=15&amp;sid=9eb365c857e504e7fc6a328f4411a0b8">Next</a></b><br>
+	  &nbsp; </span></td>
+  </tr>
+</tbody></table>
+
+<table border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody><tr>
+	<td align="left" nowrap="nowrap" valign="bottom"><span class="nav"><a href="http://www.oooforum.org/forum/posting.phtml?mode=newtopic&amp;f=9&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/post.gif" alt="Post new topic" align="middle" border="0"></a>&nbsp;&nbsp;&nbsp;<a href="http://www.oooforum.org/forum/posting.phtml?mode=reply&amp;t=8715&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/reply.gif" alt="Reply to topic" align="middle" border="0"></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="http://www.oooforum.org/forum/index.phtml?sid=9eb365c857e504e7fc6a328f4411a0b8" class="nav">OOoForum.org Forum Index</a>
+	  -&gt; <a href="http://www.oooforum.org/forum/viewforum.phtml?f=9&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" class="nav">OpenOffice.org Macros and API</a></span></td>
+  </tr>
+</tbody></table>
+
+<table class="forumline" border="0" cellpadding="3" cellspacing="1" width="100%">
+	<tbody><tr align="right">
+		<td class="catHead" colspan="2" height="28"><span class="nav"><a href="http://www.oooforum.org/forum/viewtopic.phtml?t=8715&amp;view=previous&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" class="nav">View previous topic</a> :: <a href="http://www.oooforum.org/forum/viewtopic.phtml?t=8715&amp;view=next&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" class="nav">View next topic</a> &nbsp;</span></td>
+	</tr>
+	
+	<tr>
+		<th class="thLeft" height="26" nowrap="nowrap" width="150">Author</th>
+		<th class="thRight" nowrap="nowrap">Message</th>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="top" width="150"><span class="name"><a name="32425"></a><b>Viggo</b></span><br><span class="postdetails">Guest<br><br><br><br><br></span><br></td>
+		<td class="row1" height="28" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td width="100%"><a href="http://www.oooforum.org/forum/viewtopic.phtml?p=32425&amp;sid=9eb365c857e504e7fc6a328f4411a0b8#32425"><img src="OOoForum_files/icon_minipost.gif" alt="Post" title="Post" border="0" height="9" width="12"></a><span class="postdetails">Posted: Sun May 09, 2004 11:50 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: How convert Powerpoint slides to jpeg using openoffice api?</span></td>
+				<td nowrap="nowrap" valign="top"><a href="http://www.oooforum.org/forum/posting.phtml?mode=quote&amp;p=32425&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0"></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">Problem:
+<br>
+I need to convert powerpoint slides to jpeg (or pdf) using the open 
+office api. I need to do this in the background,  openoffice must not 
+open.
+<br>
+I have seen code snippets for this, but not an entire code sample that I
+ can use, and since I'm new to openoffice and it's api's, I would really
+ need some help!
+<br>
+
+<br>
+I have tried to create a sample, but it's not complete:
+<br>
+
+<br>
+import java.io.File;
+<br>
+
+<br>
+import com.sun.star.beans.PropertyValue;
+<br>
+import com.sun.star.beans.XPropertySet;
+<br>
+import com.sun.star.bridge.XUnoUrlResolver;
+<br>
+import com.sun.star.frame.XComponentLoader;
+<br>
+import com.sun.star.frame.XStorable;
+<br>
+import com.sun.star.io.IOException;
+<br>
+import com.sun.star.lang.XComponent;
+<br>
+import com.sun.star.lang.XMultiComponentFactory;
+<br>
+import com.sun.star.uno.UnoRuntime;
+<br>
+import com.sun.star.uno.XComponentContext;
+<br>
+
+<br>
+public class PowerpointConverter {
+<br>
+	
+<br>
+	private XMultiComponentFactory mxRemoteServiceManager = null;
+<br>
+	private XComponentContext mxRemoteContext = null;
+<br>
+   private String unoUrl = 
+<br>
+      "uno:socket,host=localhost,port=8100;urp;StarOffice.ServiceManager";
+<br>
+   
+<br>
+   public void convert(String url) {
+<br>
+		try {
+<br>
+			System.out.println("URL: " + url);
+<br>
+			XComponent xDoc = loadDocument(url);
+<br>
+			storeDocument(xDoc,url);
+<br>
+		} catch( IOException ioe) {
+<br>
+			ioe.printStackTrace();
+<br>
+		} catch (Exception e) {
+<br>
+			e.printStackTrace();
+<br>
+		}
+<br>
+   }
+<br>
+   
+<br>
+	private XComponent loadDocument(String loadUrl) throws Exception {
+<br>
+		
+<br>
+	     // get the remote service manager
+<br>
+      mxRemoteServiceManager = this.getRemoteServiceManager(loadUrl);
+<br>
+      // retrieve the Desktop object, we need its XComponentLoader
+<br>
+      Object desktop = mxRemoteServiceManager.createInstanceWithContext(
+<br>
+          "com.sun.star.frame.Desktop", mxRemoteContext);
+<br>
+      XComponentLoader xComponentLoader = (XComponentLoader)UnoRuntime.queryInterface(
+<br>
+          XComponentLoader.class, desktop);
+<br>
+      
+<br>
+      // Composing the URL by replacing all backslashs
+<br>
+      File file = new File(loadUrl);
+<br>
+      String stringUrl = "file://"
+<br>
+      + file.getAbsolutePath().replace( '\\', '/' );
+<br>
+      
+<br>
+      // Loading the wanted document
+<br>
+      XComponent xDoc =
+<br>
+      DocumentConverter.xcomponentloader.loadComponentFromURL(
+<br>
+      stringUrl, "_blank", 0, new PropertyValue[0] );     
+<br>
+      
+<br>
+      return xDoc;
+<br>
+	}
+<br>
+	
+<br>
+	private void storeDocument(XComponent xDoc, String storeUrl) throws IOException {
+<br>
+		
+<br>
+      XStorable xStorable = (XStorable)UnoRuntime.queryInterface(XStorable.class, xDoc);
+<br>
+      PropertyValue[] storeProps = new PropertyValue[1];
+<br>
+      storeProps[0] = new PropertyValue();
+<br>
+      storeProps[0].Name = "FilterName";
+<br>
+      storeProps[0].Value = "jpg_Export";        
+<br>
+
+<br>
+      xStorable.storeAsURL(storeUrl, storeProps); 		
+<br>
+	}
+<br>
+	
+<br>
+   private XMultiComponentFactory getRemoteServiceManager(String unoUrl) throws java.lang.Exception { 
+<br>
+      if (mxRemoteContext == null) {
+<br>
+          // First step: create local component context, get local servicemanager and
+<br>
+          // ask it to create a UnoUrlResolver object with an XUnoUrlResolver interface
+<br>
+          XComponentContext xLocalContext =
+<br>
+              com.sun.star.comp.helper.Bootstrap.createInitialComponentContext(null);
+<br>
+
+<br>
+          XMultiComponentFactory xLocalServiceManager = xLocalContext.getServiceManager();
+<br>
+
+<br>
+          Object urlResolver  = xLocalServiceManager.createInstanceWithContext(
+<br>
+              "com.sun.star.bridge.UnoUrlResolver", xLocalContext );
+<br>
+          // query XUnoUrlResolver interface from urlResolver object
+<br>
+          XUnoUrlResolver xUnoUrlResolver = (XUnoUrlResolver) UnoRuntime.queryInterface( 
+<br>
+              XUnoUrlResolver.class, urlResolver );
+<br>
+
+<br>
+          // Second step: use xUrlResolver interface to import the remote StarOffice.ServiceManager,
+<br>
+          // retrieve its property DefaultContext and get the remote servicemanager
+<br>
+          Object initialObject = xUnoUrlResolver.resolve( unoUrl );
+<br>
+          XPropertySet xPropertySet = (XPropertySet)UnoRuntime.queryInterface(
+<br>
+              XPropertySet.class, initialObject);
+<br>
+          Object context = xPropertySet.getPropertyValue("DefaultContext");            
+<br>
+          mxRemoteContext = (XComponentContext)UnoRuntime.queryInterface(
+<br>
+              XComponentContext.class, context);
+<br>
+      }
+<br>
+      return mxRemoteContext.getServiceManager();
+<br>
+  }    	
+<br>
+	
+<br>
+	public static void main(String[] args) {
+<br>
+		
+<br>
+		if(1 != args.length) {
+<br>
+			System.out.println("Usage: PowerpointConverter &lt;path to file&gt;");
+<br>
+			System.out.println("Example: PowerpointConverter c:\\data\\projects\\openoffice\\convertsource\\test.ppt");
+<br>
+		} else {
+<br>
+			PowerpointConverter converter = new PowerpointConverter();
+<br>
+			converter.convert(args[0]);
+<br>
+		}
+<br>
+	}
+<br>
+}
+<br>
+
+<br>
+
+<br>
+Best Regards
+<br>
+Viggo</span><table align="center" border="0" cellpadding="3" cellspacing="1" width="90%"><tbody><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code"></td>	</tr></tbody></table><span class="postbody"></span><span class="gensmall"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="middle" width="150"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row1" height="28" nowrap="nowrap" valign="bottom" width="100%"><table border="0" cellpadding="0" cellspacing="0" height="18" width="18">
+			<tbody><tr>
+				<td nowrap="nowrap" valign="middle">      <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script></td><td>&nbsp;</td><td nowrap="nowrap" valign="top"><div style="position: relative;"><div style="position: absolute;"></div><div style="position: absolute; left: 3px; top: -1px;"></div></div><noscript></noscript></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="OOoForum_files/spacer.gif" alt="" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td class="row2" align="left" valign="top" width="150"><span class="name"><a name="32470"></a><b>DannyB</b></span><br><span class="postdetails">Moderator<br><img src="OOoForum_files/rank5.gif" alt="Moderator" title="Moderator" border="0"><br><img src="OOoForum_files/41446a133fa81cc7182e6.gif" alt="" border="0"><br><br>Joined: 02 Apr 2003<br>Posts: 4021<br>Location: Lawrence, Kansas, USA</span><br></td>
+		<td class="row2" height="28" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td width="100%"><a href="http://www.oooforum.org/forum/viewtopic.phtml?p=32470&amp;sid=9eb365c857e504e7fc6a328f4411a0b8#32470"><img src="OOoForum_files/icon_minipost.gif" alt="Post" title="Post" border="0" height="9" width="12"></a><span class="postdetails">Posted: Mon May 10, 2004 7:21 am<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td nowrap="nowrap" valign="top"><a href="http://www.oooforum.org/forum/posting.phtml?mode=quote&amp;p=32470&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0"></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">Here is a list of many past document conversion examples...
+<br>
+<a href="http://www.oooforum.org/forum/viewtopic.php?t=4998" target="_blank">http://www.oooforum.org/forum/viewtopic.php?t=4998</a>
+<br>
+The technique primarily consists of...
+<br>
+1. Open a document from format X (possibly requiring import filter X)
+<br>
+2. Save document in format Y (probably requiring export filter Y)
+<br>
+3. Close document.
+<br>
+
+<br>
+In step 1, of course, you can open the document hidden so that it does 
+not appear on screen.  If you do this, then be sure to close the 
+document (step 3).
+<br>
+
+<br>
+Here is a program ready made, in Basic, that takes a presentation and splits it into sepeerate files.  I call it <a href="http://www.ooomacros.org/user.php#94879" target="_blank" class="postlink">Slide Splitter</a>, and you can get it at <a href="http://ooomacros.org/" target="_blank" class="postlink">OOoMacros.org</a>.
+<br>
+
+<br>
+</span><table align="center" border="0" cellpadding="3" cellspacing="1" width="90%"><tbody><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code">
+<br>
+Sub Main
+<br>
+&nbsp; &nbsp;' This is the name of the Impress document to split
+<br>
+&nbsp; &nbsp;'&nbsp; into separate documents.
+<br>
+&nbsp; &nbsp;' Each page of this Impress document is saved as a
+<br>
+&nbsp; &nbsp;'&nbsp; separate document, as a PDF, and also as a Flash.
+<br>
+'&nbsp; &nbsp;cImpressDocToSplit = "/home/danny/Desktop/SlideSplitter/SlideDocumentToSplit.sxi"
+<br>
+&nbsp; &nbsp;cImpressDocToSplit = "C:\Documents and Settings\dbrewer\Desktop\SlideSplitter\SlideDocumentToSplit.sxi"
+<br>
+
+<br>
+&nbsp; &nbsp;SplitSlides( cImpressDocToSplit )
+<br>
+End Sub
+<br>
+
+<br>
+Sub SplitSlides( cImpressDocToSplit )
+<br>
+&nbsp; &nbsp;
+<br>
+&nbsp; &nbsp;' Open the document to find out how many pages it has.
+<br>
+&nbsp; &nbsp;oDoc = StarDesktop.LoadComponentFromURL( ConvertToURL( cImpressDocToSplit ), "_blank", 0, Array() )
+<br>
+&nbsp; &nbsp;
+<br>
+&nbsp; &nbsp;nNumPages = oDoc.getDrawPages().getCount()
+<br>
+&nbsp; &nbsp;
+<br>
+&nbsp; &nbsp;' Now that we know how many pages it has, close it.
+<br>
+&nbsp; &nbsp;oDoc.close( True )
+<br>
+&nbsp; &nbsp;
+<br>
+&nbsp; &nbsp;' Get the name of the document, but without a filename suffix.
+<br>
+&nbsp; &nbsp;cImpressDocToSplitNoSuffix = Left( cImpressDocToSplit, Len( cImpressDocToSplit ) - 4 )
+<br>
+&nbsp; &nbsp;
+<br>
+&nbsp; &nbsp;
+<br>
+&nbsp; &nbsp;' Now loop once for each page.
+<br>
+&nbsp; &nbsp;nHighestPageNumber = nNumPages-1
+<br>
+'&nbsp; &nbsp;nPageToSave = 2
+<br>
+&nbsp; &nbsp;For nPageToSave = 0 To nHighestPageNumber
+<br>
+&nbsp; &nbsp;
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;' Open the document.
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;oDoc = StarDesktop.LoadComponentFromURL( ConvertToURL( cImpressDocToSplit ), "_blank", 0, Array() )
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;' Delete all pages except the one we're interested in keeping
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;'&nbsp; on this loop.
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;DeleteAllPagesExcept( oDoc, nPageToSave )
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;' Prepare to save the document in multiple forms.
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;' First get the new filename to save it under.
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;cNewName = cImpressDocToSplitNoSuffix + " -- page " + CSTR( nPageToSave + 1 )
+<br>
+
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;' Save the document as a new impress document.
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;oDoc.storeToURL( ConvertToURL( cNewName + ".sxi" ), _
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Array() )
+<br>
+
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;' Save it as a PDF.
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;oDoc.storeToUrl( ConvertToURL( cNewName + ".pdf" ), _
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Array( MakePropertyValue( "FilterName", "impress_pdf_Export" ) ) )
+<br>
+
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;' Save it as a Flash.
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;oDoc.storeToUrl( ConvertToURL( cNewName + ".swf" ), _
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Array( MakePropertyValue( "FilterName", "impress_flash_Export" ) ) )
+<br>
+
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;' Save it as a JPEG.
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;oDoc.storeToUrl( ConvertToURL( cNewName + ".jpeg" ), _
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Array( MakePropertyValue( "FilterName", "impress_jpg_Export" ) ) )
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;' Close the document without saving it.
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;oDoc.close( True )
+<br>
+&nbsp; &nbsp;Next
+<br>
+&nbsp; &nbsp;
+<br>
+End Sub
+<br>
+
+<br>
+
+<br>
+
+<br>
+' Delete all pages of an Impress or Draw document,
+<br>
+'&nbsp; EXCEPT for a certian page that we want to keep.
+<br>
+Function DeleteAllPagesExcept( oDoc, nPageToKeep )
+<br>
+&nbsp; &nbsp;nNumPages = oDoc.getDrawPages().getCount()
+<br>
+&nbsp; &nbsp;nHighestPageNumber = nNumPages-1
+<br>
+&nbsp; &nbsp;
+<br>
+&nbsp; &nbsp;' Delete the last page, then the page before that,
+<br>
+&nbsp; &nbsp;'&nbsp; then the page before that, until we get to the
+<br>
+&nbsp; &nbsp;'&nbsp; page to keep.
+<br>
+&nbsp; &nbsp;' This deletes all pages AFTER the page to keep.
+<br>
+&nbsp; &nbsp;nPageToDelete = nHighestPageNumber
+<br>
+&nbsp; &nbsp;Do while nPageToDelete &gt; nPageToKeep
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;' Get the page.
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;oPage = oDoc.getDrawPages().getByIndex( nPageToDelete )
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;' Tell the document to remove it.
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;oDoc.getDrawPages().remove( oPage )
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;nPageToDelete = nPageToDelete - 1
+<br>
+&nbsp; &nbsp;Loop
+<br>
+&nbsp; &nbsp;
+<br>
+&nbsp; &nbsp;' Delete all the pages before the page to keep.
+<br>
+&nbsp; &nbsp;For i = 0 To nPageToKeep - 1
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;' Delete the first page.
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;nPageToDelete = 0
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;' Get the page.
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;oPage = oDoc.getDrawPages().getByIndex( nPageToDelete )
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;' Tell the document to remove it.
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;oDoc.getDrawPages().remove( oPage )
+<br>
+&nbsp; &nbsp;Next
+<br>
+End Function
+<br>
+
+<br>
+
+<br>
+Function MakePropertyValue( Optional cName As String, Optional uValue ) As com.sun.star.beans.PropertyValue
+<br>
+&nbsp; &nbsp;oPropertyValue = createUnoStruct( "com.sun.star.beans.PropertyValue" )
+<br>
+&nbsp; &nbsp;If Not IsMissing( cName ) Then
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;oPropertyValue.Name = cName
+<br>
+&nbsp; &nbsp;EndIf
+<br>
+&nbsp; &nbsp;If Not IsMissing( uValue ) Then
+<br>
+&nbsp; &nbsp;&nbsp; &nbsp;oPropertyValue.Value = uValue
+<br>
+&nbsp; &nbsp;EndIf
+<br>
+&nbsp; &nbsp;MakePropertyValue() = oPropertyValue
+<br>
+End Function
+<br>
+</td>	</tr></tbody></table><span class="postbody">
+<br>
+
+<br>
+
+<br>
+The above program takes an impress document (or powerpoint) and splits 
+it into multiple presentation documents, one slide per document.  In 
+addition, each separated slide is exported into the following 
+formats....
+<br>
+PDF
+<br>
+Flash (swf)
+<br>
+Jpeg
+<br>
+
+<br>
+You can either use this code, if it is a one-time job.  Or you can use the same techniques in a Java program.<br>_________________<br><a href="http://ooomacros.org/user.php#91518" target="_blank" class="postlink">Want to make OOo Drawings like the colored flower design to the left?</a></span><span class="gensmall"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="row2" align="left" valign="middle" width="150"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row2" height="28" nowrap="nowrap" valign="bottom" width="100%"><table border="0" cellpadding="0" cellspacing="0" height="18" width="18">
+			<tbody><tr>
+				<td nowrap="nowrap" valign="middle"><a href="http://www.oooforum.org/forum/profile.phtml?mode=viewprofile&amp;u=479&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0"></a> <a href="http://www.oooforum.org/forum/privmsg.phtml?mode=post&amp;u=479&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_pm.gif" alt="Send private message" title="Send private message" border="0"></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script></td><td>&nbsp;</td><td nowrap="nowrap" valign="top"><div style="position: relative;"><div style="position: absolute;"></div><div style="position: absolute; left: 3px; top: -1px;"></div></div><noscript></noscript></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="OOoForum_files/spacer.gif" alt="" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="top" width="150"><span class="name"><a name="45375"></a><b>varungupta</b></span><br><span class="postdetails">General User<br><img src="OOoForum_files/rank2.gif" alt="General User" title="General User" border="0"><br><br><br>Joined: 18 Aug 2004<br>Posts: 7<br></span><br></td>
+		<td class="row1" height="28" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td width="100%"><a href="http://www.oooforum.org/forum/viewtopic.phtml?p=45375&amp;sid=9eb365c857e504e7fc6a328f4411a0b8#45375"><img src="OOoForum_files/icon_minipost.gif" alt="Post" title="Post" border="0" height="9" width="12"></a><span class="postdetails">Posted: Wed Aug 18, 2004 12:41 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: Re: How convert Powerpoint slides to jpeg using openoffice a</span></td>
+				<td nowrap="nowrap" valign="top"><a href="http://www.oooforum.org/forum/posting.phtml?mode=quote&amp;p=45375&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0"></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody"></span><table align="center" border="0" cellpadding="3" cellspacing="1" width="90%"><tbody><tr> 	  <td><span class="genmed"><b>Viggo wrote:</b></span></td>	</tr>	<tr>	  <td class="quote">Problem:
+<br>
+I need to convert powerpoint slides to jpeg (or pdf) using the open 
+office api. I need to do this in the background,  openoffice must not 
+open.
+<br>
+I have seen code snippets for this, but not an entire code sample that I
+ can use, and since I'm new to openoffice and it's api's, I would really
+ need some help!
+<br>
+
+<br>
+I have tried to create a sample, but it's not complete:
+<br>
+
+<br>
+import java.io.File;
+<br>
+
+<br>
+import com.sun.star.beans.PropertyValue;
+<br>
+import com.sun.star.beans.XPropertySet;
+<br>
+import com.sun.star.bridge.XUnoUrlResolver;
+<br>
+
+<br>
+Best Regards
+<br>
+Viggo<table align="center" border="0" cellpadding="3" cellspacing="1" width="90%"><tbody><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code"></td>	</tr></tbody></table><span class="postbody"></span></td>	</tr></tbody></table><span class="postbody">
+<br>
+
+<br>
+Hi Viggo,
+<br>
+
+<br>
+Can u tell me where have u seen some code snippets for converting Presentation slides to JPEG ?
+<br>
+
+<br>
+I also want to write a Java Program which can convert PPT slides into JPEG in the background (without opening OpenOffice) ?? 
+<br>
+
+<br>
+Moreover i dont want to use Macros
+<br>
+
+<br>
+Thanx in advance
+<br>
+
+<br>
+Varun</span><span class="gensmall"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="middle" width="150"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row1" height="28" nowrap="nowrap" valign="bottom" width="100%"><table border="0" cellpadding="0" cellspacing="0" height="18" width="18">
+			<tbody><tr>
+				<td nowrap="nowrap" valign="middle"><a href="http://www.oooforum.org/forum/profile.phtml?mode=viewprofile&amp;u=7225&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0"></a> <a href="http://www.oooforum.org/forum/privmsg.phtml?mode=post&amp;u=7225&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_pm.gif" alt="Send private message" title="Send private message" border="0"></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script></td><td>&nbsp;</td><td nowrap="nowrap" valign="top"><div style="position: relative;"><div style="position: absolute;"></div><div style="position: absolute; left: 3px; top: -1px;"></div></div><noscript></noscript></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="OOoForum_files/spacer.gif" alt="" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td class="row2" align="left" valign="top" width="150"><span class="name"><a name="45459"></a><b>DannyB</b></span><br><span class="postdetails">Moderator<br><img src="OOoForum_files/rank5.gif" alt="Moderator" title="Moderator" border="0"><br><img src="OOoForum_files/41446a133fa81cc7182e6.gif" alt="" border="0"><br><br>Joined: 02 Apr 2003<br>Posts: 4021<br>Location: Lawrence, Kansas, USA</span><br></td>
+		<td class="row2" height="28" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td width="100%"><a href="http://www.oooforum.org/forum/viewtopic.phtml?p=45459&amp;sid=9eb365c857e504e7fc6a328f4411a0b8#45459"><img src="OOoForum_files/icon_minipost.gif" alt="Post" title="Post" border="0" height="9" width="12"></a><span class="postdetails">Posted: Thu Aug 19, 2004 7:22 am<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td nowrap="nowrap" valign="top"><a href="http://www.oooforum.org/forum/posting.phtml?mode=quote&amp;p=45459&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0"></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">The code earlier in this 
+thread converts Impress to JPEG.  On the loadComponentFromURL, just load
+ a PPT instead of an Impress (SXI).  Because TypeDetection mechanism can
+ auto recognize PPT and open it in Impress, you don't even need to pass 
+an import filter property to loadComponentFromURL.  Just give 
+loadComponentFromURL the pathname of a PPT file instead of an SXI file.
+<br>
+
+<br>
+If you want the files opened in the background, then be sure to do two things...
+<br>
+1. Be sure to pass the Hideen property with a value of True to loadComponentFromURL.
+<br>
+2. Be SURE to close the document when done with it.  Since the document 
+was opened invisible (Hidden=True), the user cannot see it on the 
+screen, and therefore cannot close it.  So your code must close it.
+<br>
+
+<br>
+The code can be written in Java.  The API is the same no matter what 
+programming language.  In Java, before every single method call, you 
+will have to do an UnoRuntime.queryInterface to obtain the correct 
+interface which has the method you are about to call.
+<br>
+
+<br>
+See this article....
+<br>
+<span style="font-style: italic;">Impress: Export slides into separate documents</span>
+<br>
+<a href="http://www.oooforum.org/forum/viewtopic.php?t=7796" target="_blank">http://www.oooforum.org/forum/viewtopic.php?t=7796</a>
+<br>
+This article is similar to the above.  If you do rewrite the example in 
+Java, please consider publishing it publicly.  Perhaps by appending it 
+to the article I just linked to.
+<br>
+
+<br>
+
+<br>
+
+<br>
+Other misc. related articles...
+<br>
+<a href="http://www.oooforum.org/forum/viewtopic.php?p=32470#32470" target="_blank">http://www.oooforum.org/forum/viewtopic.php?p=32470#32470</a>
+<br>
+<a href="http://www.oooforum.org/forum/viewtopic.php?p=23018#23018" target="_blank">http://www.oooforum.org/forum/viewtopic.php?p=23018#23018</a>
+<br>
+<a href="http://www.oooforum.org/forum/viewtopic.php?t=2664" target="_blank">http://www.oooforum.org/forum/viewtopic.php?t=2664</a>
+<br>
+<a href="http://www.oooforum.org/forum/viewtopic.php?p=9819#9819" target="_blank">http://www.oooforum.org/forum/viewtopic.php?p=9819#9819</a><br>_________________<br><a href="http://ooomacros.org/user.php#91518" target="_blank" class="postlink">Want to make OOo Drawings like the colored flower design to the left?</a></span><span class="gensmall"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="row2" align="left" valign="middle" width="150"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row2" height="28" nowrap="nowrap" valign="bottom" width="100%"><table border="0" cellpadding="0" cellspacing="0" height="18" width="18">
+			<tbody><tr>
+				<td nowrap="nowrap" valign="middle"><a href="http://www.oooforum.org/forum/profile.phtml?mode=viewprofile&amp;u=479&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0"></a> <a href="http://www.oooforum.org/forum/privmsg.phtml?mode=post&amp;u=479&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_pm.gif" alt="Send private message" title="Send private message" border="0"></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script></td><td>&nbsp;</td><td nowrap="nowrap" valign="top"><div style="position: relative;"><div style="position: absolute;"></div><div style="position: absolute; left: 3px; top: -1px;"></div></div><noscript></noscript></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="OOoForum_files/spacer.gif" alt="" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="top" width="150"><span class="name"><a name="45507"></a><b>prakash</b></span><br><span class="postdetails">General User<br><img src="OOoForum_files/rank2.gif" alt="General User" title="General User" border="0"><br><br><br>Joined: 27 May 2004<br>Posts: 32<br></span><br></td>
+		<td class="row1" height="28" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td width="100%"><a href="http://www.oooforum.org/forum/viewtopic.phtml?p=45507&amp;sid=9eb365c857e504e7fc6a328f4411a0b8#45507"><img src="OOoForum_files/icon_minipost.gif" alt="Post" title="Post" border="0" height="9" width="12"></a><span class="postdetails">Posted: Thu Aug 19, 2004 8:52 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td nowrap="nowrap" valign="top"><a href="http://www.oooforum.org/forum/posting.phtml?mode=quote&amp;p=45507&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0"></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">Same thing can be done in three steps :
+<br>
+1  get XComponentLoader
+<br>
+2  load document
+<br>
+3. use storeToURL or storeAsURL ( this will store PPT as jpeg and html as well)
+<br>
+    use filter ( impress_html_Export )
+<br>
+
+<br>
+But if you want convert a particular slide in to jpeg.. earlier approach is better
+<br>
+
+<br>
+Can we use XComponentLoader object to get ServiceFactory ( using some 
+query interface) ... which can be  used to create Graphic filter.</span><span class="gensmall"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="middle" width="150"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row1" height="28" nowrap="nowrap" valign="bottom" width="100%"><table border="0" cellpadding="0" cellspacing="0" height="18" width="18">
+			<tbody><tr>
+				<td nowrap="nowrap" valign="middle"><a href="http://www.oooforum.org/forum/profile.phtml?mode=viewprofile&amp;u=5418&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0"></a> <a href="http://www.oooforum.org/forum/privmsg.phtml?mode=post&amp;u=5418&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_pm.gif" alt="Send private message" title="Send private message" border="0"></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script></td><td>&nbsp;</td><td nowrap="nowrap" valign="top"><div style="position: relative;"><div style="position: absolute;"></div><div style="position: absolute; left: 3px; top: -1px;"></div></div><noscript></noscript></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="OOoForum_files/spacer.gif" alt="" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td class="row2" align="left" valign="top" width="150"><span class="name"><a name="45542"></a><b>DannyB</b></span><br><span class="postdetails">Moderator<br><img src="OOoForum_files/rank5.gif" alt="Moderator" title="Moderator" border="0"><br><img src="OOoForum_files/41446a133fa81cc7182e6.gif" alt="" border="0"><br><br>Joined: 02 Apr 2003<br>Posts: 4021<br>Location: Lawrence, Kansas, USA</span><br></td>
+		<td class="row2" height="28" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td width="100%"><a href="http://www.oooforum.org/forum/viewtopic.phtml?p=45542&amp;sid=9eb365c857e504e7fc6a328f4411a0b8#45542"><img src="OOoForum_files/icon_minipost.gif" alt="Post" title="Post" border="0" height="9" width="12"></a><span class="postdetails">Posted: Fri Aug 20, 2004 5:26 am<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td nowrap="nowrap" valign="top"><a href="http://www.oooforum.org/forum/posting.phtml?mode=quote&amp;p=45542&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0"></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">A Service may support 
+multiple Interfaces.  Once you have any interface, you can query to any 
+other interface on the same service.
+<br>
+
+<br>
+Think of the Service as an "object".  Think of the Interfaces to be 
+similar to what Interfaces are in Java.  The UnoRuntime.queryInterface 
+should be thought of as a type cast from one interface to another 
+interface.  Do not replace queryInteface with an ordinary typecast.  
+UnoRuntime.queryInterface might return a different underlying concrete 
+object.  After all a "Service" may actually be a small group of related 
+objects.  But think of a Service abstractly as one object with multiple 
+interfaces.
+<br>
+
+<br>
+ServiceFoo has interfaces XApple, XOrange, and XBannana.
+<br>
+
+<br>
+XOrange xOrange = (XOrange) ....something to get ServiceFoo....
+<br>
+XApple xApple = (XApple) UnoRuntime.queryInterface( XApple.class, xOrange );
+<br>
+
+<br>
+The first line got the ServiceFoo object (actually service not object). 
+ It got the XOrange interface to the Service.  The second line does a 
+typecast to obtain the XApple interface to the ServiceFoo service.
+<br>
+
+<br>
+In Basic or Python, this whole queryInterface business is unnecessary.
+<br>
+
+<br>
+oServiceFoo = ....something to get ServiceFoo....
+<br>
+
+<br>
+I would not need seperate variables to hold typed interfaces.  I could 
+call any method of any interface directly from the oServiceFoo variable.
+<br>
+
+<br>
+oServiceFoo.someAppleMethod( ... )
+<br>
+oServiceFoo.someOrangeMethod( ... )
+<br>
+oServiceFoo.someBannanaMethod( .... )
+<br>
+
+<br>
+no need to queryInterface.  The Basic or Python will figure out which 
+interface needs to be obtained in order to call the method.<br>_________________<br><a href="http://ooomacros.org/user.php#91518" target="_blank" class="postlink">Want to make OOo Drawings like the colored flower design to the left?</a></span><span class="gensmall"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="row2" align="left" valign="middle" width="150"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row2" height="28" nowrap="nowrap" valign="bottom" width="100%"><table border="0" cellpadding="0" cellspacing="0" height="18" width="18">
+			<tbody><tr>
+				<td nowrap="nowrap" valign="middle"><a href="http://www.oooforum.org/forum/profile.phtml?mode=viewprofile&amp;u=479&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0"></a> <a href="http://www.oooforum.org/forum/privmsg.phtml?mode=post&amp;u=479&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_pm.gif" alt="Send private message" title="Send private message" border="0"></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script></td><td>&nbsp;</td><td nowrap="nowrap" valign="top"><div style="position: relative;"><div style="position: absolute;"></div><div style="position: absolute; left: 3px; top: -1px;"></div></div><noscript></noscript></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="OOoForum_files/spacer.gif" alt="" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="top" width="150"><span class="name"><a name="45631"></a><b>varungupta</b></span><br><span class="postdetails">General User<br><img src="OOoForum_files/rank2.gif" alt="General User" title="General User" border="0"><br><br><br>Joined: 18 Aug 2004<br>Posts: 7<br></span><br></td>
+		<td class="row1" height="28" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td width="100%"><a href="http://www.oooforum.org/forum/viewtopic.phtml?p=45631&amp;sid=9eb365c857e504e7fc6a328f4411a0b8#45631"><img src="OOoForum_files/icon_minipost.gif" alt="Post" title="Post" border="0" height="9" width="12"></a><span class="postdetails">Posted: Sat Aug 21, 2004 2:01 am<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td nowrap="nowrap" valign="top"><a href="http://www.oooforum.org/forum/posting.phtml?mode=quote&amp;p=45631&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0"></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody"></span><table align="center" border="0" cellpadding="3" cellspacing="1" width="90%"><tbody><tr> 	  <td><span class="genmed"><b>prakash wrote:</b></span></td>	</tr>	<tr>	  <td class="quote">Same thing can be done in three steps :
+<br>
+1  get XComponentLoader
+<br>
+2  load document
+<br>
+3. use storeToURL or storeAsURL ( this will store PPT as jpeg and html as well)
+<br>
+    use filter ( impress_html_Export )
+<br>
+
+<br>
+But if you want convert a particular slide in to jpeg.. earlier approach is better
+<br>
+
+<br>
+Can we use XComponentLoader object to get ServiceFactory ( using some 
+query interface) ... which can be  used to create Graphic filter.</td>	</tr></tbody></table><span class="postbody">
+<br>
+
+<br>
+Hi Prakash
+<br>
+
+<br>
+I tried that but it gives this exception :
+<br>
+
+<br>
+com.sun.star.io.IOException: 
+<br>
+        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br>
+        at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+<br>
+        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+<br>
+        at java.lang.reflect.Constructor.newInstance(Constructor.java:274)
+<br>
+        at com.sun.star.lib.uno.protocols.urp.Unmarshal.readThrowable(Unmarshal.java:315)
+<br>
+        at com.sun.star.lib.uno.protocols.urp.Unmarshal.readAny(Unmarshal.java:157)
+<br>
+        at com.sun.star.lib.uno.protocols.urp.Unmarshal.readObject(Unmarshal.java:404)
+<br>
+        at com.sun.star.lib.uno.protocols.urp.urp.readReply(urp.java:192)
+<br>
+        at com.sun.star.lib.uno.protocols.urp.urp.readMessage(urp.java:308)
+<br>
+        at com.sun.star.lib.uno.protocols.urp.urp.readMessage(urp.java:607)
+<br>
+        at com.sun.star.lib.uno.bridges.java_remote.java_remote_bridge$MessageDispatcher.invoke(java_remote_bridge.java:184)
+<br>
+        at com.sun.star.lib.uno.bridges.java_remote.java_remote_bridge$MessageDispatcher.run(java_remote_bridge.java:175)
+<br>
+
+<br>
+See if u can help me get over this problem.
+<br>
+Moreover i tried the DocumentConverter Example in the SDK. I used it to 
+convert doc to pdf by using the filter "writer_pdf_Export". But it also 
+gives the same exception.
+<br>
+
+<br>
+Help me !!  <img src="OOoForum_files/icon_sad.gif" alt="Sad" border="0"> 
+<br>
+
+<br>
+thanx in advance
+<br>
+
+<br>
+Varun</span><span class="gensmall"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="middle" width="150"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row1" height="28" nowrap="nowrap" valign="bottom" width="100%"><table border="0" cellpadding="0" cellspacing="0" height="18" width="18">
+			<tbody><tr>
+				<td nowrap="nowrap" valign="middle"><a href="http://www.oooforum.org/forum/profile.phtml?mode=viewprofile&amp;u=7225&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0"></a> <a href="http://www.oooforum.org/forum/privmsg.phtml?mode=post&amp;u=7225&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_pm.gif" alt="Send private message" title="Send private message" border="0"></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script></td><td>&nbsp;</td><td nowrap="nowrap" valign="top"><div style="position: relative;"><div style="position: absolute;"></div><div style="position: absolute; left: 3px; top: -1px;"></div></div><noscript></noscript></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="OOoForum_files/spacer.gif" alt="" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td class="row2" align="left" valign="top" width="150"><span class="name"><a name="45669"></a><b>varungupta</b></span><br><span class="postdetails">General User<br><img src="OOoForum_files/rank2.gif" alt="General User" title="General User" border="0"><br><br><br>Joined: 18 Aug 2004<br>Posts: 7<br></span><br></td>
+		<td class="row2" height="28" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td width="100%"><a href="http://www.oooforum.org/forum/viewtopic.phtml?p=45669&amp;sid=9eb365c857e504e7fc6a328f4411a0b8#45669"><img src="OOoForum_files/icon_minipost.gif" alt="Post" title="Post" border="0" height="9" width="12"></a><span class="postdetails">Posted: Sat Aug 21, 2004 10:25 am<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td nowrap="nowrap" valign="top"><a href="http://www.oooforum.org/forum/posting.phtml?mode=quote&amp;p=45669&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0"></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">hi guys
+<br>
+
+<br>
+Good news.
+<br>
+Got the application to convert from PPT to JPEG in Java Working.
+<br>
+
+<br>
+The exception that i told before can be avoided if we use
+<br>
+storeToUrl instead of storeAsUrl
+<br>
+
+<br>
+Bye
+<br>
+
+<br>
+Varun</span><span class="gensmall"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="row2" align="left" valign="middle" width="150"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row2" height="28" nowrap="nowrap" valign="bottom" width="100%"><table border="0" cellpadding="0" cellspacing="0" height="18" width="18">
+			<tbody><tr>
+				<td nowrap="nowrap" valign="middle"><a href="http://www.oooforum.org/forum/profile.phtml?mode=viewprofile&amp;u=7225&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0"></a> <a href="http://www.oooforum.org/forum/privmsg.phtml?mode=post&amp;u=7225&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_pm.gif" alt="Send private message" title="Send private message" border="0"></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script></td><td>&nbsp;</td><td nowrap="nowrap" valign="top"><div style="position: relative;"><div style="position: absolute;"></div><div style="position: absolute; left: 3px; top: -1px;"></div></div><noscript></noscript></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="OOoForum_files/spacer.gif" alt="" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="top" width="150"><span class="name"><a name="46151"></a><b>prakash</b></span><br><span class="postdetails">General User<br><img src="OOoForum_files/rank2.gif" alt="General User" title="General User" border="0"><br><br><br>Joined: 27 May 2004<br>Posts: 32<br></span><br></td>
+		<td class="row1" height="28" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td width="100%"><a href="http://www.oooforum.org/forum/viewtopic.phtml?p=46151&amp;sid=9eb365c857e504e7fc6a328f4411a0b8#46151"><img src="OOoForum_files/icon_minipost.gif" alt="Post" title="Post" border="0" height="9" width="12"></a><span class="postdetails">Posted: Thu Aug 26, 2004 1:55 am<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td nowrap="nowrap" valign="top"><a href="http://www.oooforum.org/forum/posting.phtml?mode=quote&amp;p=46151&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0"></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">i am unable to get slide title from the PPt document. I couldnt find any
+<br>
+information in Developers guide on this.. 
+<br>
+we can get a draw page by index... but what about getting draw page name
+<br>
+is there name property set somwhere to acees this info?</span><span class="gensmall"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="middle" width="150"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row1" height="28" nowrap="nowrap" valign="bottom" width="100%"><table border="0" cellpadding="0" cellspacing="0" height="18" width="18">
+			<tbody><tr>
+				<td nowrap="nowrap" valign="middle"><a href="http://www.oooforum.org/forum/profile.phtml?mode=viewprofile&amp;u=5418&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0"></a> <a href="http://www.oooforum.org/forum/privmsg.phtml?mode=post&amp;u=5418&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_pm.gif" alt="Send private message" title="Send private message" border="0"></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script></td><td>&nbsp;</td><td nowrap="nowrap" valign="top"><div style="position: relative;"><div style="position: absolute;"></div><div style="position: absolute; left: 3px; top: -1px;"></div></div><noscript></noscript></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="OOoForum_files/spacer.gif" alt="" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td class="row2" align="left" valign="top" width="150"><span class="name"><a name="46210"></a><b>DannyB</b></span><br><span class="postdetails">Moderator<br><img src="OOoForum_files/rank5.gif" alt="Moderator" title="Moderator" border="0"><br><img src="OOoForum_files/41446a133fa81cc7182e6.gif" alt="" border="0"><br><br>Joined: 02 Apr 2003<br>Posts: 4021<br>Location: Lawrence, Kansas, USA</span><br></td>
+		<td class="row2" height="28" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td width="100%"><a href="http://www.oooforum.org/forum/viewtopic.phtml?p=46210&amp;sid=9eb365c857e504e7fc6a328f4411a0b8#46210"><img src="OOoForum_files/icon_minipost.gif" alt="Post" title="Post" border="0" height="9" width="12"></a><span class="postdetails">Posted: Thu Aug 26, 2004 9:16 am<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td nowrap="nowrap" valign="top"><a href="http://www.oooforum.org/forum/posting.phtml?mode=quote&amp;p=46210&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0"></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody"></span><table align="center" border="0" cellpadding="3" cellspacing="1" width="90%"><tbody><tr> 	  <td><span class="genmed"><b>prakash wrote:</b></span></td>	</tr>	<tr>	  <td class="quote">i am unable to get slide title from the PPt document. I couldnt find any
+<br>
+information in Developers guide on this.. 
+<br>
+we can get a draw page by index... but what about getting draw page name
+<br>
+is there name property set somwhere to acees this info?</td>	</tr></tbody></table><span class="postbody">
+<br>
+
+<br>
+Once a PPT has been properly converted into Impress, you should be able to access the slid titles like this.....
+<br>
+<a href="http://www.oooforum.org/forum/viewtopic.php?p=46191#46191" target="_blank">http://www.oooforum.org/forum/viewtopic.php?p=46191#46191</a><br>_________________<br><a href="http://ooomacros.org/user.php#91518" target="_blank" class="postlink">Want to make OOo Drawings like the colored flower design to the left?</a></span><span class="gensmall"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="row2" align="left" valign="middle" width="150"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row2" height="28" nowrap="nowrap" valign="bottom" width="100%"><table border="0" cellpadding="0" cellspacing="0" height="18" width="18">
+			<tbody><tr>
+				<td nowrap="nowrap" valign="middle"><a href="http://www.oooforum.org/forum/profile.phtml?mode=viewprofile&amp;u=479&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0"></a> <a href="http://www.oooforum.org/forum/privmsg.phtml?mode=post&amp;u=479&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_pm.gif" alt="Send private message" title="Send private message" border="0"></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script></td><td>&nbsp;</td><td nowrap="nowrap" valign="top"><div style="position: relative;"><div style="position: absolute;"></div><div style="position: absolute; left: 3px; top: -1px;"></div></div><noscript></noscript></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="OOoForum_files/spacer.gif" alt="" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="top" width="150"><span class="name"><a name="46429"></a><b>varungupta</b></span><br><span class="postdetails">General User<br><img src="OOoForum_files/rank2.gif" alt="General User" title="General User" border="0"><br><br><br>Joined: 18 Aug 2004<br>Posts: 7<br></span><br></td>
+		<td class="row1" height="28" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td width="100%"><a href="http://www.oooforum.org/forum/viewtopic.phtml?p=46429&amp;sid=9eb365c857e504e7fc6a328f4411a0b8#46429"><img src="OOoForum_files/icon_minipost.gif" alt="Post" title="Post" border="0" height="9" width="12"></a><span class="postdetails">Posted: Sun Aug 29, 2004 10:09 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: Increasing thw quality of the JPEG image</span></td>
+				<td nowrap="nowrap" valign="top"><a href="http://www.oooforum.org/forum/posting.phtml?mode=quote&amp;p=46429&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0"></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">Hi,
+<br>
+
+<br>
+I m able to convert a PPT into JPEG, but how to increase the quality of the converted image.
+<br>
+
+<br>
+I have seen that when i do manually from OpenOffice, it asks to enter a number that signify the quality of the JPEG image.
+<br>
+
+<br>
+How can i increase the quality of the JPEG image in Java while converting.
+<br>
+
+<br>
+Thanx in advance
+<br>
+
+<br>
+Varun</span><span class="gensmall"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="middle" width="150"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row1" height="28" nowrap="nowrap" valign="bottom" width="100%"><table border="0" cellpadding="0" cellspacing="0" height="18" width="18">
+			<tbody><tr>
+				<td nowrap="nowrap" valign="middle"><a href="http://www.oooforum.org/forum/profile.phtml?mode=viewprofile&amp;u=7225&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0"></a> <a href="http://www.oooforum.org/forum/privmsg.phtml?mode=post&amp;u=7225&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_pm.gif" alt="Send private message" title="Send private message" border="0"></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script></td><td>&nbsp;</td><td nowrap="nowrap" valign="top"><div style="position: relative;"><div style="position: absolute;"></div><div style="position: absolute; left: 3px; top: -1px;"></div></div><noscript></noscript></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="OOoForum_files/spacer.gif" alt="" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td class="row2" align="left" valign="top" width="150"><span class="name"><a name="46474"></a><b>DannyB</b></span><br><span class="postdetails">Moderator<br><img src="OOoForum_files/rank5.gif" alt="Moderator" title="Moderator" border="0"><br><img src="OOoForum_files/41446a133fa81cc7182e6.gif" alt="" border="0"><br><br>Joined: 02 Apr 2003<br>Posts: 4021<br>Location: Lawrence, Kansas, USA</span><br></td>
+		<td class="row2" height="28" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td width="100%"><a href="http://www.oooforum.org/forum/viewtopic.phtml?p=46474&amp;sid=9eb365c857e504e7fc6a328f4411a0b8#46474"><img src="OOoForum_files/icon_minipost.gif" alt="Post" title="Post" border="0" height="9" width="12"></a><span class="postdetails">Posted: Mon Aug 30, 2004 8:10 am<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td nowrap="nowrap" valign="top"><a href="http://www.oooforum.org/forum/posting.phtml?mode=quote&amp;p=46474&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0"></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">I don't have an answer.  This thread might help.
+<br>
+<a href="http://www.oooforum.org/forum/viewtopic.php?t=11838" target="_blank">http://www.oooforum.org/forum/viewtopic.php?t=11838</a><br>_________________<br><a href="http://ooomacros.org/user.php#91518" target="_blank" class="postlink">Want to make OOo Drawings like the colored flower design to the left?</a></span><span class="gensmall"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="row2" align="left" valign="middle" width="150"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row2" height="28" nowrap="nowrap" valign="bottom" width="100%"><table border="0" cellpadding="0" cellspacing="0" height="18" width="18">
+			<tbody><tr>
+				<td nowrap="nowrap" valign="middle"><a href="http://www.oooforum.org/forum/profile.phtml?mode=viewprofile&amp;u=479&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0"></a> <a href="http://www.oooforum.org/forum/privmsg.phtml?mode=post&amp;u=479&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_pm.gif" alt="Send private message" title="Send private message" border="0"></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script></td><td>&nbsp;</td><td nowrap="nowrap" valign="top"><div style="position: relative;"><div style="position: absolute;"></div><div style="position: absolute; left: 3px; top: -1px;"></div></div><noscript></noscript></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="OOoForum_files/spacer.gif" alt="" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="top" width="150"><span class="name"><a name="69160"></a><b>othmanelmoulat</b></span><br><span class="postdetails">General User<br><img src="OOoForum_files/rank2.gif" alt="General User" title="General User" border="0"><br><img src="OOoForum_files/Blue_Forum_Member.gif" alt="" border="0"><br><br>Joined: 06 Mar 2005<br>Posts: 20<br></span><br></td>
+		<td class="row1" height="28" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td width="100%"><a href="http://www.oooforum.org/forum/viewtopic.phtml?p=69160&amp;sid=9eb365c857e504e7fc6a328f4411a0b8#69160"><img src="OOoForum_files/icon_minipost.gif" alt="Post" title="Post" border="0" height="9" width="12"></a><span class="postdetails">Posted: Sun Mar 06, 2005 2:27 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td nowrap="nowrap" valign="top"><a href="http://www.oooforum.org/forum/posting.phtml?mode=quote&amp;p=69160&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0"></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">Hi guys,
+<br>
+
+<br>
+I'm new to open office and i'm trying to write a java program that would convert PTT slides into jpeg images.
+<br>
+
+<br>
+Is there any java code to do this without having open office installed ?(MS PPT).
+<br>
+I want to try the java code posted by OP but the com.sun.star stuff is not recognized : do i need first to install OO?
+<br>
+
+<br>
+It would be nice if varungupta would have the courtesy to post the java code to share with the community.
+<br>
+
+<br>
+please help !
+<br>
+thanks.</span><span class="gensmall"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="middle" width="150"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row1" height="28" nowrap="nowrap" valign="bottom" width="100%"><table border="0" cellpadding="0" cellspacing="0" height="18" width="18">
+			<tbody><tr>
+				<td nowrap="nowrap" valign="middle"><a href="http://www.oooforum.org/forum/profile.phtml?mode=viewprofile&amp;u=13176&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0"></a> <a href="http://www.oooforum.org/forum/privmsg.phtml?mode=post&amp;u=13176&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_pm.gif" alt="Send private message" title="Send private message" border="0"></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script></td><td>&nbsp;</td><td nowrap="nowrap" valign="top"><div style="position: relative;"><div style="position: absolute;"></div><div style="position: absolute; left: 3px; top: -1px;"></div></div><noscript></noscript></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="OOoForum_files/spacer.gif" alt="" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td class="row2" align="left" valign="top" width="150"><span class="name"><a name="70097"></a><b>DannyB</b></span><br><span class="postdetails">Moderator<br><img src="OOoForum_files/rank5.gif" alt="Moderator" title="Moderator" border="0"><br><img src="OOoForum_files/41446a133fa81cc7182e6.gif" alt="" border="0"><br><br>Joined: 02 Apr 2003<br>Posts: 4021<br>Location: Lawrence, Kansas, USA</span><br></td>
+		<td class="row2" height="28" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td width="100%"><a href="http://www.oooforum.org/forum/viewtopic.phtml?p=70097&amp;sid=9eb365c857e504e7fc6a328f4411a0b8#70097"><img src="OOoForum_files/icon_minipost.gif" alt="Post" title="Post" border="0" height="9" width="12"></a><span class="postdetails">Posted: Sat Mar 12, 2005 4:18 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td nowrap="nowrap" valign="top"><a href="http://www.oooforum.org/forum/posting.phtml?mode=quote&amp;p=70097&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0"></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">The code would require OpenOffice.org to be installed.<br>_________________<br><a href="http://ooomacros.org/user.php#91518" target="_blank" class="postlink">Want to make OOo Drawings like the colored flower design to the left?</a></span><span class="gensmall"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="row2" align="left" valign="middle" width="150"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row2" height="28" nowrap="nowrap" valign="bottom" width="100%"><table border="0" cellpadding="0" cellspacing="0" height="18" width="18">
+			<tbody><tr>
+				<td nowrap="nowrap" valign="middle"><a href="http://www.oooforum.org/forum/profile.phtml?mode=viewprofile&amp;u=479&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0"></a> <a href="http://www.oooforum.org/forum/privmsg.phtml?mode=post&amp;u=479&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_pm.gif" alt="Send private message" title="Send private message" border="0"></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script></td><td>&nbsp;</td><td nowrap="nowrap" valign="top"><div style="position: relative;"><div style="position: absolute;"></div><div style="position: absolute; left: 3px; top: -1px;"></div></div><noscript></noscript></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="OOoForum_files/spacer.gif" alt="" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="top" width="150"><span class="name"><a name="109281"></a><b>b6s</b></span><br><span class="postdetails">Newbie<br><img src="OOoForum_files/rank1.gif" alt="Newbie" title="Newbie" border="0"><br><br><br>Joined: 26 Nov 2005<br>Posts: 1<br></span><br></td>
+		<td class="row1" height="28" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td width="100%"><a href="http://www.oooforum.org/forum/viewtopic.phtml?p=109281&amp;sid=9eb365c857e504e7fc6a328f4411a0b8#109281"><img src="OOoForum_files/icon_minipost.gif" alt="Post" title="Post" border="0" height="9" width="12"></a><span class="postdetails">Posted: Sat Nov 26, 2005 11:48 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td nowrap="nowrap" valign="top"><a href="http://www.oooforum.org/forum/posting.phtml?mode=quote&amp;p=109281&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0"></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody"></span><table align="center" border="0" cellpadding="3" cellspacing="1" width="90%"><tbody><tr> 	  <td><span class="genmed"><b>DannyB wrote:</b></span></td>	</tr>	<tr>	  <td class="quote">The code would require OpenOffice.org to be installed.</td>	</tr></tbody></table><span class="postbody">
+<br>
+
+<br>
+Excuse me, is it possible to use URE instead of OO.o itself to run this macro?</span><span class="gensmall"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="row1" align="left" valign="middle" width="150"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row1" height="28" nowrap="nowrap" valign="bottom" width="100%"><table border="0" cellpadding="0" cellspacing="0" height="18" width="18">
+			<tbody><tr>
+				<td nowrap="nowrap" valign="middle"><a href="http://www.oooforum.org/forum/profile.phtml?mode=viewprofile&amp;u=21327&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0"></a> <a href="http://www.oooforum.org/forum/privmsg.phtml?mode=post&amp;u=21327&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/icon_pm.gif" alt="Send private message" title="Send private message" border="0"></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script></td><td>&nbsp;</td><td nowrap="nowrap" valign="top"><div style="position: relative;"><div style="position: absolute;"></div><div style="position: absolute; left: 3px; top: -1px;"></div></div><noscript></noscript></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="OOoForum_files/spacer.gif" alt="" height="1" width="1"></td>
+	</tr>
+	<tr align="center">
+		<td class="catBottom" colspan="2" height="28"><table border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr><form method="post" action="viewtopic.phtml?t=8715&amp;start=0&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"></form>
+				<td align="center"><span class="gensmall">Display posts from previous: <select name="postdays"><option value="0" selected="selected">All Posts</option><option value="1">1 Day</option><option value="7">7 Days</option><option value="14">2 Weeks</option><option value="30">1 Month</option><option value="90">3 Months</option><option value="180">6 Months</option><option value="364">1 Year</option></select>&nbsp;<select name="postorder"><option value="asc" selected="selected">Oldest First</option><option value="desc">Newest First</option></select>&nbsp;<input value="Go" class="liteoption" name="submit" type="submit"></span></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+</tbody></table>
+
+<table align="center" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody><tr>
+	<td align="left" nowrap="nowrap" valign="middle"><span class="nav"><a href="http://www.oooforum.org/forum/posting.phtml?mode=newtopic&amp;f=9&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/post.gif" alt="Post new topic" align="middle" border="0"></a>&nbsp;&nbsp;&nbsp;<a href="http://www.oooforum.org/forum/posting.phtml?mode=reply&amp;t=8715&amp;sid=9eb365c857e504e7fc6a328f4411a0b8"><img src="OOoForum_files/reply.gif" alt="Reply to topic" align="middle" border="0"></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="http://www.oooforum.org/forum/index.phtml?sid=9eb365c857e504e7fc6a328f4411a0b8" class="nav">OOoForum.org Forum Index</a>
+	  -&gt; <a href="http://www.oooforum.org/forum/viewforum.phtml?f=9&amp;sid=9eb365c857e504e7fc6a328f4411a0b8" class="nav">OpenOffice.org Macros and API</a></span></td>
+	<td align="right" nowrap="nowrap" valign="top"><span class="gensmall">All times are GMT - 8 Hours</span><br><span class="nav">Goto page <b>1</b>, <a href="http://www.oooforum.org/forum/viewtopic.phtml?t=8715&amp;postdays=0&amp;postorder=asc&amp;start=15&amp;sid=9eb365c857e504e7fc6a328f4411a0b8">2</a>&nbsp;&nbsp;<a href="http://www.oooforum.org/forum/viewtopic.phtml?t=8715&amp;postdays=0&amp;postorder=asc&amp;start=15&amp;sid=9eb365c857e504e7fc6a328f4411a0b8">Next</a></span>
+	  </td>
+  </tr>
+  <tr>
+	<td colspan="3" align="left"><span class="nav">Page <b>1</b> of <b>2</b></span></td>
+  </tr>
+</tbody></table>
+
+<table align="center" border="0" cellspacing="2" width="100%">
+  <tbody><tr>
+	<td align="left" nowrap="nowrap" valign="top" width="40%"><span class="gensmall"></span><br>
+	  &nbsp;<br>
+	  </td>
+	<td align="right" nowrap="nowrap" valign="top">
+<form method="get" name="jumpbox" action="viewforum.phtml?sid=9eb365c857e504e7fc6a328f4411a0b8" onsubmit="if(document.jumpbox.f.value == -1){return false;}"><table border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td nowrap="nowrap"><span class="gensmall">Jump to:&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Select a forum</option><option value="-1">&nbsp;</option><option value="-1">OpenOffice.org Forums</option><option value="-1">----------------</option><option value="1">Setup and Troubleshooting</option><option value="2">OpenOffice.org Writer</option><option value="3">OpenOffice.org Calc</option><option value="4">OpenOffice.org Impress</option><option value="5">OpenOffice.org Draw</option><option value="6">OpenOffice.org Math</option><option value="10">OpenOffice.org Base</option><option value="9" selected="selected">OpenOffice.org Macros and API</option><option value="11">OpenOffice.org Code Snippets</option><option value="-1">&nbsp;</option><option value="-1">Community Forums</option><option value="-1">----------------</option><option value="7">General Discussion</option><option value="8">Site Feedback</option></select><input name="sid" value="9eb365c857e504e7fc6a328f4411a0b8" type="hidden">&nbsp;<input value="Go" class="liteoption" type="submit"></span></td>
+	</tr>
+</tbody></table></form>
+
+<span class="gensmall">You <b>cannot</b> post new topics in this forum<br>You <b>cannot</b> reply to topics in this forum<br>You <b>cannot</b> edit your posts in this forum<br>You <b>cannot</b> delete your posts in this forum<br>You <b>cannot</b> vote in polls in this forum<br></span></td>
+  </tr>
+</tbody></table>
+
+
+<div align="center"><span class="copyright"><br><br>
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB 2.0. If you cannot (for good
+	reason) retain the full copyright we request you at least leave in place the
+	Powered by phpBB line, with phpBB linked to www.phpbb.com. If you refuse
+	to include even this then support on our forums may be affected.
+
+	The phpBB Group : 2002
+// -->
+Powered by <a href="http://www.phpbb.com/" target="_phpbb" class="copyright">phpBB</a> © 2001, 2005 phpBB Group<br></span></div>
+		</td>
+	</tr>
+</tbody></table>
+
+</body></html>

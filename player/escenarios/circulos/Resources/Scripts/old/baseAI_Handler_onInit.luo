@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+function baseAI.onInit()
+
+
+
+application.setOption(application.kOptionSwapInterval,1)
+application.setOption(application.kOptionShadersQuality,2)
+application.setOption(application.kOptionHardwareOcclusion,1)
+application.setOption(application.kOptionTexturesQuality,1)
+
+
+cache.addFile("anims.stk","anims.stk")
+
+local eDebug=application.getCurrentUserEnvironmentVariable("debug")
+if(eDebug)then
+
+xml.createFromString(this.doc(),"<formacmds />")
+local _doc=xml.getRootElement(this.doc())
+
+local xe=xml.appendElementChild(_doc,"init","")
+local xc=xml.appendElementChild(xe,"loadscn","")
+xml.appendElementAttribute(xc,"stk","test.stk")
+xml.appendElementAttribute(xc,"scene","prueba10")
+
+
+this.ready()
+else
+local eXml=application.getCurrentUserEnvironmentVariable("xml")
+if(eXml~=nil)then
+
+log.message(application.getPackDirectory())
+xml.receive(this.doc(),"file://"..application.getPackDirectory().."/"..eXml)
+this.loading()
+else
+this.ready()
+end
+end
+
+
+
+end

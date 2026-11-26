@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+function baseAI.onKeyboardKeyUp(kKeyCode)
+
+
+
+
+
+
+if(kKeyCode==input.kKeyRight or
+kKeyCode==input.kKeyDown or
+kKeyCode==input.kKeySpace)then
+local t=this.index()+1
+log.message("siguiente >>> "..t)
+this.sendEvent("onGotoSlide",t)
+elseif(kKeyCode==input.kKeyLeft or
+kKeyCode==input.kKeyUp or
+kKeyCode==input.kKeyBackspace)then
+local t=this.index()-1
+log.message("anterior <<< "..t)
+this.sendEvent("onGotoSlide",t)
+elseif(kKeyCode==input.kKeyHome)then
+log.message("inicio block<!<")
+local t=this.indexblock()
+local s=this.index()
+if(s==0)then t=t-1 end
+ this.sendEvent("onGotoSlide",0,t)
+elseif(kKeyCode==input.kKeyEnd)then
+local t=this.indexblock()+1
+log.message("siguiente block >!>")
+this.sendEvent("onGotoSlide",0,t)
+end
+
+
+end
